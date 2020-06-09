@@ -1,0 +1,346 @@
+/* FONT FACES */
+@font-face {
+  font-family: "Muli-SemiBold";
+  src: url("Fonts/Muli-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Muli-Black";
+  src: url("Fonts/Muli-Black.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("Fonts/Avenir.ttf");
+}
+
+
+/* NAVIGATION BAR */
+nav {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  z-index: 100;
+}
+
+ul {
+  margin-left: 60px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  font-size: 16px;
+  font-family: 'Apercu-Medium';
+  color: #d2cff7;
+  line-height: 75px;
+  padding: 0 20px;
+
+}
+
+ul li a:hover {
+  color: #fff;
+}
+
+#placeholder {
+  color: rgba(0, 0, 0, 0);
+}
+
+#on {
+  color: #fff;
+  font-family: 'Muli-Black';
+  font-weight: bolder;
+  margin-top: 1.4px;
+}
+
+#logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+  padding: 15px 25px;
+}
+
+
+/* TEXT BLOCKS, HEADERS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+h1 {
+  font-size: 4.5rem;
+  font-family: 'Avenir';
+  text-align: center;
+  padding: 0px 30px;
+  color: #fff;
+}
+
+h2 {
+
+  font-size: 2.0rem;
+  font-family: 'Muli-SemiBold';
+}
+
+h3 {
+  margin: 0px 30px;
+  font-size: 1.5rem;
+  font-family: 'Muli-SemiBold';
+  text-align: center;
+}
+
+h4 {
+
+  font-size: 1.5rem;
+  font-family: 'Muli-SemiBold';
+  text-align: center;
+}
+
+h5 {
+
+  font-size: 1.2rem;
+  font-family: 'Muli-SemiBold';
+}
+
+h6 {
+  font-size: 1.1rem;
+  font-family: 'Muli-SemiBold';
+  text-align: center;
+}
+
+body {
+  background-color: #c7e9f4;
+}
+
+p {
+  font-size: 1.35rem;
+  font-family: 'Muli-SemiBold';
+  text-align: center;
+  padding: 0px 36px;
+}
+
+
+/* HOME PAGE */
+/* Background */
+#home {
+  background-image: url("Images/Home-Background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Short Intro */
+#home-title {
+  text-align: center;
+}
+
+#home-desc {
+  text-align: center;
+  padding: 30px;
+  max-width: 450px;
+  margin:0 auto;
+  color: #fff;
+}
+
+#arrow {
+  display: block;
+  text-align: center;
+}
+
+#desc {
+  text-align: center;
+}
+
+/* Course Sections */
+#home-subheader {
+  padding: 30px;
+  max-width: 800px;
+  margin:0 auto;
+  text-align: left;
+  font-family: 'Muli-SemiBold';
+  color: #011660;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+  display: block;
+  text-decoration: none;
+  padding: 0.8em 1.2em;
+  font-size: 1.3rem;
+  font-family: 'Muli-SemiBold';
+  background: #F5A331;
+  color: #fff;
+  border: none;
+  border-color: none;
+  border-radius: 1.2em;
+  transition: 0.15s;
+  display: inline-block;
+}
+
+button:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+button:focus, textarea:focus {
+  outline:0;
+}
+button:active {
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* Scratch */
+#scratch {
+  color: #ff9742;
+}
+
+#scratch-main {
+  text-align: center;
+  color: #3285DD;
+}
+
+#scratch-cat {
+  z-index: 100;
+  max-width: 100%;
+}
+
+#scratch-link {
+  color: #ff9742;
+}
+
+#register-scratch {
+  background-color: #fff;
+  opacity: 0.95;
+}
+
+#time-info {
+  padding: 30px;
+  max-width: 700px;
+  margin:0 auto;
+  font-size: 1.0rem;
+  z-index: 100;
+  color: #3285DD;
+}
+
+/* HTML/CSS */
+#html-css {
+  background-color: #fff;
+  opacity: 0.85;
+  color: #3285DD;
+  text-align: center;
+}
+
+
+/* CONTACT PAGE */
+#contact {
+  color: #fff;
+  background-color: #585cc0
+}
+
+#contact-content {
+  text-align: center;
+}
+
+#contact-us-gif {
+  margin-left: -70px;
+  margin-top: -20px;
+}
+
+#contact-info {
+  font-family: 'Muli-SemiBold';
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#link {
+  color: #fff;
+}
+
+#bold {
+  font-family: 'Muli-Black';
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+
+/* ABOUT PAGE */
+#about {
+  font-family: 'Muli-SemiBold';
+  font-size: 1.1rem;
+  color: #192333;
+  background-image: url("Images/About-Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about-header {
+  color: #fff;
+  text-align: center;
+}
+
+#mission-statement {
+  padding: 30px;
+  max-width: 450px;
+  margin:0 auto;
+}
+
+#name {
+  font-family: 'Muli-Black';
+}
+
+.positions {
+  color: #3285DD;
+}
+
+.all-profiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profiles {
+  display: flex;
+  margin-left: 15%;
+  margin-top: 2%;
+  word-wrap: break-word;
+}
+
+.profile-text {
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.bio {
+  font-size: 115%;
+  margin-top: 2%;
+  margin-right: 15%;
+}
+
+
+/* FOOTER */
+#footer {
+  font-size: 0.8rem;
+  color: #fff;
+  bottom: bottom;
+  text-align: center;
+}
+
+#footer-about {
+  font-size: 0.8rem;
+  color: #3285DD;
+}
