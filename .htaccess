@@ -5,4 +5,5 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-RewriteRule ^home.html$ / [L,R=301]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /home\.html\ HTTP/ 
+RewriteRule ^home\.html$ http://%{HTTP_HOST}/ [R=301,L]
