@@ -175,6 +175,7 @@ p {
   text-align: center;
   font-family: 'Muli-SemiBold';
   color: #011660;
+  margin-bottom: -25px;
 }
 
 .button {
@@ -235,6 +236,10 @@ button:active {
   color: #011660;
 }
 
+#scratch-strong {
+  font-family: 'Muli-Black';
+}
+
 #scratch-info li{
   padding: 10px;
 }
@@ -248,6 +253,7 @@ button:active {
 #register-scratch {
   background-color: #fff;
   opacity: 0.95;
+
 }
 
 #time-info {
@@ -257,6 +263,7 @@ button:active {
   font-size: 1.0rem;
   z-index: 100;
   color: #3285DD;
+  margin-top: -20px;
 }
 
 /* HTML/CSS */
