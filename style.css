@@ -270,7 +270,7 @@ button:active {
 /* CONTACT PAGE */
 #contact {
   color: #fff;
-  background-color: #585cc0
+  background-color: #585cc0;
 }
 
 #contact-content {
@@ -337,9 +337,10 @@ button:active {
 
 .profiles {
   display: flex;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 2%;
   word-wrap: break-word;
+  padding: 20px;
 }
 
 .profiles img{
