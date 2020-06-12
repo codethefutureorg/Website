@@ -8,6 +8,10 @@
   font-family: "Muli-SemiBold";
   src: url("Fonts/Muli-SemiBold.ttf");
 }
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("Fonts/Muli-Bold.ttf");
+}
 
 @font-face {
   font-family: "Muli-Black";
@@ -18,6 +22,7 @@
   font-family: "Avenir";
   src: url("Fonts/Avenir.ttf");
 }
+
 
 
 /* NAVIGATION BAR */
@@ -394,6 +399,91 @@ button:active {
   #name{
     padding-top: 15px;
   }
+}
+
+@media screen and (max-width: 570px){
+  ul li a {
+    padding: 0 10px;
+
+  }
+}
+
+/*FAQs*/
+#faq-content{
+  width: 100%;
+  background-color: #1990ec;
+}
+
+#faq-info{
+  margin-left: -5%;
+}
+
+.accordion {
+  /*text-indent: 28px;*/
+  font-family: "Muli-SemiBold", Verdana;
+  background-color: #1764d4;
+  margin-bottom: 10px;
+  color: #dcecf6;
+  cursor: pointer;
+  padding: 18px 18px 18px 44px;
+  width: 89%;
+  text-align: left;
+  font-size: 1.4rem;
+  transition: 0.4s;
+  margin-left: 8%;
+  border-radius: 10px;
+
+}
+
+.active, .accordion:hover {
+  color: white;
+  transform: scale(1);
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: transparent;  
+  text-shadow: 0 0 0 #ffd269;
+  float: right;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-right: 15px;
+  border: none;
+}
+
+.active:after {
+  color: transparent;  
+  padding-right: 15px;
+  text-shadow: 0 0 0 #ffd269;
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+  padding-bottom: 40px;
+  display: none;
+  text-align: left;
+  transform: scale(1);
+  color: #bed4f4;
+  overflow: hidden;
+  width: 89%;
+  margin-left: 8%;
+  margin-top: -25px;
+  background-color: #1764d4;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.panel p{
+  text-align: left;
+  margin-left: 10px;
+}
+
+#footer-faq{
+  font-size: 0.8rem;
+  color: #fff;
+  bottom: bottom;
+  text-align: center;
+  background-color: #1990ec;
 }
 
 /* FOOTER */
