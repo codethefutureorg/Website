@@ -187,11 +187,11 @@ p {
     text-align: center;
 }
 
-.active-button {
+button .active-button {
     background-color: #F5A331
 }
 
-.disabled-button {
+button .disabled-button {
     background-color: #c9c9c9;
 }
 
@@ -209,7 +209,7 @@ button {
   display: inline-block;
 }
 
-.active-button:hover {
+button .active-button:hover {
   text-decoration: none;
   transform: scale(1.1);
 }
