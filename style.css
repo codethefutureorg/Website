@@ -187,14 +187,6 @@ p {
     text-align: center;
 }
 
-button .active-button {
-    background-color: #F5A331
-}
-
-button .disabled-button {
-    background-color: #c9c9c9;
-}
-
 button {
   display: block;
   text-decoration: none;
@@ -203,13 +195,14 @@ button {
   font-family: 'Muli-SemiBold';
   color: #fff;
   border: none;
+  background-color: #F5A331
   border-color: none;
   border-radius: 1.2em;
   transition: 0.15s;
   display: inline-block;
 }
 
-button .active-button:hover {
+.active-button:hover {
   text-decoration: none;
   transform: scale(1.1);
 }
