@@ -187,7 +187,7 @@ p {
     text-align: center;
 }
 
-register-button {
+button, .register-button {
   display: block;
   text-decoration: none;
   padding: 0.8em 1.2em;
@@ -202,16 +202,16 @@ register-button {
   display: inline-block;
 }
 
-button:hover {
+button:hover, .register-button {
   text-decoration: none;
   transform: scale(1.1);
 }
 
-button:focus, textarea:focus {
+button:focus, textarea:focus, .register-button {
   outline:0;
 }
 
-button:active {
+button:active, .register-button {
   text-decoration: none;
   transform: scale(1.05);
 }
