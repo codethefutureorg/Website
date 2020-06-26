@@ -193,16 +193,16 @@ button {
   padding: 0.8em 1.2em;
   font-size: 1.3rem;
   font-family: 'Muli-SemiBold';
+  background: #F5A331;
   color: #fff;
   border: none;
-  background-color: #F5A331
   border-color: none;
   border-radius: 1.2em;
   transition: 0.15s;
   display: inline-block;
 }
 
-.active-button:hover {
+button:hover {
   text-decoration: none;
   transform: scale(1.1);
 }
