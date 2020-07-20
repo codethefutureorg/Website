@@ -77,7 +77,10 @@ ul li a:hover {
   padding: 15px 25px;
 }
 
-
+#join{
+  background-color: rgba(255, 255, 255, .85);
+  padding: 5%;
+}
 /* TEXT BLOCKS, HEADERS */
 * {
   margin: 0;
@@ -106,6 +109,7 @@ h2 {
 h3 {
   margin: 0px 30px;
   font-size: 1.5rem;
+  color: #3284DD;
   font-family: 'Muli-SemiBold';
   text-align: center;
 }
@@ -256,8 +260,8 @@ button:active, .register-button {
 
 
 #register-scratch {
-  background-color: #fff;
-  opacity: 0.95;
+  background-color: rgba(255, 255, 255, .85);
+  opacity: .7;
 
 }
 
