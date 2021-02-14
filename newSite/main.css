@@ -20,11 +20,6 @@ html {
 }
 
 /* NAV BAR */
-
-
-
-/* LANDING */
-
 ul {
   position: absolute;
   display: block;
@@ -77,6 +72,12 @@ li {
   margin-top: 10.5px;
   margin: auto;
 }
+
+.active{
+  color: white;
+}
+
+/* LANDING */
 
 #landing {
   background-image: url("img/home/home-background-desktop.png");
