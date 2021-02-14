@@ -42,8 +42,11 @@ h2{
 	margin-top: 10px;
 	max-width: 400px;
 	margin-right: 35px;
+	transition: transform .5s ease-in;
 }
-
+.planet:hover{
+	transform: rotate(0.008turn);
+}
 .planet-box{
 	display: flex;
 	align-items: center;
