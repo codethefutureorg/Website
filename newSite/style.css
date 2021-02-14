@@ -1,0 +1,170 @@
+*{
+	font-family: 'Space Mono';
+	margin: 0;
+	padding: 0;
+
+}
+
+p{
+	font-family: 'Space Mono';
+	color: #00034D;
+}
+#header{
+	background-image: url(img/curriculum/header-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 235px 0px;
+	position: relative;
+	top: 0px;
+}
+#header{
+	text-align: center;
+}
+h1{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 4.5rem;
+	color: #FFFFFF;
+	background-color: none;
+}
+h2{
+	font-size: 1.3rem;
+	width: 50%;
+	margin: 0 auto;
+	color: #CEE6FD;
+}
+#mini-planets{
+	margin-top: 20px;
+	width: 400px;
+}
+.planet{
+	margin-top: 10px;
+	max-width: 400px;
+	margin-right: 35px;
+}
+
+.planet-box{
+	display: flex;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.planet-box-info{
+	margin-left: 30px;
+	width: 50%;
+	padding-right: 90px;
+}
+
+.planet-box-info p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.4;
+	margin-top: 15px;
+}
+
+.mascot{
+	max-width: 65px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+
+.explore-button{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #24C2FF;
+	padding: 5px 15px;
+	border-radius: 7px;
+	font-style: italic;
+	font-weight: bold;
+	margin: 20px 0px;
+	transition: background-color 0.3s ease-in;
+}
+
+.explore-button:hover{
+	background-color: #00ADF0;
+}
+
+@media only screen and (max-width: 1000px) {
+	.planet{
+		margin-top: 10px;
+		max-width: 350px;
+		min-width: 349px;
+	}
+	.planet-box-info{
+		margin-left: 10px;
+		width: 47vw;
+		padding-right: 0px;
+	}
+	h1{
+		font-size: 4rem;
+	}
+	h2{
+		font-size: 1.2rem;
+		width: 70%;
+	}
+	#mini-planets{
+		margin-top: 20px;
+		width: 50vw;
+	}
+	h3{
+		font-size: 2rem;
+	}
+	.planet-box-info p{
+		font-size: 1rem;
+	}
+	.explore-button{
+		font-size: 1rem;
+	}
+	.mascot{
+		max-width: 55px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.planet{
+		margin-top: 10px;
+		max-width: 280px;
+		min-width: 279px;
+	}
+	.planet-box-info{
+		margin-left: 0px;
+		width: 47vw;
+		padding-right: 0px;
+	}
+}
+@media only screen and (max-width: 660px) {
+	.planet{
+		margin-top: 10px;
+		max-width: 300px;
+		min-width: 299px;
+	}
+	.planet-box{
+		flex-direction: column;
+	}
+	.planet-box-info{
+		margin-left: 10px;
+		width: 75%;
+		padding-right: 0px;
+	}
+	#header{
+		padding: 150px 0px;
+	}
+	h1{
+		font-size: 3rem;
+	}
+	h2{
+		font-size: 1.1rem;
+		width: 70%;
+	}
+	#mini-planets{
+		margin-top: 20px;
+		width: 50vw;
+	}
+}
+
+
