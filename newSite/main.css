@@ -1,0 +1,213 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+/* STRUCTURE */
+
+html {
+  background: #FBFBFD;
+}
+
+body {
+  margin: 0;
+}
+
+/* NAV BAR */
+
+.mobile-menu-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mobile-menu-bar img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.mobile-expanded-bar {
+  background: blue;
+}
+
+nav.menu {
+  display: block;
+}
+
+/* LANDING */
+
+.landing {
+  background-image: url("home-background-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+.landing h1 {
+  font-family: 'Space Mono';
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  font-size: 4em;
+  padding: 0 20px;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.landing h2 {
+  font-family: 'Work Sans';
+  font-weight: normal;
+  font-size: 19px;
+  color: white;
+  width: 65vw;
+  margin: 0 auto;
+  line-height: 22px;
+  padding-top: 30px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+#student-led {
+  margin-top: 140px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+/* INFO */
+
+.info {
+  padding: 30px;
+}
+
+.info h3 {
+  font-family: 'Space Mono';
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #1540D9;
+}
+
+.info p {
+  font-family: 'Work Sans';
+  font-weight: normal;
+  font-size: 16px;
+  color: #00034D;
+}
+
+#lex {
+  width: 30%;
+  margin-left: -8px;
+}
+
+#pancho {
+  width: 30%;
+  margin-left: -4px;
+}
+
+#explore-curriculum {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background: #57D0FF;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Space Mono';
+  font-weight: bold;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (min-width: 768px) {
+  #student-led {
+    width: 35%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .landing {
+    background-image: url("home-background-desktop.png");
+  }
+
+  .landing h2 {
+    width: 50vw;
+    margin-top: 0px;
+    padding-bottom: 100px;
+  }
+
+  .info {
+    padding: 30px 60px;
+  }
+
+  .info h3 {
+    font-size: 28px;
+  }
+
+  .info p {
+    font-size: 17px;
+  }
+
+  #lex {
+    width: 15%;
+  }
+
+  #pancho {
+    width: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 1080px) {
+  #student-led {
+    width: 25%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+
+  .landing {
+    background-image: url("home-background-desktop.png");
+  }
+
+  .landing h1 {
+    font-size: 5.5em;
+  }
+
+  .landing h2 {
+    width: 50vw;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-bottom: 240px;
+    text-align: center;
+  }
+
+  .info {
+    width: 50vw;
+  }
+
+  .info h3 {
+    font-size: 30px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+
+  .info-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #lex {
+    width: 15%;
+  }
+
+  #pancho {
+    width: 15%;
+  }
+}
