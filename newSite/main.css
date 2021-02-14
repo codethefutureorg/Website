@@ -41,15 +41,21 @@ ul {
 }
 
 li a {
+  font-family: 'Work Sans';
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
   display: block;
   vertical-align: middle;
-  color: white;
   text-align: center;
   vertical-align: middle;
-  font-size: 1.12rem;
-  font-weight: bold;
-  padding: 14px 16px;
+  font-size: 1.05rem;
+  padding: 14px 15px;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: white;
 }
 
 #flex{
@@ -63,6 +69,7 @@ li {
   float: left;
 }
 #flex li img{
+  opacity: 0.8;
   max-width: 6px;
   float: right;
   padding: 0px 6px;
@@ -121,10 +128,11 @@ h1{
   text-align: center;
 }
 h2{
+  font-weight: 550;
   font-size: 1.3rem;
   width: 50%;
   margin: 0 auto;
-  color: #FFFFFF;
+  color: #F9FAFE;
   text-align: center;
 }
 
