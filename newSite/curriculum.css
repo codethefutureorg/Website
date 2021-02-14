@@ -14,7 +14,7 @@ p{
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
-	padding: 235px 0px;
+	padding: 205px 0px;
 	position: relative;
 	top: 0px;
 }
@@ -170,4 +170,62 @@ h3{
 	}
 }
 
+
+/* NAV BAR */
+ul {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+#favicon{
+  margin: 20px 15px 15px 20px;
+  width: 40px;
+}
+
+li a {
+  font-family: 'Work Sans';
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.05rem;
+  padding: 14px 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: white;
+}
+
+#flex{
+  margin-top: 10.5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  float: left;
+}
+#flex li img{
+  opacity: 0.8;
+  max-width: 6px;
+  float: right;
+  padding: 0px 6px;
+  display: block;
+  margin-top: 10.5px;
+  margin: auto;
+}
+
+.active{
+  color: white;
+}
 
