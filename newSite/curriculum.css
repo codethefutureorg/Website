@@ -5,6 +5,10 @@
 
 }
 
+body{
+	background-color: #FFFFFF;
+}
+
 p{
 	font-family: 'Space Mono';
 	color: #00034D;
@@ -49,11 +53,12 @@ h2{
 	display: flex;
 	align-items: center;
 	margin-top: 70px;
-	padding: 50px 25px;
+	padding: 20px 25px;
 	transition: background-color 0.3s ease-in;
 }
-.planet-box:hover{
-	background-color: #F4F2F1;
+
+#Decomposphere-subpage .planet-box{
+	padding: 0px 25px;
 }
 
 .planet-box:hover > .planet{
@@ -75,6 +80,7 @@ h2{
 
 .mascot{
 	max-width: 65px;
+	display: block;
 }
 
 h3{
@@ -92,7 +98,7 @@ h3{
 	border-radius: 7px;
 	font-style: italic;
 	font-weight: bold;
-	margin: 20px 0px;
+	margin: 20px 0px 15px 0px;
 	transition: background-color 0.3s ease-in;
 }
 
@@ -235,4 +241,53 @@ li {
 .active{
   color: white;
 }
+
+
+.highlight
+{
+	display: inline-block;
+    position: relative;
+}
+
+.highlight::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 0;
+  height: 50px;
+  bottom: 0px;
+  left: 0;
+  border-radius: 3px;
+  visibility: hidden;
+  transition: all 0.25s ease-in-out;
+}
+#Decomposphere-subpage .highlight::before {
+	background-color: #E2F6DB;
+}
+
+#Abstractopia-subpage .highlight::before {
+	background-color: #EDE6FD;
+}
+
+#Patteron-subpage .highlight::before {
+	background-color: #FCE6E7;
+}
+
+#Algorithopoly-subpage .highlight::before {
+	background-color: #FEEEEA;
+}
+
+#Logicland-subpage .highlight::before {
+	background-color: #FCF7DC;
+}
+
+#Evaluatus-subpage .highlight::before {
+	background-color: #E9F1FD;
+}
+
+.planet-box:hover .highlight::before {
+  visibility: visible;
+  width: 103%;
+}
+
 
