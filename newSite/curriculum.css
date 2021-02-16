@@ -44,13 +44,20 @@ h2{
 	margin-right: 35px;
 	transition: transform .5s ease-in;
 }
-.planet:hover{
-	transform: rotate(0.008turn);
-}
+
 .planet-box{
 	display: flex;
 	align-items: center;
 	margin-top: 70px;
+	padding: 50px 25px;
+	transition: background-color 0.3s ease-in;
+}
+.planet-box:hover{
+	background-color: #F4F2F1;
+}
+
+.planet-box:hover > .planet{
+	transform: rotate(0.008turn);
 }
 
 .planet-box-info{
