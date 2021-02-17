@@ -178,8 +178,11 @@ h4{
 }
 
 .content ul{
-  font-family: "Work Sans";
   margin-bottom: 15px;
+}
+
+.content li{
+  font-family: "Work Sans";
 }
 
 .contentClicked {
@@ -191,19 +194,38 @@ h4{
 
 .content-flex{
   display: flex;
-
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .skill-grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 75%;
+  width: 100%;
   margin-bottom: 10px;
+  grid-column-gap: 0px;
+  grid-row-gap: 7px
 }
 
 .skill-grid p{
+  display: inline-block;
   font-weight: bold;
-  font-style: italic;
+  font-size: .9rem;
+  padding: 2px 8px;
+  border-radius: 5px;
+  color: white;
+}
+
+.literacy{
+  background-color: #94CD3F;
+}
+
+.creative-arts{
+  background-color: #FF57D0;
+}
+
+.abstraction{
+  background-color: #8D57FF;
 }
 
 .mission-info{
@@ -225,7 +247,6 @@ h4{
   padding: 5px 10px;
   border-radius: 3px;
   color: white;
-  margin-bottom: 30px;
 }
 
 
