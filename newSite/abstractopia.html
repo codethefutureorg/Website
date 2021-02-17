@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Abstractopia | Code the Future</title>
+	<link rel="icon" type="image/png" href="img/general/favicon.png"/>
+	<link rel="stylesheet" href="abstractopia.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+	</head>
+
+<body>
+	<div id = "header">
+		<nav>
+			<ul>
+		      <li><img id = "favicon" src="img/general/favicon.png" alt="lightbulb"></li>
+		      <div id = "flex"  style="float:right;">
+		        <li><a  href="/newSite/index.html">HOME</a></li>
+		        <li style="float:right"><div id = "center"><img src="img/home/circle.png" alt=""</div></li>
+		        <li style="float:right"><a class="active" href="/newSite/curriculum.html">CURRICULUM</a></li>
+		        <li><img src="img/home/circle.png" alt=""></li>
+		        <li style="float:right"><a href="/newSite/about.html">ABOUT</a></li>
+		        <li><img src="img/home/circle.png" alt=""></li>
+		        <li style="float:right"><a href="/newSite/contact.html">CONTACT</a></li>
+		      </div>
+		    </ul>
+		</nav>
+		<img id = "alon-glow" src="img/curriculum/abstractopia/Alon-glow.png" alt="Alon">
+		<h1>Abstractopia</h1>
+		<h3>SKILL: ABSTRACTION</h3>
+		<h2>Navigate the avenues of decomposition with Dot from Decomposphere! Alongside Dot, students will learn how to break a complex problem into smaller and easy to understand steps. Students will learn to identify subtasks and define divide systems into simpler chunks to tackle.</h2>
+	</div>
+	<div id = "lessons">
+		<h4>Lesson Plans</h4>
+		<div class = "mission">
+			<button class="collapsible">MISSION 1: Draw A Picture</button>
+			<div class="content">
+				<div class = "content-flex">
+					<div><img class = "worksheet" src="img/curriculum/abstractopia/worksheet1.png" alt=""></div>
+					<div class = "mission-info">
+						<div class = "skill-grid">
+							<p>SKILL: SOMETHING</p>
+							<p>SKILL: SOMETHING</p>
+							<p>SKILL: SOMETHING</p>
+							<p>SKILL: SOMETHING</p>
+						</div>
+						<ul>
+							<li>Learn the importance of naming functions and the skill of abstracting instructions</li>
+							<li>Understand the big picture idea of piecing simple steps into a larger outcome.</li>
+						</ul>
+						<a class = "download" href="img/curriculum/abstractopia/worksheet1.pdf" target="_blank" download="DrawAPicture">Download</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("activeC");
+		    this.classList.toggle("round");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    } 
+		  });
+		}
+	</script>
+</body>
+</html>
