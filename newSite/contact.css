@@ -17,11 +17,12 @@
 
 #ellis-draw{
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 150px;
 }
+
 h1{
 	font-style: italic;
 	font-weight: bold;
@@ -41,11 +42,12 @@ h2{
 h3{
 	margin-top: 20px;
 	margin-left: 8px;
+	color: #292929;
 }
 
 #contact-grid a{
 	display: inline-block;
-	color: #043AC4;
+	color: #006BCE;
 	margin-top: 5px;
 	font-family: 'Work Sans', sans-serif;
 	margin-left: 8px;
@@ -62,6 +64,7 @@ h3{
 
 .line{
 	width:100%;
+	border-radius: 100px;
     height:8px;
 }
 
@@ -75,7 +78,31 @@ h3{
 	#contact-grid{
 		grid-template-columns: repeat(1, 1fr);
 	}
-	
+
+	h3{
+		font-size: 1.4rem;
+	}
+
+	#contact-grid a{
+		font-size: 1.2rem;
+	}
+
+	h2{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#ellis-draw{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		width: 150px;
+	}
+
+	#header{
+		padding: 210px 0px;
+	}
 
 }
 
