@@ -200,6 +200,7 @@ p {
   }
   #landing {
     background-image: url("img/home/home-background-mobile.png");
+    padding: 190px 0px;
   }
 
   li a {
