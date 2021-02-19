@@ -130,6 +130,18 @@ p {
     border-radius: 10px;
   }
 
+  .headshot{
+
+  }
+
+  .team-item img{
+    max-height: 150px;
+    max-width: 150px;
+    object-fit: cover;
+    border-radius: 1000px;
+    box-shadow: 0 0 2px 2px #FB9595;
+  }
+
   .our-mission img {
     width: 250px;
     align-self: center;
@@ -149,10 +161,6 @@ p {
     display: flex;
     align-content: space-between;
     align-items: flex-start;
-  }
-
-  .team-item img{
-    max-width: 150px;
   }
 
   #our-team {
