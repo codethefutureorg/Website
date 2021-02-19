@@ -346,7 +346,7 @@ li {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(6, 71, 130, 0.8);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -354,9 +354,9 @@ li {
 
 .sidepanel a {
 	font-family: "Work Sans";
-	padding: 8px 8px 8px 32px;
+	padding: 15px 8px 15px 32px;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 20px;
 	color: white;
 	display: block;
 	transition: 0.3s;
@@ -364,13 +364,14 @@ li {
 
 .sidepanel .closebtn {
   position: absolute;
-  top: 0;
-  right: 10px;
+  top: -7px;
+  right: 11px;
   margin: 10px;
-  font-size: 36px;
+  font-size: 45px;
 }
 
 #openbtn {
+	font-family: "Work Sans";
 	font-size: 30px;
 	cursor: pointer;
 	color: white;
