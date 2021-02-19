@@ -170,16 +170,39 @@ h3{
 	#header{
 		padding: 150px 0px;
 	}
-	h1{
-		font-size: 3rem;
-	}
-	h2{
-		font-size: 1.1rem;
-		width: 70%;
-	}
+
 	#mini-planets{
 		margin-top: 20px;
 		width: 50vw;
+	}
+	#contact-grid{
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	h3{
+		font-size: 1.4rem;
+	}
+
+	#contact-grid a{
+		font-size: 1.2rem;
+	}
+
+	h2{
+		font-size: 1.2rem;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#ellis-draw{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		width: 150px;
+	}
+
+	#header{
+		padding: 150px 0px;
 	}
 }
 
