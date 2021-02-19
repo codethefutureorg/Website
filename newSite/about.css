@@ -152,10 +152,6 @@ p {
     border-radius: 10px;
   }
 
-  .headshot{
-
-  }
-
   .team-item img{
     max-height: 150px;
     max-width: 150px;
@@ -214,6 +210,15 @@ p {
     padding: 70px 120px;
     display: flex;
     align-content: space-around;
+  }
+
+  .team-item img{
+    margin-top: 10px;
+    max-height: 145px;
+    max-width: 145px;
+    object-fit: cover;
+    border-radius: 1000px;
+    box-shadow: 0 0 2px 2px #FB9595;
   }
 
   .line{
@@ -284,6 +289,14 @@ p {
     text-align: left;
   }
 
+  .team-item img{
+    max-height: 150px;
+    max-width: 150px;
+    object-fit: cover;
+    border-radius: 1000px;
+    box-shadow: 0 0 2px 2px #FB9595;
+  }
+
   .our-mission img {
     margin-top: 50px;
     width: 250px;
@@ -299,7 +312,7 @@ p {
   }
 
   .team-item p {
-    text-align: left;
+    text-align: center;
     margin-bottom: 50px;
   }
 
