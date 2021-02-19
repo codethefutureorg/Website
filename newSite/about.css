@@ -251,6 +251,8 @@ p {
     display: flex;
     align-content: space-between;
     align-items: flex-start;
+    margin-bottom: 10px;
+    width: 90%;
   }
 
   #our-team {
