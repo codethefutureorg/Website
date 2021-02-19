@@ -14,7 +14,21 @@
 
 <body>
 	<div id = "header">
-		<nav>
+		<nav id = "mobile-nav">
+			<div id="mySidepanel" class="sidepanel">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			  <a href="#">About</a>
+			  <a href="#">Services</a>
+			  <a href="#">Clients</a>
+			  <a href="#">Contact</a>
+			</div>
+			<div style = "background-color: orange">
+				<img style="float:left" id = "favicon" src="img/general/favicon.png" alt="lightbulb">
+				<button style="float:right" id="openbtn" onclick="openNav()">☰</button>
+			</div>
+		</nav>
+
+		<nav id = "desktop-nav">
 			<ul>
 		      <li><img id = "favicon" src="img/general/favicon.png" alt="lightbulb"></li>
 		      <div id = "flex"  style="float:right;">
@@ -101,5 +115,17 @@
 		</div>
 	</div>
 	<br>
+
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+
+
 </body>
 </html>

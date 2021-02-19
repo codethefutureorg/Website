@@ -13,6 +13,7 @@ p{
 	font-family: 'Space Mono';
 	color: #00034D;
 }
+
 #header{
 	background-image: url(img/curriculum/header-background.png);
 	background-size: cover;
@@ -318,4 +319,76 @@ li {
   width: 103%;
 }
 
+#mobile-nav{
+	visibility: hidden;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	right: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 660px) {
+	#mobile-nav{
+		visibility: visible;
+	}
+	#desktop-nav{
+		visibility: hidden;
+	}
+}
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+	font-family: "Work Sans";
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  margin: 10px;
+  font-size: 36px;
+}
+
+#openbtn {
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+	margin: 15px;
+	background-color: none;
+	padding: 0px 15px;
+	border: none;
+	background-color: Transparent;
+}
+
+#flex{
+  margin-top: 10.5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  float: left;
+}
 
