@@ -112,6 +112,7 @@ p {
   font-family: 'Work Sans';
 }
 
+
 /* OUR TEAM */
 
 @media screen and (min-width: 1150px) {
@@ -120,6 +121,13 @@ p {
     padding: 70px 120px;
     display: flex;
     align-content: space-around;
+  }
+
+  .line{
+    margin: 0px 120px 50px 120px;
+    height: 5px;
+    background-color: #FDC500;
+    border-radius: 10px;
   }
 
   .our-mission img {
@@ -141,6 +149,10 @@ p {
     display: flex;
     align-content: space-between;
     align-items: flex-start;
+  }
+
+  .team-item img{
+    max-width: 150px;
   }
 
   #our-team {
@@ -172,6 +184,13 @@ p {
     padding: 70px 120px;
     display: flex;
     align-content: space-around;
+  }
+
+  .line{
+    margin: 0px 120px 50px 120px;
+    height: 5px;
+    background-color: #FDC500;
+    border-radius: 10px;
   }
 
   .our-mission img {
@@ -222,6 +241,13 @@ p {
   .our-mission {
     padding: 50px;
     text-align: center;
+  }
+
+  .line{
+    margin: 0px 50px 50px 50px;
+    height: 5px;
+    background-color: #FDC500;
+    border-radius: 10px;
   }
 
   .our-mission p {
