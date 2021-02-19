@@ -204,6 +204,11 @@ h3{
 	#header{
 		padding: 150px 0px;
 	}
+
+	#mini-planets{
+		margin-top: 20px;
+		width: 70%;
+	}
 }
 
 
