@@ -9,6 +9,8 @@ html {
 
 }
 
+/* SMOOTH TRANSITION */
+
 .animate-in {
     -webkit-animation: fadeIn .5s ease-in;
     animation: fadeIn .5s ease-in;

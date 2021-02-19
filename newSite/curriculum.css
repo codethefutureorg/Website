@@ -91,7 +91,7 @@ h2{
 
 .planet-box-info{
 	margin-left: 30px;
-	width: 50%;
+	width: 45%;
 	padding-right: 90px;
 }
 
@@ -99,7 +99,7 @@ h2{
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.4;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 .mascot{
@@ -122,7 +122,8 @@ h3{
 	border-radius: 7px;
 	font-style: italic;
 	font-weight: bold;
-	margin: 20px 0px 15px 0px;
+	margin-top: 5px;
+	display: inline-block;
 	transition: background-color 0.3s ease-in;
 }
 
