@@ -173,6 +173,13 @@ h4{
   background-color: #E5DBFE;
 }
 */
+.skill-grid:after{
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
 .round{
   background-color: #F2EDFE;
   border-radius: 12px 12px 0px 0px;
@@ -222,8 +229,6 @@ h4{
 }
 
 .skill-grid{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   width: 100%;
   margin-bottom: 10px;
   grid-column-gap: 0px;
@@ -232,6 +237,9 @@ h4{
 
 .skill-grid p{
   display: inline-block;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 5px;
   font-weight: bold;
   font-size: .9rem;
   padding: 2px 8px;
