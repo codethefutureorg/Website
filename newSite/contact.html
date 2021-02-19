@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>About | Code the Future</title>
+	<title>Contact | Code the Future</title>
 	<link rel="icon" type="image/png" href="img/general/favicon.png"/>
 	<link rel="stylesheet" href="contact.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 	</head>
 
-<body>
+<body class="animate-in">
 	<div id = "header">
 		<nav id = "mobile-nav">
 	        <div id="mySidepanel" class="sidepanel">
@@ -73,5 +73,8 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
+window.addEventListener("beforeunload", function () {
+  document.body.classList.add("animate-out");
+});
 </script>
 </html>

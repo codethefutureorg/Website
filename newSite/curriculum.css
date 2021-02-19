@@ -5,6 +5,29 @@
 
 }
 
+/* SMOOTH TRANSITION */
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 body{
 	background-color: #FFFFFF;
 }
@@ -68,7 +91,7 @@ h2{
 
 .planet-box-info{
 	margin-left: 30px;
-	width: 50%;
+	width: 45%;
 	padding-right: 90px;
 }
 
@@ -76,7 +99,7 @@ h2{
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.4;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 .mascot{
@@ -99,7 +122,8 @@ h3{
 	border-radius: 7px;
 	font-style: italic;
 	font-weight: bold;
-	margin: 20px 0px 15px 0px;
+	margin-top: 5px;
+	display: inline-block;
 	transition: background-color 0.3s ease-in;
 }
 
@@ -390,4 +414,3 @@ li {
 	border: none;
 	background-color: Transparent;
 }
-

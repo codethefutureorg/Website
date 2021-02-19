@@ -12,7 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 	</head>
 
-<body>
+<body class="animate-in">
 	<div id = "header">
 		<nav id = "mobile-nav">
 			<div id="mySidepanel" class="sidepanel">
@@ -55,7 +55,7 @@
 		  			<h3 style = "color: #207733" class = "highlight">Decomposphere</h3>
 		  		</div>
 		  		<a class = "explore-button" href="">EXPLORE -></a>
-		  		<p>Navigate the avenues of decomposition with Dot from Decomposphere! Alongside Dot, students will learn how to break a complex problem into smaller and easy to understand steps. Students will learn to identify subtasks and define divide systems into simpler chunks to tackle,</p>
+		  		<p>Navigate the avenues of decomposition with Dot! Learn how to break down a complex problem into smaller and easy-to-understand steps.</p>
 		  	</div>
 		</div>
 		<div id = "Abstractopia-subpage" class = "planet-box">
@@ -66,7 +66,7 @@
 		  			<h3 style = "color: #6B46D2" class = "highlight">Abstractopia</h3>
 		  		</div>
 		  		<a class = "explore-button" href="/newSite/abstractopia.html">EXPLORE -></a>
-		  		<p>Navigate the avenues of decomposition with Dot from Decomposphere! Alongside Dot, students will learn how to break a complex problem into smaller and easy to understand steps. Students will learn to identify subtasks and define divide systems into simpler chunks to tackle,</p>
+		  		<p>Explore abstraction with Alon! Learn how to focus on a bigger picture that captures smaller details.</p>
 		  	</div>
 		</div>
 		<div id = "Patteron-subpage" class = "planet-box">
@@ -77,7 +77,7 @@
 		  			<h3 style = "color: #E9534A" class = "highlight">Patteron</h3>
 		  		</div>
 		  		<a class = "explore-button" href="">EXPLORE -></a>
-		  		<p>Navigate the avenues of decomposition with Dot from Decomposphere! Alongside Dot, students will learn how to break a complex problem into smaller and easy to understand steps. Students will learn to identify subtasks and define divide systems into simpler chunks to tackle,</p>
+		  		<p>Traverse the world of patterns with Pancho! Learn how to recognize patterns and use loops to repeat sequences.</p>
 		  	</div>
 		</div>
 		<div id = "Algorithopoly-subpage" class = "planet-box">
@@ -88,7 +88,7 @@
 		  			<h3 style = "color: #FF5C28" class = "highlight">Algorithopoly</h3>
 		  		</div>
 		  		<a class = "explore-button" href="">EXPLORE -></a>
-		  		<p>Navigate the avenues of decomposition with Dot from Decomposphere! Alongside Dot, students will learn how to break a complex problem into smaller and easy to understand steps. Students will learn to identify subtasks and define divide systems into simpler chunks to tackle,</p>
+		  		<p>Discover the details of algorithms with Arlo! Learn how to turn everyday tasks into step-by-step processes to solve a larger problem.</p>
 		  	</div>
 		</div>
 		<div id = "Logicland-subpage" class = "planet-box">
@@ -99,7 +99,7 @@
 		  			<h3 style = "color: #FFBB0B" class = "highlight">Logicland</h3>
 		  		</div>
 		  		<a class = "explore-button" href="">EXPLORE -></a>
-		  		<p>Navigate the avenues of decomposition with Dot from Decomposphere! Alongside Dot, students will learn how to break a complex problem into smaller and easy to understand steps. Students will learn to identify subtasks and define divide systems into simpler chunks to tackle,</p>
+		  		<p>Understand the logic behind problem solving with Lex! Learn how to compare numbers and sort through lists.</p>
 		  	</div>
 		</div>
 		<div id = "Evaluatus-subpage" class = "planet-box">
@@ -110,7 +110,7 @@
 		  			<h3 style = "color: #0075E1" class = "highlight">Evaluatus</h3>
 		  		</div>
 		  		<a class = "explore-button" href="">EXPLORE -></a>
-		  		<p>Navigate the avenues of decomposition with Dot from Decomposphere! Alongside Dot, students will learn how to break a complex problem into smaller and easy to understand steps. Students will learn to identify subtasks and define divide systems into simpler chunks to tackle,</p>
+		  		<p>Dive into the process of evaluation with Ellis! Learn how to make judgements and decisions when faced a problem at hand.</p>
 		  	</div>
 		</div>
 	</div>
@@ -124,8 +124,9 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
+window.addEventListener("beforeunload", function () {
+  document.body.classList.add("animate-out");
+});
 </script>
-
-
 </body>
 </html>
