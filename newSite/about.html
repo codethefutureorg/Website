@@ -13,7 +13,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="animate-in">
   <div class="header">
     <nav id = "mobile-nav">
         <div id="mySidepanel" class="sidepanel">
@@ -99,5 +99,8 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
+window.addEventListener("beforeunload", function () {
+  document.body.classList.add("animate-out");
+});
 </script>
 </html>
