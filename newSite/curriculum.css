@@ -354,6 +354,7 @@ li {
 
 .sidepanel a {
 	font-family: "Work Sans";
+	font-weight: bold;
 	padding: 15px 8px 15px 32px;
 	text-decoration: none;
 	font-size: 20px;
