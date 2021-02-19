@@ -162,6 +162,7 @@ h3{
 	}
 	.planet-box{
 		flex-direction: column;
+		padding: 20px 15px;
 	}
 	.planet-box-info{
 		margin-left: 10px;
@@ -181,7 +182,7 @@ h3{
 	}
 
 	h3{
-		font-size: 1.4rem;
+		font-size: 2.2rem;
 	}
 
 	#contact-grid a{
@@ -200,6 +201,10 @@ h3{
 		margin-right: auto;
 		margin-top: 20px;
 		width: 150px;
+	}
+
+	.mascot{
+		max-width: 65px;
 	}
 
 	#header{
