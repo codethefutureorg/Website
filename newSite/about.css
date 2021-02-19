@@ -1,0 +1,266 @@
+* {
+	font-family: 'Space Mono';
+	margin: 0;
+	padding: 0;
+}
+
+/* NAV */
+
+
+nav ul {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav #favicon{
+  margin: 20px 15px 15px 20px;
+  width: 40px;
+}
+
+nav li a {
+  font-family: 'Work Sans';
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.05rem;
+  padding: 14px 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+nav #flex{
+  margin-top: 10.5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  float: left;
+}
+
+nav #flex li img{
+  opacity: 0.8;
+  max-width: 6px;
+  float: right;
+  padding: 0px 6px;
+  display: block;
+  margin-top: 10.5px;
+  margin: auto;
+}
+
+/* HEADER */
+
+.header {
+	background-image: url("img/about/about background desktop.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 205px 0px;
+	position: relative;
+  text-align: center;
+	top: 0px;
+}
+
+h1 {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 4.5rem;
+	color: #FFFFFF;
+	background-color: none;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.3rem;
+	width: 50%;
+	margin: 0 auto;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.header img {
+  width: 100px;
+  margin-top: 15px;
+}
+
+/* OUR MISSION */
+
+h3 {
+  color: #F62627;
+  font-size: 2.5em;
+}
+
+p {
+  color: #00034D;
+  font-size: 1.1em;
+  line-height: 1.4;
+  margin-top: 15px;
+  font-family: 'Work Sans';
+}
+
+/* OUR TEAM */
+
+@media screen and (min-width: 1150px) {
+  .our-mission {
+    margin-top: 30px;
+    padding: 70px 120px;
+    display: flex;
+    align-content: space-around;
+  }
+
+  .our-mission img {
+    width: 250px;
+    align-self: center;
+    padding: 30px 100px 30px 100px;
+  }
+
+  .team {
+    padding: 120px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 40px;
+  }
+
+  .team-item {
+    display: flex;
+    align-content: space-between;
+    align-items: flex-start;
+  }
+
+  #our-team {
+    margin-left: 120px;
+    margin-bottom: -80px;
+    margin-top: 30px;
+  }
+
+  h4 {
+    color: #F62627;
+    font-size: 1.5em;
+  }
+
+  h5 {
+    color: #F62627;
+    font-style: italic;
+    font-size: 1em;
+  }
+
+  .team-item img {
+    width: 200px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .our-mission {
+    margin-top: 30px;
+    padding: 70px 120px;
+    display: flex;
+    align-content: space-around;
+  }
+
+  .our-mission img {
+    width: 250px;
+    align-self: center;
+    padding: 30px 100px 30px 100px;
+  }
+
+  .team {
+    padding: 120px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+  }
+
+  .team-item {
+    display: flex;
+    align-content: space-between;
+    align-items: flex-start;
+  }
+
+  #our-team {
+    margin-left: 120px;
+    margin-bottom: -80px;
+    margin-top: 30px;
+  }
+
+  h4 {
+    color: #F62627;
+    font-size: 1.5em;
+  }
+
+  h5 {
+    color: #F62627;
+    font-style: italic;
+    font-size: 1em;
+  }
+
+  .team-item img {
+    width: 200px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .our-mission {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .our-mission p {
+    text-align: left;
+  }
+
+  .our-mission img {
+    margin-top: 50px;
+    width: 250px;
+  }
+
+  .team {
+    padding: 60px;
+    text-align: center;
+  }
+
+  .team-item img {
+    width: 200px;
+  }
+
+  .team-item p {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  #our-team {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+
+  h4 {
+    color: #F62627;
+    font-size: 1.5em;
+  }
+
+  h5 {
+    color: #F62627;
+    font-style: italic;
+    font-size: 1em;
+  }
+}
