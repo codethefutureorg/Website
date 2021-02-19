@@ -319,6 +319,7 @@ li {
   width: 103%;
 }
 
+/* MOBILE NAV BAR */
 #mobile-nav{
 	visibility: hidden;
 	position: absolute;
@@ -353,9 +354,10 @@ li {
 }
 
 .sidepanel a {
+	text-align: left;
 	font-family: "Work Sans";
 	font-weight: bold;
-	padding: 15px 8px 15px 32px;
+	padding: 15px 8px 15px 42px;
 	text-decoration: none;
 	font-size: 20px;
 	color: white;
@@ -365,7 +367,7 @@ li {
 
 .sidepanel .closebtn {
   position: absolute;
-  top: -7px;
+  top: -15px;
   right: 11px;
   margin: 10px;
   font-size: 45px;
@@ -381,16 +383,5 @@ li {
 	padding: 0px 15px;
 	border: none;
 	background-color: Transparent;
-}
-
-#flex{
-  margin-top: 10.5px;
-  margin-right: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-li {
-  float: left;
 }
 
