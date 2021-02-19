@@ -216,6 +216,7 @@ nav #flex li img{
 
 .sidepanel .closebtn {
   position: absolute;
+  font-weight: lighter;
   top: -15px;
   right: 11px;
   margin: 10px;
