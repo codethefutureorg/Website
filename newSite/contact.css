@@ -168,5 +168,69 @@ nav #flex li img{
 	color: white;
 }
 
+/* MOBILE NAV BAR */
+#mobile-nav{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+}
 
+@media only screen and (max-width: 660px) {
+  #mobile-nav{
+    visibility: visible;
+  }
+  #desktop-nav{
+    visibility: hidden;
+  }
+}
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(146, 23, 23, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: bold;
+  padding: 15px 8px 15px 42px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: -15px;
+  right: 11px;
+  margin: 10px;
+  font-size: 45px;
+}
+
+#openbtn {
+  font-family: "Work Sans";
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  margin: 15px;
+  background-color: none;
+  padding: 0px 15px;
+  border: none;
+  background-color: Transparent;
+}
 
