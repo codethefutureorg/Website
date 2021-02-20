@@ -169,10 +169,6 @@ h4{
   border-radius: 12px;
 }
 
-/*.activeC, .collapsible:hover {
-  background-color: #E5DBFE;
-}
-*/
 .skill-grid:after{
    content: "."; 
    visibility: hidden; 
@@ -279,3 +275,108 @@ h4{
   border-radius: 3px;
   color: white;
 }
+
+
+/* MOBILE NAV BAR */
+#mobile-nav{
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 660px) {
+  h1{
+    font-size: 3.8rem;
+  }
+  h2{
+    width: 80%;
+  }
+  #header{
+    padding: 100px 0px;
+  }
+  #lessons{
+    margin: 80px 45px 20px 45px;
+  }
+  .collapsible {
+    font-size: 1.2rem;
+  }
+  .activeC:before {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0 12px 0 0;
+  }
+  .collapsible:before {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0 12px 0 0;
+  }
+  .content-flex{
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .skill-grid{
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #mobile-nav{
+    visibility: visible;
+  }
+  #desktop-nav{
+    visibility: hidden;
+  }
+}
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(78, 34, 201, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: bold;
+  padding: 15px 8px 15px 42px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  font-weight: lighter;
+  top: -15px;
+  right: 11px;
+  margin: 10px;
+  font-size: 45px;
+}
+
+#openbtn {
+  font-family: "Work Sans";
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  margin: 15px;
+  background-color: none;
+  padding: 0px 15px;
+  border: none;
+  background-color: Transparent;
+}
+

@@ -14,7 +14,21 @@
 
 <body class="animate-in">
 	<div id = "header">
-		<nav>
+		<nav id = "mobile-nav">
+			<div id="mySidepanel" class="sidepanel">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			  <a href="/newSite/index.html">HOME</a>
+			  <a href="/newSite/curriculum.html">CURRICULUM</a>
+			  <a href="/newSite/about.html">ABOUT</a>
+			  <a href="/newSite/contact.html">CONTACT</a>
+			</div>
+			<div style = "background-color: orange">
+				<img style="float:left" id = "favicon" src="img/general/favicon.png" alt="lightbulb">
+				<button style="float:right" id="openbtn" onclick="openNav()">☰</button>
+			</div>
+		</nav>
+
+		<nav id = "desktop-nav">
 			<ul>
 		      <li><img id = "favicon" src="img/general/favicon.png" alt="lightbulb"></li>
 		      <div id = "flex"  style="float:right;">
@@ -107,5 +121,17 @@
 		  document.body.classList.add("animate-out");
 		});
 	</script>
+	<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+window.addEventListener("beforeunload", function () {
+  document.body.classList.add("animate-out");
+});
+</script>
 </body>
 </html>
