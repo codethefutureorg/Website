@@ -1,35 +1,21 @@
+@font-face {
+  font-family: "Soleil Regular";
+  src: url("font/Soleil Regular.otf")
+}
+
+@font-face {
+  font-family: "Soleil Book";
+  src: url("font/Soleil Book.otf")
+}
+
 html {
   background: #FBFBFD;
 }
 
-*{
-  font-family: 'Space Mono';
+* {
   margin: 0;
   padding: 0;
 
-}
-
-/* SMOOTH TRANSITION */
-
-.animate-in {
-    -webkit-animation: fadeIn .5s ease-in;
-    animation: fadeIn .5s ease-in;
-}
-
-.animate-out {
-    -webkit-transition: opacity .5s;
-    transition: opacity .5s;
-    opacity: 0;
-}
-
-@-webkit-keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
 }
 
 /* NAV BAR */
@@ -70,16 +56,18 @@ nav li a:hover {
   color: white;
 }
 
-#flex{
+#flex {
   margin-top: 15px;
   margin-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 nav li {
   float: left;
 }
+
 #flex li img{
   opacity: 0.8;
   max-width: 6px;
@@ -97,6 +85,7 @@ nav .active{
 .dropbtn:hover ~ #arrow-up, .dropdown-content:hover ~ #arrow-up{
   display: block;
 }
+
 .dropbtn:hover + .non-dropdown{
   margin-top: -8px;
   color: blue;
@@ -148,7 +137,8 @@ nav .active{
   display: block;
 }
 
-/**/
+/* COVER */
+
 #header{
   background-image: url("img/curriculum/abstractopia/abstractopia-bkg.png");
   background-size: cover;
@@ -159,23 +149,23 @@ nav .active{
   top: 0px;
 }
 
-#alon-glow{
+#alon-glow {
   max-width: 150px;
   display: block;
   margin: 0 auto;
 }
 
-h1{
-  font-style: italic;
-  font-weight: bold;
-  font-size: 4.5rem;
+h1 {
+  font-family: "Soleil Book";
+  font-size: 5.2rem;
   color: #FFFFFF;
   margin-top: -40px;
   background-color: none;
   text-align: center;
 }
-h2{
-  font-family: "Work Sans";
+
+h2 {
+  font-family: "Soleil Regular";
   font-size: 1.2rem;
   width: 50%;
   margin: 0 auto;
@@ -183,55 +173,53 @@ h2{
   text-align: center;
 }
 
-h3{
+h3 {
+  font-family: "Soleil Book";
   display: inline-block;
   margin-left: 50%;
   transform: translateX(-50%);
-  padding: 2px 10px;
+  padding: 5px 10px 2px 10px;
   border-radius: 6px;
   margin-bottom: 20px;
-  font-style: italic;
-  font-weight: bold;
   font-size: 1.1rem;
   text-align: center;
   background-color: #E8DFFD;
   color: #8357FF;
 }
 
-h4{
-  font-weight: bold;
+h4 {
+  font-family: "Soleil Book";
   color: #00034D;
   font-size: 2rem;
   margin-bottom: 10px;
 }
-/**/
 
-#lessons{
+/* LESSON PLANS */
+
+#lessons {
   margin: 80px 130px 20px 130px;
 }
 
 .collapsible {
+  font-family: "Soleil Book";
   background-color: #EAE2FF;
   color: #00034D;
   cursor: pointer;
-  padding: 25px;
+  padding: 30px 25px 25px 25px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 1.4rem;
-  font-family: "Space Mono";
-  font-weight: bold;
   transition: background-color 0.3s ease-in;
-  border: none;
   border-radius: 12px;
 }
 
 .skill-grid:after{
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
    clear: both;
 }
 .round{
@@ -252,7 +240,7 @@ h4{
 }
 
 .content {
-  font-family: "Work Sans";
+  font-family: "Soleil Regular";
   padding: 0 40px;
   max-height: 0;
   overflow: hidden;
@@ -261,12 +249,12 @@ h4{
   border-radius: 0px 0px 12px 12px;
 }
 
-.content ul{
+.content ul {
   margin-bottom: 15px;
 }
 
-.content li{
-  font-family: "Work Sans";
+.content li {
+  font-family: "Soleil Book";
 }
 
 .contentClicked {
@@ -276,60 +264,60 @@ h4{
 }
 
 
-.content-flex{
+.content-flex {
   display: flex;
   margin-top: 5px;
   margin-bottom: 30px;
 }
 
-.skill-grid{
+.skill-grid {
   width: 100%;
   margin-bottom: 10px;
   grid-column-gap: 0px;
   grid-row-gap: 7px
 }
 
-.skill-grid p{
+.skill-grid p {
   display: inline-block;
   float: left;
   margin-right: 8px;
   margin-bottom: 5px;
   font-weight: bold;
   font-size: .9rem;
-  padding: 2px 8px;
+  padding: 4px 8px 2px 8px;
   border-radius: 5px;
   color: white;
 }
 
-.literacy{
+.literacy {
   background-color: #94CD3F;
 }
 
-.creative-arts{
+.creative-arts {
   background-color: #FF57D0;
 }
 
-.abstraction{
+.abstraction {
   background-color: #8D57FF;
 }
 
-.mission-info{
+.mission-info {
   margin-left: 30px;
 }
 
-.mission{
+.mission {
   margin-bottom: 12px;
 }
 
-.worksheet{
+.worksheet {
   max-width: 150px;
   margin: 0px 50px 40px 25px;
 }
 
-.download{
+.download {
   text-decoration: none;
   background-color: #00ADF0;
-  padding: 5px 10px;
+  padding: 7px 10px 4px 10px;
   border-radius: 3px;
   color: white;
 }
@@ -437,6 +425,3 @@ h4{
   border: none;
   background-color: Transparent;
 }
-
-
-
