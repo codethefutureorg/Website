@@ -145,13 +145,6 @@ p {
     align-content: space-around;
   }
 
-  .line{
-    margin: 0px 120px 50px 120px;
-    height: 5px;
-    background-color: #FDC500;
-    border-radius: 10px;
-  }
-
   .team-item{
     margin: 0px 20px 20px 0px;
   }

@@ -94,6 +94,13 @@ nav .active{
   color: white;
 }
 
+.dropbtn:hover ~ #arrow-up, .dropdown-content:hover ~ #arrow-up{
+  display: block;
+}
+.dropbtn:hover + .non-dropdown{
+  margin-top: -8px;
+  color: blue;
+}
 
 .dropdown .dropbtn {
   border: none;
@@ -111,7 +118,7 @@ nav .active{
   min-width: 180px;
   margin: 0 auto;
   margin-left: -20px;
-  margin-top: 2px;
+  margin-top: 0px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
   z-index: 1;
   padding: 2px 0px;
