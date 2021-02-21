@@ -1,43 +1,29 @@
-*{
-	font-family: 'Space Mono';
+@font-face {
+  font-family: "Soleil Regular";
+  src: url("font/Soleil Regular.otf")
+}
+
+@font-face {
+  font-family: "Soleil Book";
+  src: url("font/Soleil Book.otf")
+}
+
+* {
 	margin: 0;
 	padding: 0;
 
 }
 
-/* SMOOTH TRANSITION */
-
-.animate-in {
-    -webkit-animation: fadeIn .5s ease-in;
-    animation: fadeIn .5s ease-in;
-}
-
-.animate-out {
-    -webkit-transition: opacity .5s;
-    transition: opacity .5s;
-    opacity: 0;
-}
-
-@-webkit-keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-body{
+body {
 	background-color: #FFFFFF;
 }
 
-p{
-	font-family: 'Space Mono';
+p {
+	font-family: "Soleil Regular";
 	color: #00034D;
 }
 
-#header{
+#header {
 	background-image: url(img/curriculum/header-background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -45,35 +31,38 @@ p{
 	padding: 205px 0px;
 	position: relative;
 	top: 0px;
-}
-#header{
 	text-align: center;
 }
-h1{
-	font-style: italic;
+
+h1 {
+	font-family: "Soleil Book";
 	font-weight: bold;
-	font-size: 4.5rem;
+	font-size: 5.2rem;
 	color: #FFFFFF;
 	background-color: none;
 }
-h2{
+
+h2 {
+	font-family: "Soleil Book";
 	font-size: 1.3rem;
-	width: 50%;
+	width: 45%;
 	margin: 0 auto;
 	color: #CEE6FD;
 }
-#mini-planets{
+
+#mini-planets {
 	margin-top: 20px;
 	width: 400px;
 }
-.planet{
+
+.planet {
 	margin-top: 10px;
 	max-width: 400px;
 	margin-right: 35px;
 	transition: transform .5s ease-in;
 }
 
-.planet-box{
+.planet-box {
 	display: flex;
 	align-items: center;
 	margin-top: 70px;
@@ -81,53 +70,54 @@ h2{
 	transition: background-color 0.3s ease-in;
 }
 
-#Decomposphere-subpage .planet-box{
+#Decomposphere-subpage .planet-box {
 	padding: 0px 25px;
 }
 
-.planet-box:hover > .planet{
+.planet-box:hover > .planet {
 	transform: rotate(0.008turn);
 }
 
-.planet-box-info{
+.planet-box-info {
 	margin-left: 30px;
 	width: 45%;
 	padding-right: 90px;
 }
 
-.planet-box-info p{
-	font-family: 'Work Sans', sans-serif;
+.planet-box-info p {
+	font-family: "Soleil Regular";
 	font-size: 1.1rem;
 	line-height: 1.4;
 	margin-top: 30px;
 }
 
-.mascot{
+.mascot {
 	max-width: 65px;
 	display: block;
 }
 
-h3{
+h3 {
+	font-family: "Soleil Book";
 	font-weight: bold;
 	font-size: 2.5rem;
-	margin-top: -5px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.explore-button{
+.explore-button {
+	font-family: "Soleil Book";
 	text-decoration: none;
 	color: #FFFFFF;
 	background-color: #24C2FF;
-	padding: 5px 15px;
+	padding: 8px 15px 4px 15px;
 	border-radius: 7px;
-	font-style: italic;
-	font-weight: bold;
 	margin-top: 5px;
+	margin-bottom: -15px;
 	display: inline-block;
 	transition: background-color 0.3s ease-in;
 }
 
-.explore-button:hover{
+.explore-button:hover {
 	background-color: #00ADF0;
 }
 
@@ -244,6 +234,7 @@ h3{
 
 /* NAV BAR */
 ul {
+	font-family: "Soleil Book";
   position: absolute;
   display: block;
   width: 100%;
@@ -259,7 +250,6 @@ ul {
 }
 
 li a {
-  font-family: 'Work Sans';
   color: rgba(255, 255, 255, 0.8);
   font-weight: bold;
   display: block;
