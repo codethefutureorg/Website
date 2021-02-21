@@ -29,19 +29,33 @@
 		</nav>
 
 		<nav id = "desktop-nav">
-			<ul>
+				<ul>
 		      <li><img id = "favicon" src="img/general/favicon.png" alt="lightbulb"></li>
-		      <div id = "flex"  style="float:right;">
+		      <div id = "desktop-nav-item" style="float:right;">
+		      	<div id = "flex" >
 		        <li><a  href="/newSite/index.html">HOME</a></li>
 		        <li style="float:right"><div id = "center"><img src="img/home/circle.png" alt=""</div></li>
-		        <li style="float:right"><a class="active" href="/newSite/curriculum.html">CURRICULUM</a></li>
+		        <li style="float:right">
+		        	<div class="dropdown">
+					    <button class="dropbtn"><a href="/newSite/curriculum.html">CURRICULUM</a>
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+					    <div class="dropdown-content">
+					      <a class="sublink" href="#">DECOMPOSPHERE</a>
+					      <a class="sublink" href="#">ABSTRACTOPIA</a>
+					      <a class="sublink" href="#">ALGORITHOPOLY</a>
+					    </div>
+					 </div> 
+		        </li>
 		        <li><img src="img/home/circle.png" alt=""></li>
 		        <li style="float:right"><a href="/newSite/about.html">ABOUT</a></li>
 		        <li><img src="img/home/circle.png" alt=""></li>
 		        <li style="float:right"><a href="/newSite/contact.html">CONTACT</a></li>
 		      </div>
+		      </div>
 		    </ul>
 		</nav>
+
 		<img id = "alon-glow" src="img/curriculum/abstractopia/Alon-glow.png" alt="Alon">
 		<h1>Abstractopia</h1>
 		<h3>SKILL: ABSTRACTION</h3>
