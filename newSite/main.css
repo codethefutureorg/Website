@@ -287,8 +287,8 @@ p {
 }
 
 .sidepanel a {
+  font-family: "Soleil Book";
   text-align: left;
-  font-family: "Work Sans";
   font-weight: bold;
   padding: 15px 8px 15px 42px;
   text-decoration: none;
@@ -308,7 +308,7 @@ p {
 }
 
 #openbtn {
-  font-family: "Work Sans";
+  font-family: "Soleil Book";
   font-size: 30px;
   cursor: pointer;
   color: white;

@@ -20,6 +20,7 @@ html {
 
 /* NAV BAR */
 nav ul {
+  font-family: "Soleil Book";
   display: block;
   width: 100%;
   list-style-type: none;
@@ -39,7 +40,6 @@ nav ul {
 }
 
 nav li a {
-  font-family: 'Work Sans';
   color: rgba(255, 255, 255, 0.8);
   font-weight: bold;
   display: block;
@@ -394,8 +394,8 @@ h4 {
 }
 
 .sidepanel a {
+  font-family: "Soleil Book";
   text-align: left;
-  font-family: "Work Sans";
   font-weight: bold;
   padding: 15px 8px 15px 42px;
   text-decoration: none;
@@ -415,7 +415,7 @@ h4 {
 }
 
 #openbtn {
-  font-family: "Work Sans";
+  font-family: "Soleil Book";
   font-size: 30px;
   cursor: pointer;
   color: white;
