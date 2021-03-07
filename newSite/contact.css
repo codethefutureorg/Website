@@ -7,6 +7,14 @@
   font-family: "Soleil Book";
   src: url("font/Soleil Book.otf")
 }
+@font-face {
+  font-family: "Mikado Medium";
+  src: url("font/Mikado Medium.ttf")
+}
+@font-face {
+  font-family: "Mikado Regular";
+  src: url("font/Mikado Regular.ttf")
+}
 
 * {
 	margin: 0;
@@ -34,7 +42,7 @@
 }
 
 h1 {
-	font-family: "Soleil Book";
+	font-family: "Mikado Medium";
 	font-size: 5.2rem;
 	color: #FFFFFF;
 	background-color: none;
@@ -51,7 +59,8 @@ h2 {
 }
 
 h3 {
-	font-family: "Soleil Book";
+	font-family: "Mikado Regular";
+  font-size: 1.6rem;
 	margin-top: 20px;
 	margin-left: 8px;
 	color: #292929;
@@ -63,6 +72,7 @@ h3 {
 	margin-top: 5px;
 	font-family: 'Work Sans', sans-serif;
 	margin-left: 8px;
+  font-size: 1.1rem;
 	margin-bottom: 50px;
 }
 
