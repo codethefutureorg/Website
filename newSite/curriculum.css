@@ -37,6 +37,16 @@ body {
 	background-color: #FFFFFF;
 }
 
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  transition: 0.25s ease;
+}
+
 #header {
 	background-image: url(img/curriculum/header-background.png);
 	background-size: cover;
@@ -66,7 +76,7 @@ h2 {
 
 #group-mascots{
 	width: 500px;
-	margin-top: -50px;
+	margin-top: -40px;
 	padding: 0px;
 }
 
