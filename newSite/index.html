@@ -5,12 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code the Future</title>
-    <link rel="icon" type="image/png" href="img/general/favicon.png"/>
+    <title>CS Hands-On</title>
+    <link rel="icon" type="image/png" href="img/general/favicon-colored.png"/>
     <link rel="stylesheet" href="main.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -23,47 +20,84 @@
           <a href="/newSite/about.html">ABOUT</a>
           <a href="/newSite/contact.html">CONTACT</a>
         </div>
-        <div style = "background-color: orange">
-          <img style="float:left" id = "favicon" src="img/general/favicon.png" alt="lightbulb">
+        <div class="favicon-menu">
+          <img id = "favicon" style="margin-top: 25px; margin-left: 30px; width: 50px;" src="img/general/favicon.png" alt="Logo">
           <button style="float:right" id="openbtn" onclick="openNav()">☰</button>
         </div>
       </nav>
       <nav id = "desktop-nav">
         <ul>
-        <li><img id = "favicon" src="img/general/favicon.png" alt="lightbulb"></li>
-        <div id = "flex"  style="float:right;">
-          <li><a class="active" href="/newSite/index.html">HOME</a></li>
-          <li style="float:right"><div id = "center"><img src="img/home/circle.png" alt=""</div></li>
-          <li style="float:right"><a href="/newSite/curriculum.html">CURRICULUM</a></li>
-          <li><img src="img/home/circle.png" alt=""></li>
-          <li style="float:right"><a href="/newSite/about.html">ABOUT</a></li>
-          <li><img src="img/home/circle.png" alt=""></li>
-          <li style="float:right"><a href="/newSite/contact.html">CONTACT</a></li>
-        </div>
-      </ul>
+          <li><img id = "favicon" style="margin-top: 15px; margin-left: 30px; width: 50px;" src="img/general/favicon.png" alt="Logo"></li>
+          <div id = "flex"  style="float:right;">
+            <li><a class="active" href="/newSite/index.html">HOME</a></li>
+            <li style="float:right"><div id = "center"><img src="img/home/circle.png" alt=""</div></li>
+            <li style="float:right"><a href="/newSite/curriculum.html">CURRICULUM</a></li>
+            <li><img src="img/home/circle.png" alt=""></li>
+            <li style="float:right"><a href="/newSite/about.html">ABOUT</a></li>
+            <li><img src="img/home/circle.png" alt=""></li>
+            <li style="float:right"><a href="/newSite/contact.html">CONTACT</a></li>
+          </div>
+        </ul>
       </nav>
-      <div id = "center">
-        <div id = "initiative">
-          <img src="img/general/favicon.png" alt="lightbulb">
-          <h4> a student-led initiative</h4>
-        </div>
-      </div>
-      <h1>Code The Future</h1>
-      <h2>Empowering the next generation of coders through our technology-free coding curriculum</h2>
+      <img src="img/home/home-title.png"/>
+      <h2>Empowering the next generation of coders through our technology-free computer science curriculum</h2>
     </div>
 
-    <div id = "info-container">
-      <div style="margin-bottom: 50px;">
-        <img id="lex" src="img/home/who-are-we.png"/>
-        <h3>Who are we?</h3>
-        <p>Hey there! We’re a group of avid coders who believe that computer science should be available to everyone—not just those with access to technology. All of our curriculum is designed for computer-free fun. Happy learning! :^)</p>
+    <div class="explore-coding">
+      <div class="left">
+        <h3>Explore coding in a <span class="lighter-blue">new way</span></h3>
+        <p style="margin-top: 20px;">It might seem crazy to <span class="bold">learn computer science without computers</span>, but sometimes the craziest ideas make the most sense.</p>
+        <p style="margin-top: 15px;">At CS Hands-On, we make computer science education accessible to everyone, including learners without access to technology.</p>
+        <p style="margin-top: 15px;">Join us in the revolution for computer-free fun!</p>
       </div>
-      <div>
-        <img id="pancho" src="img/home/learn-with-us.png"/>
-        <h3>Learn with us!</h3>
-        <p style = "margin-bottom: 15px;">Ready to build your CS skills from the ground-up? Access our CS Fundamentals curriculum now!</p>
-        <a id="explore-curriculum" href="/curriculum">EXPLORE CURRICULUM</a>
+      <div class="right">
+        <img src="img/home/explore-coding.png"/>
       </div>
+    </div>
+
+    <div class="gray-separator"></div>
+
+    <div class="for-students">
+      <div class="left">
+        <h4>FOR STUDENTS:</h4>
+        <h3>Learn to think like a coder through <span class="lighter-blue">problem-solving</span></h3>
+        <img src="img/home/for-students.png"/>
+      </div>
+      <div class="right">
+        <h5>For ages 7 & up</h5>
+        <p style="margin-top: 10px;">Get started in computer science as a learner with minimal previous experience.</p>
+        <h5 style="margin-top: 30px;">Grasp fundamental skills</h5>
+        <p style="margin-top: 10px;">Build your skills from the ground-up by interacting with exciting games and challenging problems.</p>
+        <h5 style="margin-top: 30px;">Have fun!</h5>
+        <p style="margin-top: 8px;">Embark on a thrilling journey to learn computer science through fun storytelling and problem solving.</p>
+      </div>
+    </div>
+
+    <div class="gray-separator"></div>
+
+    <div class="for-educators">
+      <div class="left">
+        <h4>FOR EDUCATORS:</h4>
+        <h3>Bring <span class="lighter-blue">technology-free</span> computer science into classrooms</h3>
+        <img src="img/home/for-educators.png"/>
+      </div>
+      <div class="right">
+        <h5>For anyone, anywhere</h5>
+        <p style="margin-top: 10px;">Broaden computer science participation with our free and easy-to-follow printable curriculum.</p>
+        <h5 style="margin-top: 30px;">Easy teaching</h5>
+        <p style="margin-top: 10px;">Guide students with straightforward lessons and activities available on our website.</p>
+        <h5 style="margin-top: 30px;">Engage curious minds</h5>
+        <p style="margin-top: 8px;">Grow students into better computational thinkers through interactive activities and hands-on learning.</p>
+      </div>
+    </div>
+
+    <div class="gray-separator"></div>
+
+    <div class="begin">
+      <h3>Begin your journey</h3>
+      <p>Grow your skills in computer science with our new fundamentals curriculum.</p>
+      <img src="img/home/begin.png"/><br>
+      <a id="explore-curriculum" href="/curriculum">EXPLORE CURRICULUM</a>
     </div>
 
     <br><br><br><br><br><br>

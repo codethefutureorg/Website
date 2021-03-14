@@ -1,45 +1,62 @@
 @font-face {
   font-family: "Soleil Regular";
-  src: url("font/Soleil Regular.otf")
+  src: url("font/SoleilRegular.otf")
 }
 
 @font-face {
-  font-family: "Soleil Book";
-  src: url("font/Soleil Book.otf")
+  font-family: "Soleil Bold";
+  src: url("font/SoleilBold.otf")
 }
+
+@font-face {
+  font-family: "Soleil Semibold";
+  src: url("font/SoleilSemiBold.otf")
+}
+
 @font-face {
   font-family: "Mikado Medium";
   src: url("font/Mikado Medium.ttf")
 }
+
 @font-face {
   font-family: "Mikado Regular";
   src: url("font/Mikado Regular.ttf")
 }
+
 html {
-  background: #FBFBFD;
+  background: #fff;
 }
 
 * {
   margin: 0;
   padding: 0;
-
 }
+
 
 /* NAV BAR */
 
+.favicon-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favicon-menu button {
+  margin-top: -300px;
+}
+
 ul {
-  font-family: "Soleil Book";
+  font-family: "Soleil Regular";
   position: absolute;
   display: block;
   width: 100%;
   top: 0;
   list-style-type: none;
-  margin: 0;
+  margin: 10px 0px 0px 0px;
   overflow: hidden;
 }
 
 #favicon {
-  margin: 20px 15px 15px 20px;
+  margin: 50px auto auto 20px;
   width: 40px;
 }
 
@@ -92,23 +109,20 @@ li {
   background-image: url("img/home/home-background-desktop.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-  padding: 235px 0px;
+  width: 100%;
+  padding: 130px 0px;
   position: relative;
   top: 0px;
 }
 
-#initiative {
-  display: inline-flex;
-  justify-content: center;
-  flex-direction: row;
-  background-color: white;
-  margin-top: -30px;
-  margin-bottom: 15px;
-  border-radius: 100px;
-  padding: 8px 18px;
+#landing img {
+  width: 500px;
   align-items: center;
-  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 #center {
@@ -117,111 +131,300 @@ li {
   justify-content: center;
 }
 
-#initiative img {
-  width: 30px;
-  padding-right: 5px;
-}
-
-#initiative h4 {
-  font-family: "Soleil Book";
-  margin-top: 3px;
-  color: #3F7EF5;
-}
-
-h1 {
-  font-family: "Mikado Medium";
-  font-size: 5.2rem;
-  color: #FFFFFF;
-  background-color: none;
-  margin-bottom: 5px;
-  text-align: center;
-}
-
 h2 {
-  font-family: "Soleil Book";
+  font-family: "Soleil Regular";
   font-size: 1.3rem;
-  width: 40%;
-  margin: 0 auto;
-  color: #F9FAFE;
+  width: 350px;
+  margin: auto;
+  color: #D2EFFF;
   text-align: center;
 }
 
-/* INFO */
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  transition: 0.25s ease;
+}
 
-#info-container {
-  margin: 0px 180px;
+/* EXPLORE CODING */
+
+.explore-coding {
+  width: 900px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.explore-coding img {
+  width: 300px;
+}
+
+.explore-coding img:hover {
+  transform: rotate(10deg) scale(1.1);
+  transition: 0.3s ease;
+}
+
+.explore-coding p {
+  width: 70%;
 }
 
 h3 {
-  font-family: "Mikado Regular";
-  font-family: "Mikado Regular";
-  font-size: 2.2rem;
-  color: #145BC7;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  font-family: "Soleil Bold";
+  font-size: 35px;
+  line-height: 42px;
+  color: #2454FF;
+  text-align: left;
 }
 
 p {
   font-family: "Soleil Regular";
   font-weight: normal;
-  font-size: 1.1rem;
-  color: #00034D;
-  width: 65vw;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
 }
 
-#lex {
-  margin-top: 50px;
-  max-width: 90px;
-  margin-bottom: -10px;
-  margin-left: -5px;
+.bold {
+  font-family: "Soleil Bold";
 }
 
-#pancho {
-  max-width: 90px;
-  margin-left: -5px;
-  margin-bottom: -10px;
+.lighter-blue {
+  color: #0995E3;
 }
+
+
+/* SEPARATOR */
+
+.gray-separator {
+  height: 5px;
+  background-color: #F3F3F3;
+  width: 100vw;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+/* FOR STUDENTS */
+
+.for-students {
+  width: 900px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /*background-color: yellow;*/
+}
+
+.for-students img {
+  width: 300px;
+  padding-left: 40px;
+}
+
+.for-students img:hover {
+  transform: scale(1.08);
+  transition: 0.3s ease;
+}
+
+.for-students .right {
+  margin-top: 42px;
+}
+
+.for-students p {
+  width: 100%;
+  text-align: left;
+}
+
+.for-students h3 {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: "Soleil Bold";
+  color: #92AAFF;
+  font-size: 25px;
+  margin-bottom: 7px;
+  text-align: left;
+}
+
+h5 {
+  font-family: "Soleil Bold";
+  color: #2454FF;
+  font-size: 25px;
+  margin-bottom: 7px;
+  text-align: left;
+}
+
+
+/* FOR EDUCATORS */
+
+.for-educators {
+  width: 900px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /*background-color: yellow;*/
+}
+
+.for-educators img {
+  width: 300px;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+.for-educators img:hover {
+  transform: scale(1.08);
+  transition: 0.3s ease;
+}
+
+.for-educators .right {
+  margin-top: 42px;
+}
+
+.for-educators p {
+  width: 100%;
+  text-align: left;
+}
+
+.for-educators h3 {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+
+/* BEGIN YOUR JOURNEY */
+
+.begin {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.begin h3 {
+  text-align: center;
+}
+
+.begin p {
+  padding-top: 20px;
+  margin: auto;
+  width: 500px;
+}
+
+.begin img {
+  width: 400px;
+}
+
+/*
+.begin img:hover {
+  transform: scale(1.08);
+  transition: 0.3s ease;
+}*/
 
 #explore-curriculum {
-  font-family: "Soleil Book";
+  font-family: "Soleil Semibold";
+  font-size: 18px;
 	text-decoration: none;
-	color: #FFFFFF;
-	background-color: #24C2FF;
-	padding: 8px 15px 4px 15px;
+	color: #0995E3;
+  border: 3px solid #0995E3;
+	background-color: #fff;
+	padding: 13px 20px 10px 20px;
 	border-radius: 7px;
-	margin-top: 5px;
-	margin-bottom: -15px;
 	display: inline-block;
-	transition: background-color 0.3s ease-in;
+	transition: background-color 0.15s ease-in;
 }
 
 #explore-curriculum:hover{
-  background-color: #00ADF0;
+  background-color: #0995E3;
+  color: #fff;
 }
 
 /* RESPONSIVENESS */
+
 @media only screen and (max-width: 1080px) {
-    #info-container {
-      margin: 0px 0px 0px 140px;
-    }
+
+  .explore-coding {
+    width: 500px;
+    display: block;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  .explore-coding p {
+    width: 100%;
+  }
+
+  p {
+    text-align: left;
+    width: 100%;
+  }
+
+  .explore-coding img {
+    margin-top: 40px;
+    width: 300px;
+  }
+
+  .for-students h3 {
+    width: 100%;
+  }
+
+  .for-students {
+    width: 500px;
+    display: block;
+    text-align: left;
+  }
+
+  .for-students img {
+    margin-top: 20px;
+    width: 300px;
+    padding: 0px;
+  }
+
+  .for-educators h3 {
+    width: 100%;
+  }
+
+  .for-educators {
+    width: 500px;
+    display: block;
+    text-align: left;
+  }
+
+  .for-educators img {
+    margin-top: 20px;
+    width: 300px;
+    padding: 0px;
+  }
 
 }
+
 @media only screen and (max-width: 768px) {
-  #initiative img{
-    width: 25px;
-    padding-right: 5px;
-  }
 
-  #initiative h4{
-    font-size: 1.1rem;
-  }
-
-  #info-container {
-    margin: 0px 0px 0px 60px;
-  }
   #landing {
     background-image: url("img/home/home-background-mobile.png");
-    padding: 190px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    top: 0px;
+  }
+
+  #landing img {
+    width: 400px;
   }
 
   li a {
@@ -229,33 +432,10 @@ p {
     padding: 20px 10px;
   }
 
-  h1 {
-    font-size: 3.8rem;
-  }
-
   h2 {
     font-size: 1.2rem;
-    width: 80%;
-  }
-
-  .info {
-    padding: 30px 60px;
-  }
-
-  .info h3 {
-    font-size: 1.6rem;
-  }
-
-  .info p {
-    font-size: 1.1rem;
-  }
-
-  #lex {
-    width: 70px;
-  }
-
-  #pancho {
-    width: 70px;
+    margin-top: 50px;
+    width: 350px;
   }
 
 }
@@ -272,14 +452,91 @@ p {
 }
 
 @media only screen and (max-width: 660px) {
+
   #mobile-nav{
     visibility: visible;
   }
   #desktop-nav{
     visibility: hidden;
   }
-}
 
+  #landing img {
+    margin-top: -30px;
+    width: 70%;
+  }
+
+  .gray-separator {
+    height: 5px;
+    background-color: #F3F3F3;
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 50px;
+    width: 300px;
+    margin-bottom: -75px;
+  }
+
+  .explore-coding {
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  h3 {
+    text-align: left;
+    width: 100%;
+  }
+
+  p {
+    text-align: left;
+    width: 100%;
+  }
+
+  .explore-coding img {
+    margin-top: 40px;
+    width: 280px;
+  }
+
+  .for-students {
+    width: 70%;
+    display: block;
+    text-align: left;
+  }
+
+  .for-students img {
+    margin-top: 20px;
+    width: 280px;
+    padding: 0px;
+  }
+
+  .for-educators {
+    width: 70%;
+    display: block;
+    text-align: left;
+  }
+
+  .for-educators img {
+    margin-top: 20px;
+    width: 280px;
+    padding: 0px;
+  }
+
+  .begin {
+    margin-top: 90px;
+  }
+
+  .begin p {
+    text-align: center;
+    width: 70%;
+  }
+
+}
 
 .sidepanel  {
   width: 0;
@@ -295,7 +552,7 @@ p {
 }
 
 .sidepanel a {
-  font-family: "Soleil Book";
+  font-family: "Soleil Regular";
   text-align: left;
   font-weight: bold;
   padding: 15px 8px 15px 42px;
@@ -316,7 +573,7 @@ p {
 }
 
 #openbtn {
-  font-family: "Soleil Book";
+  font-family: "Soleil Regular";
   font-size: 30px;
   cursor: pointer;
   color: white;
