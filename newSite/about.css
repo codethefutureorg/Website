@@ -132,15 +132,15 @@ h3 {
 
 p {
   color: #00034D;
-  font-size: 1.1em;
-  line-height: 1.4;
+  line-height: 25px;
   margin-top: 15px;
 	font-family: 'Soleil Regular';
+  font-size: 18px;
 }
 
 .our-mission p {
   text-align: center;
-  width: 70%;
+  width: 60%;
 }
 .our-mission{
   flex-direction: column;
@@ -235,6 +235,10 @@ h4, h5 {
     display: flex;
     align-content: space-around;
   }
+  .our-mission p {
+    text-align: center;
+    width: 80%;
+  }
 
   .team-item img{
     margin-top: 10px;
@@ -243,13 +247,6 @@ h4, h5 {
     object-fit: cover;
     border-radius: 1000px;
     box-shadow: 0 0 2px 2px #FB9595;
-  }
-
-  .line{
-    margin: 0px 120px 50px 120px;
-    height: 5px;
-    background-color: #FDC500;
-    border-radius: 10px;
   }
 
   .our-mission img {
@@ -300,19 +297,14 @@ h4, h5 {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .our-mission {
-    padding: 50px;
+    padding: 80px 50px 30px 50px;
     text-align: center;
   }
 
-  .line{
-    margin: 0px 50px 50px 50px;
-    height: 5px;
-    background-color: #FDC500;
-    border-radius: 10px;
-  }
-
   .our-mission p {
-    text-align: left;
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 5px;
   }
 
   .team-item img{
