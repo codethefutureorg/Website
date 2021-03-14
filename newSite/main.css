@@ -544,6 +544,106 @@ h5 {
 
 }
 
+@media only screen and (max-width: 400px) {
+
+  #mobile-nav{
+    visibility: visible;
+  }
+  #desktop-nav{
+    visibility: hidden;
+  }
+
+  #landing img {
+    margin-top: -30px;
+    width: 70%;
+  }
+
+  .gray-separator {
+    height: 5px;
+    background-color: #F3F3F3;
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 50px;
+    width: 300px;
+    margin-bottom: -75px;
+  }
+
+  .explore-coding {
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .for-educators .for-students h3 {
+    text-align: left;
+    width: 100%;
+  }
+
+  p {
+    text-align: left;
+    width: 100%;
+  }
+
+  .explore-coding img {
+    margin-top: 40px;
+    width: 280px;
+  }
+
+  .for-students {
+    width: 70%;
+    display: block;
+    text-align: left;
+  }
+
+  .for-students img {
+    margin-top: 20px;
+    width: 280px;
+    padding: 0px;
+  }
+
+  .for-educators {
+    width: 70%;
+    display: block;
+    text-align: left;
+  }
+
+  .for-educators img {
+    margin-top: 20px;
+    width: 280px;
+    padding: 0px;
+  }
+
+  .begin {
+    margin-top: 90px;
+    display: block;
+    width: 70%;
+    text-align: center;
+  }
+
+  .begin h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .begin p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .begin img {
+    width: 80%;
+  }
+
+}
+
+
 .sidepanel  {
   width: 0;
   position: fixed;
