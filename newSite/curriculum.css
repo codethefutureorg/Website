@@ -29,11 +29,6 @@ body {
 	background-color: #FFFFFF;
 }
 
-p {
-	font-family: "Soleil Regular";
-	color: #00034D;
-}
-
 #header {
 	background-image: url(img/curriculum/header-background.png);
 	background-size: cover;
@@ -61,379 +56,145 @@ h2 {
 	color: #CEE6FD;
 }
 
-#mini-planets {
-	margin-top: 15px;
-	margin-left: -15px;
-	width: 400px;
-}
-
-.planet {
-	max-width: 300px;
-	transition: transform .5s ease-in;
-}
-
 #group-mascots{
 	width: 500px;
 	margin-top: -80px;
 	padding: 0;
 }
-.bold{
-	font-family: "Soleil Book";
-	font-weight: bold;
-}
-.planet-group-item{
-	display: flex;
-	flex-direction: row;
-	overflow: hidden;
-}
-.planet-group-item:hover #small-divider{
-	opacity: 1;
-}
-
-#small-divider{
-	display: block;
-	width: 10px;
-	transition: opacity .8s ease-in-out;
-	opacity: 0;
-	position: relative;
-	flex:1;
-	left: 70px;
-}
-
-#small-divider:after {
-	content:"";
-	position:absolute;
-	left: 0px;
-	top:0;
-	height:100%;
-	width:10px;
-	border-radius:10px;
-	background:#83DCFF;
-}
-
-.planet-box{
-	display: flex;
-	align-items: center;
-	padding-bottom: 50px;
-	width: 90%;
-	transition: background-color 0.3s ease-in;
-}
-
-.planet-group{
-	margin: 0px 100px 0px 20px;
-}
-
-/*
-.planet-box:hover > .planet {
-	transform: rotate(0.008turn);
-}*/
-#mini-planet-group{
-	display: grid;
-	grid-template-columns: repeat(6, 65px);
-	align-items: center;
-	margin-top: 30px;
-	margin-bottom: 20px;
-}
-
-#mini-planet-group img{
-	max-width: 40px;
-	transition: transform 0.2s ease-in;
-}
-
-#mini-planet-group img:hover{
-	transform: translate(0,-5px);
-}
-
-.planet-box-info {
-	padding-left: 30px;
-	width: 100%;
-	padding-right: 90px;
-}
-
-.planet-box-info p {
-	font-family: "Soleil Regular";
-	font-size: 1.1rem;
-	line-height: 1.4;
-	padding-top: 20px;
-}
-
-.mascot {
-	max-width: 65px;
-	display: block;
-}
 
 h3 {
+	text-align: center;
 	font-family: "Soleil Book";
 	font-weight: bold;
 	font-size: 1.9rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: #004AA1;
+	color: #2454FF;
 }
-#planets-grid{
+
+#curriculum-info p{
+	font-family: "Soleil Regular";
+	text-align: center;
+	width: 38%;
+	margin: 0 auto;
+}
+
+#alon-planet{
+	max-width: 500px;
+	margin: 60px auto;
+	display: block;
+}
+
+#line{
+	width: 100%;
+	background-color: #F3F3F3;
+	height: 5px;
+	margin: 80px 0px;
+}
+
+/* OUR GALAXY */
+#planet-grid{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-row-gap: 20px;
+	grid-column-gap: 40px;
+	grid-row-gap: 40px;
+	margin: 0 auto;
+	margin-top: 30px;
 }
-#planets-grid h4{
+#planet-grid img{
+	max-height: 170px;
+	padding: 15px 0px 10px 0px;
+	margin: 0 auto;
+	display: block;
+}
+#planet-grid h5{
+	text-align: center;
 	font-family: "Soleil Book";
-	margin-top: 5px;
-	color: #00034D;
-	font-size: 1.1rem;
-
+	font-weight: bold;
+	font-size: 1.4rem;
+	color: black;
 }
-#planets-grid h5{
-	margin-top: -4px;
-	font-family: "Soleil Italic";
-	font-size: 0.9rem;
-	color: gray;
-}
-#planets-grid p{
-	margin-top: -5px;
+#planet-grid p{
+	text-align: center;
 	font-family: "Soleil Regular";
-	color: #00034D;
-	font-size: 0.9rem;
-}
-#planets-grid img{
-	float: left;
-	max-width: 60px;
-	margin-right: 20px;
+	font-size: .9rem;
+	width: 80%;
+	color: black;
 }
 
-#curriculum-info{
-	margin: 0px 150px;
-}
-#divider {
-	position: relative;
-	border-left: 10px solid #E3F2FF;
-	flex:1;
-	left: 100px;
-	border-radius: 100px;
-}
-
-#planet-flex {
-	margin-left: 50px;
-	display: flex;
-	flex-direction: row;
-}
-
-#curriculum-info h3 {
-	font-family: "Mikado Regular";
-	font-size: 2.2rem;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: #145BC7;
-}
-#curriculum-info p {
-	font-family: "Soleil Regular";
-	font-size: 1.1rem;
-	line-height: 1.4;
-}
-
-.explore-button {
-	font-family: "Soleil Book";
+#planet-grid a{
 	text-decoration: none;
-	color: #FFFFFF;
-	background-color: #0ABBFF;
-	padding: 8px 15px 4px 15px;
-	border-radius: 7px;
-	margin-top: 0px;
-	margin-bottom: -15px;
-	display: inline-block;
-	transition: background-color 0.3s ease-in;
+}
+#planet-grid div{
+
 }
 
-.explore-button:hover {
-	background-color: #00ADF0;
+#planet-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 0px;
+	width: 266px;
+	height: 100%;
+	background-color: gray;
+	border-radius: 16px;
+	height: 295px;
+	transition: box-shadow 0.2s ease-in-out;
 }
 
-@media only screen and (min-width: 1200px) {
-	#decomposphere .planet-box{
-		padding-bottom: 30px;
-	}
-	#abstractopia .planet-box{
-		padding-top: 40px;
-		padding-top: 30px;
-	}
-	#patteron .planet-box{
-		padding-top: 55px;
-		padding-bottom: 75px;
-	}
-	#algorithopoly .planet-box{
-		padding-top: 50px;
-		padding-bottom: 60px;
-	}
-	#logicland .planet-box{
-		padding-top: 30px;
-		padding-bottom: 50px;
-	}
-	#evaluatus .planet-box{
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
+.Abstractopia:hover{
+	box-shadow:inset 0px 0px 0px 5px rgba(220, 207, 255, 0.3);
 }
-@media only screen and (max-width: 1300px) {
-	#planets-grid{
-		display: grid;
+.Logicland:hover{
+	box-shadow:inset 0px 0px 0px 5px rgba(255, 215, 154, 0.3);
+}
+.Algorithopoly:hover{
+	box-shadow:inset 0px 0px 0px 5px rgba(255, 215, 202, 0.3);
+}
+.Decomposphere:hover{
+	box-shadow:inset 0px 0px 0px 5px rgba(181, 255, 197, 0.3);
+}
+.Evaluatus:hover{
+	box-shadow:inset 0px 0px 0px 5px rgba(160, 210, 255, 0.3);
+}
+.Patteron:hover{
+	box-shadow:inset 0px 0px 0px 5px rgba(255, 193, 189, 0.3);
+}
+
+@media only screen and (max-width: 950px) {
+	#planet-grid{
 		grid-template-columns: repeat(2, 1fr);
 	}
-	#divider{
-		border-left: 0px solid #CDE7FF;
-		height: 0px;
-		left: 0px;
-		visibility: hidden;
-	}
-	#small-divider{
-		visibility: hidden;
-		height: 0px;
-		left: 0px;
-	}
-	#planet-flex {
-		margin-left: 0px;
-	}
-	.planet-group{
-		margin: 0px 50px 0px 0px;
+	#curriculum-info p{
+		width: 50%;
 	}
 }
-@media only screen and (max-width: 1000px) {
-	.planet{
-		margin-top: 10px;
-		max-width: 230px;
-		min-width: 229px;
+
+@media only screen and (max-width: 600px) {
+	#planet-grid{
+		grid-template-columns: repeat(1, 1fr);
 	}
-	.planet-group{
-		margin: 0px 50px 0px 50px;
-	}
-	.planet-box-info{
-		padding-left: 30px;
-		padding-right: 40px;
-	}
-	h1{
-		font-size: 4rem;
-	}
-	h2{
-		font-size: 1.2rem;
+	#curriculum-info p{
 		width: 70%;
 	}
-	#mini-planets{
-		margin-top: 20px;
-		width: 50vw;
-	}
-	h3{
-		font-size: 2rem;
-	}
-	.planet-box-info p{
-		font-size: 1rem;
-	}
-	.explore-button{
-		font-size: 1rem;
-	}
-	.mascot{
-		max-width: 55px;
-	}
-}
-@media only screen and (max-width: 800px) {
-	.planet{
-		margin-top: 10px;
-		max-width: 200px;
-		min-width: 199px;
-		margin-left: -60px;
-		margin-right: 30px;
-	}
-	.planet-box-info{
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	#curriculum-info{
-		margin: 0px 50px;
-	}
-	.planet-group{
-		margin: 0 20px;
-	}
-}
-@media only screen and (max-width: 660px) {
-	.planet-group{
-		margin: 0 30px;
-	}
-	.planet{
-		margin-top: 10px;
-		max-width: 250px;
-		min-width: 249px;
-	}
-	#planets-grid{
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		width: 100%;
-	}
-	.planet-box{
-		flex-direction: column;
-		width: 100%;
-	}
-	.planet-box-info{
-		padding-left: 10px;
-		width: 100%;
-		padding-right: 0px;
-	}
-	#header{
-		padding: 150px 0px;
-	}
-
-	#mini-planets{
-		margin-top: 20px;
-
-	}
-	#contact-grid{
-		grid-template-columns: repeat(1, 1fr);
-	}
-
-	h3{
-		font-size: 2.2rem;
-	}
-
-	#contact-grid a{
-		font-size: 1.2rem;
-	}
-
 	h2{
-		font-size: 1.2rem;
-		width: 80%;
-		margin: 0 auto;
+		width: 70%;
 	}
-
-	#ellis-draw{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 20px;
-		width: 150px;
-	}
-
-	.mascot{
-		max-width: 65px;
-	}
-
-	#header{
-		padding: 150px 0px;
-	}
-
-	#mini-planets{
-		margin-top: 20px;
-		width: 100%;
+	#alon-planet{
+		max-width: 400px;
 	}
 }
-
-
 
 /* NAV BAR */
 ul {
 	font-family: "Soleil Book";
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 0;
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
+	position: absolute;
+	display: block;
+	width: 100%;
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
 }
 
 #favicon{
@@ -482,54 +243,6 @@ li {
   color: white;
 }
 
-/*
-.highlight
-{
-	display: inline-block;
-    position: relative;
-}
-
-.highlight::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  width: 0;
-  height: 50px;
-  bottom: 0px;
-  left: 0;
-  border-radius: 3px;
-  visibility: hidden;
-  transition: all 0.25s ease-in-out;
-}
-#Decomposphere-subpage .highlight::before {
-	background-color: #E2F6DB;
-}
-
-#Abstractopia-subpage .highlight::before {
-	background-color: #EDE6FD;
-}
-
-#Patteron-subpage .highlight::before {
-	background-color: #FCE6E7;
-}
-
-#Algorithopoly-subpage .highlight::before {
-	background-color: #FEEEEA;
-}
-
-#Logicland-subpage .highlight::before {
-	background-color: #FCF7DC;
-}
-
-#Evaluatus-subpage .highlight::before {
-	background-color: #E9F1FD;
-}
-
-.planet-box:hover .highlight::before {
-  visibility: visible;
-  width: 103%;
-}
-*/
 /* MOBILE NAV BAR */
 #mobile-nav{
 	visibility: hidden;
