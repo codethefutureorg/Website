@@ -1,26 +1,26 @@
 @font-face {
   font-family: "Soleil Regular";
-  src: url("font/SoleilRegular.otf")
+  src: url("font/SoleilRegular.otf");
 }
 
 @font-face {
   font-family: "Soleil Bold";
-  src: url("font/SoleilBold.otf")
+  src: url("font/SoleilBold.otf");
 }
 
 @font-face {
   font-family: "Soleil Semibold";
-  src: url("font/SoleilSemiBold.otf")
+  src: url("font/SoleilSemiBold.otf");
 }
 
 @font-face {
   font-family: "Mikado Medium";
-  src: url("font/Mikado Medium.ttf")
+  src: url("font/Mikado Medium.ttf");
 }
 
 @font-face {
   font-family: "Mikado Regular";
-  src: url("font/Mikado Regular.ttf")
+  src: url("font/Mikado Regular.ttf");
 }
 
 html {
@@ -31,7 +31,6 @@ html {
   margin: 0;
   padding: 0;
 }
-
 
 /* NAV BAR */
 
@@ -45,7 +44,8 @@ html {
 }
 
 ul {
-  font-family: "Soleil Regular";
+  font-family: soleil;
+  font-weight: normal;
   position: absolute;
   display: block;
   width: 100%;
@@ -132,7 +132,8 @@ li {
 }
 
 h2 {
-  font-family: "Soleil Regular";
+  font-family: soleil;
+  font-weight: 500;
   font-size: 1.3rem;
   width: 350px;
   margin: auto;
@@ -176,7 +177,8 @@ img {
 }
 
 h3 {
-  font-family: "Soleil Bold";
+  font-family: soleil;
+  font-weight: bold;
   font-size: 35px;
   line-height: 42px;
   color: #2454FF;
@@ -184,7 +186,7 @@ h3 {
 }
 
 p {
-  font-family: "Soleil Regular";
+  font-family: soleil;
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
@@ -192,7 +194,8 @@ p {
 }
 
 .bold {
-  font-family: "Soleil Bold";
+  font-family: soleil;
+  font-weight: bold;
 }
 
 .lighter-blue {
@@ -248,7 +251,8 @@ p {
 }
 
 h4 {
-  font-family: "Soleil Bold";
+  font-family: soleil;
+  font-weight: bold;
   color: #92AAFF;
   font-size: 25px;
   margin-bottom: 7px;
@@ -256,7 +260,8 @@ h4 {
 }
 
 h5 {
-  font-family: "Soleil Bold";
+  font-family: soleil;
+  font-weight: bold;
   color: #2454FF;
   font-size: 25px;
   margin-bottom: 7px;
@@ -333,7 +338,8 @@ h5 {
 }*/
 
 #explore-curriculum {
-  font-family: "Soleil Semibold";
+  font-family: soleil;
+  font-weight: 600;
   font-size: 18px;
 	text-decoration: none;
 	color: #0995E3;
@@ -552,7 +558,7 @@ h5 {
 }
 
 .sidepanel a {
-  font-family: "Soleil Regular";
+  font-family: soleil;
   text-align: left;
   font-weight: bold;
   padding: 15px 8px 15px 42px;
@@ -573,7 +579,8 @@ h5 {
 }
 
 #openbtn {
-  font-family: "Soleil Regular";
+  font-family: soleil;
+  font-weight: normal;
   font-size: 30px;
   cursor: pointer;
   color: white;
