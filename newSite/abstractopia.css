@@ -2,6 +2,11 @@
   font-family: "Soleil Regular";
   src: url("font/Soleil Regular.otf")
 }
+@font-face {
+  font-family: "Soleil SemiBold";
+  src: url("font/Soleil SemiBold.otf")
+}
+
 
 @font-face {
   font-family: "Soleil Book";
@@ -40,7 +45,7 @@ nav ul {
 }
 
 nav li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #15B8FF;
   font-weight: bold;
   display: block;
   vertical-align: middle;
@@ -53,7 +58,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: white;
+  color: #15B8FF;
 }
 
 #flex {
@@ -79,7 +84,7 @@ nav li {
 }
 
 nav .active{
-  color: white;
+  color: #15B8FF;
 }
 
 .dropbtn:hover ~ #arrow-up, .dropdown-content:hover ~ #arrow-up{
@@ -94,7 +99,7 @@ nav .active{
 .dropdown .dropbtn {
   border: none;
   outline: none;
-  color: white;
+  color: #15B8FF;
   background-color: inherit;
   margin: 0 auto;
 }
@@ -130,7 +135,7 @@ nav .active{
 }
 
 .dropdown-content a:hover {
-  color: white;
+  color: #15B8FF;
 }
 
 .dropdown:hover .dropdown-content {
@@ -140,25 +145,26 @@ nav .active{
 /* COVER */
 
 #header{
-  background-image: url("img/curriculum/abstractopia/abstractopia-bkg.png");
+  background-image: url("img/curriculum/abstractopia/bkg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-  padding: 135px 0px;
+  padding: 125px 0px;
   position: relative;
   top: 0px;
 }
 
-#alon-glow {
-  max-width: 150px;
+#alon-planet {
+  max-width: 380px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 h1 {
-  font-family: "Soleil Book";
-  font-size: 5.2rem;
-  color: #FFFFFF;
+  font-family: "Mikado";
+  font-size: 65px;
+  color: #6D37FF;
   margin-top: -40px;
   background-color: none;
   text-align: center;
@@ -166,53 +172,94 @@ h1 {
 
 h2 {
   font-family: "Soleil Regular";
-  font-size: 1.2rem;
+  font-size: 20px;
   width: 50%;
   margin: 0 auto;
-  color: #D2CEFD;
   text-align: center;
+}
+
+#lessons h2{
+  width: 100%;
+  text-align: left;
+  font-family: "Soleil SemiBold";
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: #6D37FF
 }
 
 h3 {
   font-family: "Soleil Book";
-  display: inline-block;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  padding: 5px 10px 2px 10px;
-  border-radius: 6px;
-  margin-bottom: 20px;
-  font-size: 1.1rem;
-  text-align: center;
-  background-color: #E8DFFD;
-  color: #8357FF;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Soleil Regular";
+  font-size: 18px;
+  line-height: 25px;
+}
+.mission-info p{
+  width: 80%;
 }
 
 h4 {
-  font-family: "Soleil Book";
-  color: #00034D;
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-family: "Soleil Regular";
+  color: black;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
+.download{
+  font-family: "Soleil Book";
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #0995E3;
+  border: 2px solid #0995E3;
+  background-color: white;
+  padding: 11px 18px 8px 18px;
+  border-radius: 7px;
+  display: inline-block;
+  transition: background-color 0.15s ease-in;
+}
+
+.fade{
+  margin-left: 5px;
+  color: #84CAF1;
+  border: 2px solid #84CAF1;
+}
+
+.download:hover{
+  background-color: #0995E3;
+  color: #fff;
+}
+
+.fade:hover{
+  background-color: #84CAF1;
+  color: #fff;
+}
 /* LESSON PLANS */
 
 #lessons {
-  margin: 80px 130px 20px 130px;
+  margin: 40px 130px 20px 130px;
 }
 
 .collapsible {
-  font-family: "Soleil Book";
-  background-color: #EAE2FF;
-  color: #00034D;
+  font-family: "Soleil Regular";
+  background-color: #F3F3F3;
+  color: black;
   cursor: pointer;
-  padding: 30px 25px 25px 25px;
-  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  width: 140px;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 1.4rem;
+  font-size: 16px;
   transition: background-color 0.3s ease-in;
-  border-radius: 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: -20px;
 }
 
 .skill-grid:after{
@@ -223,43 +270,37 @@ h4 {
    clear: both;
 }
 .round{
-  background-color: #F2EDFE;
-  border-radius: 12px 12px 0px 0px;
+  background-color: #F3F3F3;
+  border-radius: 4px 4px 0px 0px;
   transition: 0.1s ease-in;
 }
-.collapsible:before {
+.collapsible:after {
   content: '\002B';
-  color: #6B46D2;
+  color: black;
   font-weight: bold;
   margin-left: 5px;
   margin-right: 25px;
 }
 
-.activeC:before {
+.activeC:after {
   content: "\2212";
 }
 
 .content {
   font-family: "Soleil Regular";
-  padding: 0 40px;
+  padding: 0px 10px;
+  max-width: 60%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #F2EDFE;
-  border-radius: 0px 0px 12px 12px;
-}
-
-.content ul {
-  margin-bottom: 15px;
-}
-
-.content li {
-  font-family: "Soleil Book";
+  background-color: #F3F3F3;
+  border-radius: 0px 4px 4px 4px;
+  display: block;
 }
 
 .contentClicked {
   color: blue;
-  padding: 0 40px 40px 40px;
+  padding: 10 40px 40px 40px;
   transition: 0.1s ease-out;
 }
 
@@ -267,7 +308,7 @@ h4 {
 .content-flex {
   display: flex;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .skill-grid {
@@ -311,15 +352,7 @@ h4 {
 
 .worksheet {
   max-width: 150px;
-  margin: 0px 50px 40px 25px;
-}
-
-.download {
-  text-decoration: none;
-  background-color: #00ADF0;
-  padding: 7px 10px 4px 10px;
-  border-radius: 3px;
-  color: white;
+  margin: 0px 30px 40px 0px;
 }
 
 
@@ -400,7 +433,7 @@ h4 {
   padding: 15px 8px 15px 42px;
   text-decoration: none;
   font-size: 20px;
-  color: white;
+  color: #15B8FF;
   display: block;
   transition: 0.3s;
 }
@@ -418,10 +451,63 @@ h4 {
   font-family: "Soleil Book";
   font-size: 30px;
   cursor: pointer;
-  color: white;
+  color: #15B8FF;
   margin: 15px;
   background-color: none;
   padding: 0px 15px;
   border: none;
   background-color: Transparent;
 }
+
+/**/
+.mission{
+  padding: 10px 0px 70px 0px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+}
+
+/* The circles on the timeline */
+.mission::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #E1E1E1;
+  border: 4px solid #E1E1E1;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+  left: 1px;
+}
+
+#mission-container{
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+#mission-container::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  background-color: #E1E1E1;
+  border-radius: 100px;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
