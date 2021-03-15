@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "Soleil Medium";
+  src: url("font/Soleil Medium.otf")
+}
+
+@font-face {
   font-family: "Soleil Book";
   src: url("font/Soleil Book.otf")
 }
@@ -28,17 +33,17 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
-	padding: 185px 0px;
+	padding: 155px 0px;
 	position: relative;
 	top: 0px;
 }
 
-#ellis-draw {
+#mascot-call {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	width: 150px;
+	margin-top: 10px;
+	width: 450px;
 }
 
 h1 {
@@ -59,29 +64,48 @@ h2 {
 }
 
 h3 {
-	font-family: "Mikado Regular";
-  font-size: 1.6rem;
-	margin-top: 20px;
-	margin-left: 8px;
+	font-family: "Soleil Book";
+  font-size: 20px;
 	color: #292929;
 }
 
 #contact-grid a {
 	display: inline-block;
-	color: #006BCE;
+	color: #2454FF;
 	margin-top: 5px;
-	font-family: 'Work Sans', sans-serif;
-	margin-left: 8px;
-  font-size: 1.1rem;
-	margin-bottom: 50px;
+	font-family: 'Soleil Book', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+#contact-grid p{
+  font-family: 'Soleil Book', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #757575;
+}
+
+#contact-body{
+  display: flex;
+  margin: 60px 200px 0px 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact-grid {
-	margin-top: 50px;
-	padding: 0px 60px;
 	display: grid;
+  margin: 0 auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 60px;
+  grid-row-gap: 60px;
+}
+
+#contact-grid div{
+  background-color: #F0F0F0;
+  border-radius: 4px;
+  padding: 25px;
+  width: 250px;
 }
 
 .line {
@@ -90,7 +114,7 @@ h3 {
     height:8px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 	#contact-grid{
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -114,12 +138,12 @@ h3 {
 		margin: 0 auto;
 	}
 
-	#ellis-draw {
+	#mascot-call {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 20px;
-		width: 150px;
+		margin-top: 10px;
+		width: 380px;
 	}
 
 	#header {
