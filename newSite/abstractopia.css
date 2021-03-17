@@ -491,24 +491,35 @@ h4 {
   bottom: 0;
   left: 10px;
 }
+.collapsible {
+  font-family: "Soleil SemiBold";
+  color: black;
+  margin-top: -30px;
+  font-size: 18px;
+  padding-bottom: 5px;
+  width: 160px;
+}
 
 @media screen and (max-width: 1000px) {
   .fade{
     margin-left: 0px;
     margin-top: 5px;
   }
-}
-
-@media screen and (max-width: 700px) {
   .download{
     font-family: "Soleil Semibold";
     font-size: 16px;
   }
   #lessons h2{
-    margin-left: 10%;
+    margin-left: 20%;
   }
   #mission-container{
     width: 80%;
+    margin-left: 20%;
+  }
+  .worksheet {
+    max-width: 150px;
+    padding: 10px 40px 30px 30px;
+    transition: 0.3s;
   }
   .collapsible {
     font-family: "Soleil SemiBold";
@@ -519,7 +530,6 @@ h4 {
     width: 160px;
   }
   .activeC:before {
-    font-size: 1.5rem;
     padding: 0;
     margin: 0 12px 0 0;
   }
@@ -530,5 +540,15 @@ h4 {
   .skill-grid{
     margin-top: 0px;
     margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #lessons h2{
+    margin-left: 10%;
+  }
+  #mission-container{
+    width: 80%;
+    margin-left: 10%;
   }
 }
