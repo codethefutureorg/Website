@@ -32,7 +32,7 @@ html {
   padding: 0;
 }
 
-/* NAV BAR */
+/* NAV */
 
 .favicon-menu {
   display: flex;
@@ -44,19 +44,18 @@ html {
 }
 
 ul {
-  font-family: soleil;
-  font-weight: normal;
+  font-family: "Soleil Regular";
   position: absolute;
   display: block;
   width: 100%;
   top: 0;
   list-style-type: none;
-  margin: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   overflow: hidden;
 }
 
 #favicon {
-  margin: 50px auto auto 20px;
+  margin: 20px 15px 15px 20px;
   width: 40px;
 }
 
@@ -115,7 +114,7 @@ li {
   top: 0px;
 }
 
-#landing img {
+#title-image {
   width: 500px;
   align-items: center;
   display: block;
@@ -132,7 +131,7 @@ li {
 }
 
 h2 {
-  font-family: soleil;
+  font-family: "Soleil Regular";
   font-weight: 500;
   font-size: 1.3rem;
   width: 350px;
@@ -177,8 +176,7 @@ img {
 }
 
 h3 {
-  font-family: soleil;
-  font-weight: bold;
+  font-family: "Soleil Bold";
   font-size: 35px;
   line-height: 42px;
   color: #2454FF;
@@ -186,16 +184,14 @@ h3 {
 }
 
 p {
-  font-family: soleil;
-  font-weight: normal;
+  font-family: "Soleil Regular";
   font-size: 18px;
   line-height: 25px;
   color: #000;
 }
 
 .bold {
-  font-family: soleil;
-  font-weight: bold;
+  font-family: "Soleil Bold";
 }
 
 .lighter-blue {
@@ -251,8 +247,7 @@ p {
 }
 
 h4 {
-  font-family: soleil;
-  font-weight: bold;
+  font-family: "Soleil Bold";
   color: #92AAFF;
   font-size: 25px;
   margin-bottom: 7px;
@@ -260,8 +255,7 @@ h4 {
 }
 
 h5 {
-  font-family: soleil;
-  font-weight: bold;
+  font-family: "Soleil Bold";
   color: #2454FF;
   font-size: 25px;
   margin-bottom: 7px;
@@ -338,8 +332,7 @@ h5 {
 }*/
 
 #explore-curriculum {
-  font-family: soleil;
-  font-weight: 600;
+  font-family: "Soleil SemiBold";
   font-size: 18px;
 	text-decoration: none;
 	color: #0995E3;
@@ -658,9 +651,8 @@ h5 {
 }
 
 .sidepanel a {
-  font-family: soleil;
+  font-family: "Soleil Bold";
   text-align: left;
-  font-weight: bold;
   padding: 15px 8px 15px 42px;
   text-decoration: none;
   font-size: 20px;
@@ -679,8 +671,7 @@ h5 {
 }
 
 #openbtn {
-  font-family: soleil;
-  font-weight: normal;
+  font-family: "Soleil Regular";
   font-size: 30px;
   cursor: pointer;
   color: white;

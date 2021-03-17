@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Soleil Regular";
-  src: url("font/Soleil Regular.otf")
-}
-@font-face {
-  font-family: "Soleil SemiBold";
-  src: url("font/Soleil SemiBold.otf")
+  src: url("font/SoleilRegular.otf");
 }
 
+@font-face {
+  font-family: "Soleil Bold";
+  src: url("font/SoleilBold.otf");
+}
 
 @font-face {
-  font-family: "Soleil Book";
-  src: url("font/Soleil Book.otf")
+  font-family: "Soleil Semibold";
+  src: url("font/SoleilSemiBold.otf");
 }
 
 html {
@@ -25,7 +25,7 @@ html {
 
 /* NAV BAR */
 nav ul {
-  font-family: "Soleil Book";
+  font-family: "Soleil Regular";
   display: block;
   width: 100%;
   list-style-type: none;
@@ -179,8 +179,8 @@ h2 {
 }
 
 h3 {
-  font-family: "Soleil Book";
-  font-size: 27px;
+  font-family: "Soleil Semibold";
+  font-size: 25px;
   margin-bottom: 15px;
 }
 
@@ -194,15 +194,14 @@ p {
 }
 
 h4 {
-  font-family: "Soleil Regular";
+  font-family: "Soleil Bold";
   color: black;
   font-size: 18px;
   margin-bottom: 5px;
 }
 
 .download{
-  font-family: "Soleil Book";
-  font-weight: 600;
+  font-family: "Soleil Semibold";
   font-size: 18px;
   text-decoration: none;
   color: #0995E3;
@@ -229,6 +228,7 @@ h4 {
   background-color: #84CAF1;
   color: #fff;
 }
+
 /* LESSON PLANS */
 
 #lessons {
@@ -346,7 +346,7 @@ h4 {
 }
 
 .mission-info {
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 .mission {
@@ -355,9 +355,14 @@ h4 {
 
 .worksheet {
   max-width: 150px;
-  margin: 0px 30px 40px 0px;
+  padding: 5px 40px 40px 30px;
+  transition: 0.3s;
 }
 
+.worksheet:hover {
+  transform: rotate(-5deg) translateY(10px);
+  transition: 0.3s;
+}
 
 /* MOBILE NAV BAR */
 #mobile-nav{
@@ -507,14 +512,3 @@ h4 {
   bottom: 0;
   left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-

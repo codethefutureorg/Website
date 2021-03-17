@@ -86,6 +86,11 @@ nav #flex li img{
   margin: auto;
 }
 
+.active{
+  color: white;
+}
+
+
 /* HEADER */
 
 .header {
@@ -131,7 +136,7 @@ h3 {
 }
 
 p {
-  color: #00034D;
+  color: #000;
   line-height: 25px;
   margin-top: 15px;
 	font-family: 'Soleil Regular';
@@ -213,13 +218,15 @@ h4, h5 {
 
   h4 {
     color: #F62627;
-    font-size: 1.4em;
+    font-size: 22px;
   }
 
   h5 {
     color: #F62627;
     font-style: italic;
-    font-size: 1em;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   .team-item img {
