@@ -388,27 +388,6 @@ h4 {
   #lessons{
     margin: 80px 45px 20px 45px;
   }
-  .collapsible {
-    font-size: 1.2rem;
-  }
-  .activeC:before {
-    font-size: 1.5rem;
-    padding: 0;
-    margin: 0 12px 0 0;
-  }
-  .collapsible:before {
-    font-size: 1.5rem;
-    padding: 0;
-    margin: 0 12px 0 0;
-  }
-  .content-flex{
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-  .skill-grid{
-    margin-top: -20px;
-    margin-bottom: 15px;
-  }
 }
 
 @media only screen and (max-width: 660px) {
@@ -511,4 +490,45 @@ h4 {
   top: 10px;
   bottom: 0;
   left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .fade{
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .download{
+    font-family: "Soleil Semibold";
+    font-size: 16px;
+  }
+  #lessons h2{
+    margin-left: 10%;
+  }
+  #mission-container{
+    width: 80%;
+  }
+  .collapsible {
+    font-family: "Soleil SemiBold";
+    color: black;
+    margin-top: -30px;
+    font-size: 18px;
+    padding-bottom: 5px;
+    width: 160px;
+  }
+  .activeC:before {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0 12px 0 0;
+  }
+  .content-flex{
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .skill-grid{
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
 }
