@@ -540,15 +540,16 @@ h4 {
   .skill-grid{
     margin-top: 0px;
     margin-bottom: 15px;
+    min-width: 160px;
   }
 }
 
 @media screen and (max-width: 700px) {
   #lessons h2{
-    margin-left: 10%;
+    margin-left: 5%;
   }
   #mission-container{
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
   }
 }
