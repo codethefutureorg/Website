@@ -145,7 +145,7 @@ nav .active{
 /* COVER */
 
 #header{
-  background-image: url("img/curriculum/abstractopia/bkg.png");
+  background-image: url("img/curriculum/logicland/logicland-wave.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -164,7 +164,7 @@ nav .active{
 h1 {
   font-family: "Mikado";
   font-size: 65px;
-  color: #6D37FF;
+  color: #F8B200;
   margin-top: -40px;
   background-color: none;
   text-align: center;
@@ -243,7 +243,7 @@ h4 {
   font-family: "Soleil SemiBold";
   margin-bottom: 10px;
   font-size: 35px;
-  color: #6D37FF
+  color: #F8B200
 }
 
 .collapsible {
@@ -340,8 +340,12 @@ h4 {
   background-color: #FF57D0;
 }
 
-.abstraction {
-  background-color: #8D57FF;
+.logic {
+  background-color: #F8B200;
+}
+
+.math {
+  background-color: #15B8FF;
 }
 
 .mission-info {
