@@ -264,7 +264,7 @@ h4 {
   font-size: 18px;
   transition: background-color 0.3s ease-in;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   margin-top: -20px;
   color: black;
 }
@@ -286,18 +286,6 @@ h4 {
   content: "\2212";
 }
 
-.content {
-  font-family: "Soleil Regular";
-  padding: 0px 10px;
-  max-width: 60%;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #F3F3F3;
-  border-radius: 0px 4px 4px 4px;
-  display: block;
-}
-
 .contentClicked {
   color: blue;
   padding: 10 40px 40px 40px;
@@ -312,18 +300,23 @@ h4 {
 }
 
 .skill-grid {
-  display: block;
-  width: 100%;
   margin-bottom: 10px;
-  grid-column-gap: 0px;
-  grid-row-gap: 7px
+  background-color: #F3F3F3;
+  display: inline-block;
+  padding: 0px 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-radius: 0px 4px 4px 4px;
+}
+
+.skill-grid .grid{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .skill-grid p {
-  display: inline-block;
-  float: left;
-  margin-right: 8px;
-  margin-bottom: 5px;
   font-weight: bold;
   font-size: .9rem;
   padding: 4px 8px 2px 8px;
@@ -335,7 +328,7 @@ h4 {
    content: ".";
    visibility: hidden;
    display: block;
-   height: 5px;
+   height: 10px;
    clear: both;
 }
 
@@ -351,10 +344,6 @@ h4 {
   background-color: #8D57FF;
 }
 
-.mission-info {
-  margin-left: 0px;
-}
-
 .mission {
   margin-bottom: 12px;
 }
@@ -366,7 +355,7 @@ h4 {
 }
 
 .worksheet:hover {
-  transform: rotate(-5deg) translateY(10px);
+  transform: rotate(-3deg) translateY(-5px);
   transition: 0.3s;
 }
 
@@ -494,11 +483,14 @@ h4 {
     font-size: 16px;
   }
   #lessons h2{
-    margin-left: 20%;
+    margin-left: 15%;
   }
   #mission-container{
     width: 80%;
-    margin-left: 20%;
+    margin-left: 15%;
+  }
+  .skill-grid{
+    width: 77%;
   }
   .worksheet {
     max-width: 150px;
@@ -512,11 +504,6 @@ h4 {
   .content-flex{
     flex-direction: column;
     margin-bottom: 40px;
-  }
-  .skill-grid{
-    margin-top: 0px;
-    margin-bottom: 15px;
-    min-width: 160px;
   }
 }
 
@@ -534,6 +521,9 @@ h4 {
 }
 
 @media only screen and (max-width: 660px) {
+  .skill-grid .grid{
+    width: content;
+  }
   h1{
     font-size: 3.8rem;
   }
