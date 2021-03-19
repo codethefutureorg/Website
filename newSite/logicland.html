@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Logicland | CS Hands-On</title>
+	<link rel="icon" type="image/png" href="img/general/favicon-colored.png"/>
+	<link rel="stylesheet" href="logicland.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+	</head>
+
+<body>
+	<div id = "header">
+		<nav id = "mobile-nav">
+			<div id="mySidepanel" class="sidepanel">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			  <a href="/newSite/index.html">HOME</a>
+			  <a href="/newSite/curriculum.html">CURRICULUM</a>
+			  <a href="/newSite/about.html">ABOUT</a>
+			  <a href="/newSite/contact.html">CONTACT</a>
+			</div>
+			<div style = "background-color: orange">
+				<img style="float:left" id = "favicon" src="img/general/favicon-colored.png" alt="lightbulb">
+				<button style="float:right" id="openbtn" onclick="openNav()">☰</button>
+			</div>
+		</nav>
+
+		<nav id = "desktop-nav">
+				<ul>
+		      <li><a style = "padding: 0" href="/newSite/index.html"><img id = "favicon" src="img/general/favicon-colored.png" alt="Logo"></a></li>
+		      <div id = "desktop-nav-item" style="float:right;">
+		      	<div id = "flex" >
+		        <li><a href="/newSite/index.html">HOME</a></li>
+		        <li style="float:right"><div id = "center"><img src="img/home/circle.png" alt=""</div></li>
+		        <li style="float:right">
+		        	<div class="dropdown">
+					    <button class="dropbtn"><a href="/newSite/curriculum.html">CURRICULUM</a>
+					    </button>
+					    <div id = "arrow-up"></div>
+					    <div class="dropdown-content">
+					      <a class="sublink" href="#">DECOMPOSPHERE</a>
+					      <a class="sublink" href="#">ABSTRACTOPIA</a>
+					      <a class="sublink" href="#">PATTERON</a>
+					      <a class="sublink" href="#">ALGORITHOPOLY</a>
+					      <a class="sublink" href="#">LOGICLAND</a>
+					      <a class="sublink" href="#">EVALUATUS</a>
+					    </div>
+					 </div>
+		        </li>
+		        <li><img src="img/home/circle.png" alt=""></li>
+		        <li style="float:right"><a href="/newSite/about.html">ABOUT</a></li>
+		        <li><img src="img/home/circle.png" alt=""></li>
+		        <li style="float:right"><a href="/newSite/contact.html">CONTACT</a></li>
+		      </div>
+		      </div>
+		    </ul>
+		</nav>
+
+		<img id = "alon-planet" src="img/curriculum/logicland/lex-planet.png" alt="Lex">
+		<h1>Logicland</h1>
+		<h2>Learn to think logically</h2>
+	</div>
+	<div id = "lessons">
+		<h2>Lesson Plans</h2>
+		<div id = "line"></div>
+		<div id = "mission-container">
+			<div class = "mission">
+				<h3>Mission 1: Binary Pixel Art</h3>
+				<div class = "content-flex">
+					<div class = "left">
+						<div><img class = "worksheet" src="img/curriculum/logicland/worksheet1.png" alt=""></div>
+					</div>
+					<div class = "mission-info right">
+						<h4>Overview</h4>
+						<p>Duration: 20 minutes</p>
+						<p>Objective: Learn how computers use binary to communicate.</p>
+						<h4 style = "margin-top: 20px">Download</h4>
+						<a class = "download" href="img/curriculum/logicland/Binary Pixel Art.pdf" target="_blank" download="Binary Pixel Art">WORKSHEET</a>
+						<a class = "download fade" href="img/curriculum/abstractopia/worksheet1.pdf" target="_blank" download="Binary Pixel Art Demo">COMPLETED DEMO</a>
+					</div>
+				</div>
+				<button class="collapsible">View Skills</button>
+				<div class = "skill-grid content">
+					<div style = "height: 10px"></div>
+					<div><p class = "logic">Logic</p></div>
+					<div><p class = "literacy">Literacy: Reading</p></div>
+					<div><p class = "creative-arts">Creative Arts: Coloring</p></div>
+				</div>
+			</div>
+			<div class = "mission">
+				<h3>Mission 2: Mixed Up Dots (Logical)</h3>
+				<div class = "content-flex">
+					<div class = "left">
+						<div><img class = "worksheet" src="img/curriculum/logicland/worksheet2.png" alt=""></div>
+					</div>
+					<div class = "mission-info right">
+						<h4>Overview</h4>
+						<p>Duration: 30 minutes</p>
+						<p>Objective: Learn how to use logical operators to make comparisons.</p>
+						<h4 style = "margin-top: 20px">Download</h4>
+						<a class = "download" href="img/curriculum/logicland/Mixed Up Dots (Logical).pdf" target="_blank" download="Mixed Up Dots (Logical)">WORKSHEET</a>
+						<a class = "download fade" href="img/curriculum/abstractopia/worksheet1.pdf" target="_blank" download="Mixed Up Dots (Logical) Demo">COMPLETED DEMO</a>
+					</div>
+				</div>
+				<button class="collapsible">View Skills</button>
+				<div class = "skill-grid content">
+					<div style = "height: 10px"></div>
+					<div><p class = "logic">Logic</p></div>
+					<div><p class = "literacy">Literacy: Reading</p></div>
+					<div><p class = "creative-arts">Creative Arts: Drawing</p></div>
+					<div><p class = "math">Mathematics: Numeracy</p></div>
+					<div><p class = "math">Mathematics: Algebra</p></div>
+				</div>
+			</div>
+			<div class = "mission">
+				<h3>Mission 3: Mixed Up Dots (Relational)</h3>
+				<div class = "content-flex">
+					<div class = "left">
+						<div><img class = "worksheet" src="img/curriculum/logicland/worksheet3.png" alt=""></div>
+					</div>
+					<div class = "mission-info right">
+						<h4>Overview</h4>
+						<p>Duration: 30 minutes</p>
+						<p>Objective: Learn how to use relational operators to make comparisons.</p>
+						<h4 style = "margin-top: 20px">Download</h4>
+						<a class = "download" href="img/curriculum/logicland/Mixed Up Dots (Relational).pdf" target="_blank" download="Mixed Up Dots (Relational)">WORKSHEET</a>
+						<a class = "download fade" href="img/curriculum/abstractopia/worksheet1.pdf" target="_blank" download="Mixed Up Dots (Relational) Demo">COMPLETED DEMO</a>
+					</div>
+				</div>
+				<button class="collapsible">View Skills</button>
+				<div class = "skill-grid content">
+					<div style = "height: 10px"></div>
+					<div><p class = "logic">Logic</p></div>
+					<div><p class = "literacy">Literacy: Reading</p></div>
+					<div><p class = "creative-arts">Creative Arts: Drawing</p></div>
+					<div><p class = "math">Mathematics: Numeracy</p></div>
+					<div><p class = "math">Mathematics: Algebra</p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br><br><br><br>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("activeC");
+		    this.classList.toggle("round");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    }
+		  });
+		}
+		window.addEventListener("beforeunload", function () {
+		  document.body.classList.add("animate-out");
+		});
+	</script>
+	<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+</body>
+</html>
