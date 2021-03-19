@@ -255,9 +255,9 @@ h4 {
   font-family: "Soleil SemiBold";
   background-color: #F3F3F3;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 6px 10px 5px 12px;
   text-align: center;
-  width: 130px;
+  width: 130.7px;
   border: none;
   text-align: left;
   outline: none;
@@ -502,14 +502,6 @@ h4 {
     max-width: 150px;
     padding: 10px 40px 30px 30px;
     transition: 0.3s;
-  }
-  .collapsible {
-    font-family: "Soleil SemiBold";
-    color: black;
-    margin-top: -30px;
-    font-size: 18px;
-    padding-bottom: 5px;
-    width: 130px;
   }
   .activeC:before {
     padding: 0;
