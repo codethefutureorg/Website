@@ -1,16 +1,21 @@
 @font-face {
   font-family: "Soleil Regular";
-  src: url("font/SoleilRegular.otf");
+  src: url("font/Soleil Regular.otf");
 }
 
 @font-face {
   font-family: "Soleil Bold";
-  src: url("font/SoleilBold.otf");
+  src: url("font/Soleil Bold.otf");
+}
+
+@font-face {
+  font-family: "Soleil Book";
+  src: url("font/Soleil Book.otf");
 }
 
 @font-face {
   font-family: "Soleil Semibold";
-  src: url("font/SoleilSemiBold.otf");
+  src: url("font/Soleil SemiBold.otf");
 }
 
 html {
@@ -179,7 +184,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Soleil Semibold";
+  font-family: "Soleil Book";
   font-size: 25px;
   margin-bottom: 15px;
 }
@@ -194,7 +199,7 @@ p {
 }
 
 h4 {
-  font-family: "Soleil Bold";
+  font-family: "Soleil Book";
   color: black;
   font-size: 18px;
   margin-bottom: 5px;
@@ -247,23 +252,22 @@ h4 {
 }
 
 .collapsible {
-  font-family: "Soleil Regular";
+  font-family: "Soleil SemiBold";
   background-color: #F3F3F3;
-  color: black;
   cursor: pointer;
   padding: 5px 10px;
   text-align: center;
-  width: 140px;
+  width: 130px;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
   transition: background-color 0.3s ease-in;
   border-radius: 4px;
   display: inline-block;
   margin-top: -20px;
+  color: black;
 }
-
 .skill-grid:after{
    content: ".";
    visibility: hidden;
@@ -279,9 +283,10 @@ h4 {
 .collapsible:after {
   content: '\002B';
   color: black;
+  display: inline-block;
   font-weight: bold;
   margin-left: 5px;
-  margin-right: 25px;
+  margin-right: 5px;
 }
 
 .activeC:after {
@@ -476,14 +481,6 @@ h4 {
   bottom: 0;
   left: 10px;
 }
-.collapsible {
-  font-family: "Soleil SemiBold";
-  color: black;
-  margin-top: -30px;
-  font-size: 18px;
-  padding-bottom: 5px;
-  width: 160px;
-}
 
 @media screen and (max-width: 1000px) {
   .fade{
@@ -512,7 +509,7 @@ h4 {
     margin-top: -30px;
     font-size: 18px;
     padding-bottom: 5px;
-    width: 160px;
+    width: 130px;
   }
   .activeC:before {
     padding: 0;
