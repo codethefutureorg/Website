@@ -14,6 +14,11 @@
 }
 
 @font-face {
+  font-family: "Soleil Light";
+  src: url("font/Soleil Light.otf");
+}
+
+@font-face {
   font-family: "Mikado Medium";
   src: url("font/Mikado Medium.ttf");
 }
@@ -687,4 +692,208 @@ h5 {
   padding: 0px 15px;
   border: none;
   background-color: Transparent;
+}
+
+
+/* FOOTER */
+footer{
+  background-color: #1B3373;
+  padding: 60px 50px 15px 50px;
+}
+
+footer .grid{
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  justify-content: space-between;
+}
+
+footer #info .flex{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+footer #info{
+  width: 70%;
+}
+
+footer #content{
+  width: 1150px;
+  margin: 0 auto;
+}
+
+footer #info h2{
+  color: rgba(255, 255, 255, .9);
+  font-family: "Soleil Regular";
+  font-size: 28px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+footer #info p{
+  color: rgba(255, 255, 255, .7);
+  font-family: "Soleil Regular";
+  font-size: 18px;
+  line-height: 143%;
+}
+
+footer #info img{
+  opacity: 90%;
+  max-width: 28px;
+  margin-right: 10px;
+}
+
+footer #link-grid{
+  display: grid;
+  grid-column-gap: 80px;
+  grid-template-columns: 110px 110px 100px;
+}
+
+footer h3{
+  font-family: "Soleil Light";
+  font-size: 14px;
+  color: rgba(255, 255, 255, .7);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+footer a{
+  font-family: "Soleil Light";
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  display: block;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+footer #line{
+  margin: 25px 0px 15px 0px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+footer #copyright{
+  color: rgba(255, 255, 255, .7);
+  font-family: "Soleil Light";
+  font-size: 14px;
+  text-align: center;
+}
+footer #link-grid{
+  background-color: ble;
+}
+footer #link-grid div{
+  background-color: orane;
+}
+
+@media only screen and (max-width: 1250px) {
+  footer #content{
+    width: auto;
+    margin: 0 auto;
+  }
+
+  footer #info{
+    width: 80%;
+  }
+
+  footer #link-grid{
+    min-width: 480px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+  footer .grid{
+    grid-column-gap: 20px;
+  }
+
+  footer #link-grid{
+    min-width: 380px;
+    grid-column-gap: 30px;
+    grid-template-columns: 110px 110px 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+
+  footer .grid{
+    grid-column-gap: 10px;
+  }
+
+  footer #link-grid{
+    min-width: 350px;
+    grid-column-gap: 15px;
+    grid-template-columns: 110px 110px 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  footer #info{
+    width: 100%;
+  }
+  footer .grid{
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  footer #link-grid{
+    min-width: 410px;
+    grid-column-gap: 45px;
+    grid-template-columns: 110px 110px 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  footer #info{
+    width: 100%;
+  }
+  footer .grid{
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  footer #link-grid{
+    min-width: 370px;
+    grid-column-gap: 25px;
+    grid-template-columns: 110px 110px 100px;
+  }
+
+  footer{
+    background-color: #1B3373;
+    padding: 60px 35px 15px 35px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  footer #info{
+    width: 100%;
+  }
+  footer .grid{
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  footer #link-grid{
+    min-width: 350px;
+    grid-column-gap: 5px;
+    grid-template-columns: 100px 120px 100px;
+  }
+
+  footer{
+    width: auto;
+    background-color: #1B3373;
+    padding: 60px 25px 15px 25px;
+  }
 }
