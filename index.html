@@ -8,25 +8,49 @@
     <title>CS Hands-On</title>
     <link rel="icon" type="image/png" href="img/general/favicon-colored.png"/>
     <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="general.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   </head>
 
   <body>
     <div class = "landing">
       <nav id = "mobile-nav">
-        <div id="mySidepanel" class="sidepanel">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-          <a href="/">HOME</a>
-          <a href="/curriculum">CURRICULUM</a>
-          <a href="/about">ABOUT</a>
-          <a href="/contact">CONTACT</a>
-        </div>
-        <div style = "background-color: orange">
-          <img style="float:left" id = "favicon" src="img/general/favicon.png" alt="lightbulb">
-          <button style="float:right" id="openbtn" onclick="openNav()">☰</button>
+        <div class="topnav">
+          <div id = "flex">
+            <a href="/"><img id = "favicon" src="img/general/blue-favicon.png" alt="logo"></a>
+            <p>CS Hands-On</p>
+          </div>
+          <div id="myLinks">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <div class="dropdown">
+              <button class="dropbtn" onclick="myMobileFunction()">Curriculum
+                <i id = "down" class="fa fa-caret-up rotate"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown-mobile">
+                <a href="/curriculum">Overview</a>
+                <a href="/abstractopia">Abstractopia</a>
+                <a href="/logicland">Logicland</a>
+                <a href="/algorithopoly">Algorithopoly</a>
+                <a href="/decomposphere">Decomposphere</a>
+                <a href="/abstractopia">Evaluatus</a>
+                <a href="/patteron">Patteron</a>
+              </div>
+            </div> 
+            <a href="/contact">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="sandwichFunction()">
+            <div id="nav-icon3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
         </div>
       </nav>
-      <nav >
+      <nav>
         <div id = "desktop-nav">
           <a id = "left" href="">
           <div id = "flex">
@@ -47,7 +71,7 @@
             <a href="/algorithopoly">Algorithopoly</a>
             <a href="/decomposphere">Decomposphere</a>
             <a href="/abstractopia">Evaluatus</a>
-            <a href="#">Patteron</a>
+            <a href="/patteron">Patteron</a>
           </div>
           </div> 
           <a class = "page-link" href="/about">About</a>
@@ -158,9 +182,27 @@
   </body>
   <script>
 
+$(document).ready(function(){
+  $("#nav-icon3").click(function(){
+    $(this).toggleClass('open');
+  });
+});
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
   document.getElementById("down").classList.toggle("rotate");
+}
+
+function myMobileFunction() {
+  document.getElementById("myDropdown-mobile").classList.toggle("show");
+  document.getElementById("down").classList.toggle("rotate");
+}
+function sandwichFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -174,12 +216,6 @@ window.onclick = function(e) {
     }
   }
 }
-function openNav() {
-  document.getElementById("mySidepanel").style.width = "250px";
-}
 
-function closeNav() {
-  document.getElementById("mySidepanel").style.width = "0";
-}
 </script>
 </html>
