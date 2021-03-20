@@ -8,6 +8,7 @@
     <title>CS Hands-On</title>
     <link rel="icon" type="image/png" href="img/general/favicon-colored.png"/>
     <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -26,18 +27,31 @@
         </div>
       </nav>
       <nav id = "desktop-nav">
-        <ul>
-        <li><img id = "favicon" src="img/general/favicon.png" alt="lightbulb"></li>
-        <div id = "flex"  style="float:right;">
-          <li><a class="active" href="/newSite/index.html">HOME</a></li>
-          <li style="float:right"><div id = "center"><img src="img/home/circle.png" alt=""</div></li>
-          <li style="float:right"><a href="/newSite/curriculum.html">CURRICULUM</a></li>
-          <li><img src="img/home/circle.png" alt=""></li>
-          <li style="float:right"><a href="/newSite/about.html">ABOUT</a></li>
-          <li><img src="img/home/circle.png" alt=""></li>
-          <li style="float:right"><a href="/newSite/contact.html">CONTACT</a></li>
+        <a id = "left" href="">
+          <div id = "flex">
+            <img id = "favicon" src="img/general/blue-favicon.png" alt="lightbulb">
+            <p>CS Hands-On</p>
+          </div>
+        </a>
+        <div id = "links" style="float:right;">
+          <a href="/newSite/index">Home</a>
+          <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Curriculum
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Overview</a>
+            <a href="#">Abstractopia</a>
+            <a href="#">Logicland</a>
+            <a href="#">Algorithopoly</a>
+            <a href="#">Decomposphere</a>
+            <a href="#">Evaluatus</a>
+            <a href="#">Patteron</a>
+          </div>
+          </div> 
+          <a href="/newSite/about">About</a>
+          <a href="/newSite/contact">Contact</a>
         </div>
-      </ul>
       </nav>
       <img id="title-image" src="img/home/home-title.png"/>
       <h2>Empowering the next generation of coders through our technology-free computer science curriculum</h2>
@@ -140,6 +154,20 @@
     </footer>
   </body>
   <script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
 function openNav() {
   document.getElementById("mySidepanel").style.width = "250px";
 }
