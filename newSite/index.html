@@ -34,10 +34,10 @@
           </div>
         </a>
         <div id = "links" style="float:right;">
-          <a href="/newSite/index">Home</a>
+          <a class = "page-link" href="/newSite/index">Home</a>
           <div class="dropdown">
           <button class="dropbtn" onclick="myFunction()">Curriculum
-            <i class="fa fa-caret-down"></i>
+            <i id = "down" class="fa fa-caret-up rotate"></i>
           </button>
           <div class="dropdown-content" id="myDropdown">
             <a href="#">Overview</a>
@@ -49,8 +49,8 @@
             <a href="#">Patteron</a>
           </div>
           </div> 
-          <a href="/newSite/about">About</a>
-          <a href="/newSite/contact">Contact</a>
+          <a class = "page-link" href="/newSite/about">About</a>
+          <a class = "page-link" href="/newSite/contact">Contact</a>
         </div>
       </nav>
       <img id="title-image" src="img/home/home-title.png"/>
@@ -157,14 +157,17 @@
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("down").classList.toggle("rotate");
 }
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("myDropdown");
+  var myToggle = document.getElementById("down");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
+      myToggle.classList.remove('rotate');
     }
   }
 }
