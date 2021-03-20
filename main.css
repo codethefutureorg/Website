@@ -49,6 +49,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  margin-top: 40px;
   padding: 130px 0px;
   position: relative;
   top: 0px;
@@ -475,6 +476,9 @@ h5 {
   .landing img {
     margin-top: -30px;
     width: 70%;
+  }
+  .landing{
+    margin-top: 00px;
   }
 
   .gray-separator {
