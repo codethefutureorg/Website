@@ -877,7 +877,7 @@ footer #link-grid div{
 
 @media only screen and (max-width: 415px) {
   footer #info{
-    width: 100%;
+    width: 97%;
   }
   footer .grid{
     grid-column-gap: 10px;
