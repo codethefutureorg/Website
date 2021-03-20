@@ -442,6 +442,8 @@ footer #link-grid div{
 }
 
 .topnav a.icon {
+  margin: 5px 0px;
+  margin-bottom: 0;
   display: block;
   position: absolute;
   right: 4px;
@@ -488,14 +490,14 @@ footer #link-grid div{
   top: -9px;
   width: 0%;
   left: 50%;
-}
 
+}
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
   width: 24px;
-  height: 18px;
+  height: auto;
   position: relative;
-  margin: 18px auto;
+  margin: 12px auto 0 auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);

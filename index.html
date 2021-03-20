@@ -48,6 +48,7 @@
               <span></span>
             </div>
           </a>
+         
         </div>
       </nav>
       <nav>
@@ -182,11 +183,7 @@
   </body>
   <script>
 
-$(document).ready(function(){
-  $("#nav-icon3").click(function(){
-    $(this).toggleClass('open');
-  });
-});
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
   document.getElementById("down").classList.toggle("rotate");
@@ -196,7 +193,9 @@ function myMobileFunction() {
   document.getElementById("myDropdown-mobile").classList.toggle("show");
   document.getElementById("down").classList.toggle("rotate");
 }
+
 function sandwichFunction() {
+  $("#nav-icon3").toggleClass('open');
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
