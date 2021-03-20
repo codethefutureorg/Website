@@ -1,16 +1,21 @@
 @font-face {
   font-family: "Soleil Regular";
-  src: url("font/SoleilRegular.otf");
+  src: url("font/Soleil Regular.otf");
 }
 
 @font-face {
   font-family: "Soleil Bold";
-  src: url("font/SoleilBold.otf");
+  src: url("font/Soleil Bold.otf");
+}
+
+@font-face {
+  font-family: "Soleil Book";
+  src: url("font/Soleil Book.otf");
 }
 
 @font-face {
   font-family: "Soleil Semibold";
-  src: url("font/SoleilSemiBold.otf");
+  src: url("font/Soleil SemiBold.otf");
 }
 
 html {
@@ -179,7 +184,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Soleil Semibold";
+  font-family: "Soleil Book";
   font-size: 25px;
   margin-bottom: 15px;
 }
@@ -194,7 +199,7 @@ p {
 }
 
 h4 {
-  font-family: "Soleil Bold";
+  font-family: "Soleil Book";
   color: black;
   font-size: 18px;
   margin-bottom: 5px;
@@ -247,29 +252,21 @@ h4 {
 }
 
 .collapsible {
-  font-family: "Soleil Regular";
+  font-family: "Soleil SemiBold";
   background-color: #F3F3F3;
-  color: black;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 6px 10px 5px 12px;
   text-align: center;
-  width: 140px;
+  width: 130.7px;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
   transition: background-color 0.3s ease-in;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   margin-top: -20px;
-}
-
-.skill-grid:after{
-   content: ".";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  color: black;
 }
 .round{
   background-color: #F3F3F3;
@@ -279,25 +276,14 @@ h4 {
 .collapsible:after {
   content: '\002B';
   color: black;
+  display: inline-block;
   font-weight: bold;
   margin-left: 5px;
-  margin-right: 25px;
+  margin-right: 5px;
 }
 
 .activeC:after {
   content: "\2212";
-}
-
-.content {
-  font-family: "Soleil Regular";
-  padding: 0px 10px;
-  max-width: 60%;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #F3F3F3;
-  border-radius: 0px 4px 4px 4px;
-  display: block;
 }
 
 .contentClicked {
@@ -314,22 +300,36 @@ h4 {
 }
 
 .skill-grid {
-  width: 100%;
   margin-bottom: 10px;
-  grid-column-gap: 0px;
-  grid-row-gap: 7px
+  background-color: #F3F3F3;
+  display: inline-block;
+  padding: 0px 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-radius: 0px 4px 4px 4px;
+}
+
+.skill-grid .grid{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .skill-grid p {
-  display: inline-block;
-  float: left;
-  margin-right: 8px;
-  margin-bottom: 5px;
   font-weight: bold;
   font-size: .9rem;
   padding: 4px 8px 2px 8px;
   border-radius: 5px;
   color: white;
+}
+
+.skill-grid:after{
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 10px;
+   clear: both;
 }
 
 .literacy {
@@ -345,11 +345,7 @@ h4 {
 }
 
 .math {
-  background-color: #15B8FF;
-}
-
-.mission-info {
-  margin-left: 0px;
+  background-color: #14B8FF;
 }
 
 .mission {
@@ -363,7 +359,7 @@ h4 {
 }
 
 .worksheet:hover {
-  transform: rotate(-5deg) translateY(10px);
+  transform: rotate(-3deg) translateY(-5px);
   transition: 0.3s;
 }
 
@@ -378,20 +374,6 @@ h4 {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 660px) {
-  h1{
-    font-size: 3.8rem;
-  }
-  h2{
-    width: 80%;
-  }
-  #header{
-    padding: 100px 0px;
-  }
-  #lessons{
-    margin: 80px 45px 20px 45px;
-  }
-}
 
 @media only screen and (max-width: 660px) {
   #mobile-nav{
@@ -494,14 +476,6 @@ h4 {
   bottom: 0;
   left: 10px;
 }
-.collapsible {
-  font-family: "Soleil SemiBold";
-  color: black;
-  margin-top: -30px;
-  font-size: 18px;
-  padding-bottom: 5px;
-  width: 160px;
-}
 
 @media screen and (max-width: 1000px) {
   .fade{
@@ -513,24 +487,19 @@ h4 {
     font-size: 16px;
   }
   #lessons h2{
-    margin-left: 20%;
+    margin-left: 15%;
   }
   #mission-container{
     width: 80%;
-    margin-left: 20%;
+    margin-left: 15%;
+  }
+  .skill-grid{
+    width: 77%;
   }
   .worksheet {
     max-width: 150px;
     padding: 10px 40px 30px 30px;
     transition: 0.3s;
-  }
-  .collapsible {
-    font-family: "Soleil SemiBold";
-    color: black;
-    margin-top: -30px;
-    font-size: 18px;
-    padding-bottom: 5px;
-    width: 160px;
   }
   .activeC:before {
     padding: 0;
@@ -540,19 +509,102 @@ h4 {
     flex-direction: column;
     margin-bottom: 40px;
   }
-  .skill-grid{
-    margin-top: 0px;
-    margin-bottom: 15px;
-    min-width: 160px;
-  }
 }
 
 @media screen and (max-width: 700px) {
+  .mission-info{
+    width: 90%;
+  }
+  #lessons h2{
+    margin-left: 10%;
+  }
+  #mission-container{
+    width: 90%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .skill-grid .grid{
+    width: content;
+  }
+  h1{
+    font-size: 3.8rem;
+  }
+  h2{
+    font-size: 16px;
+    width: 80%;
+  }
+  .mission-info{
+    width: 100%;
+  }
+  #header{
+    padding: 100px 0px;
+  }
+  #lessons{
+    margin: 80px 25px 20px 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1{
+    font-size: 3.2rem;
+  }
+  h2{
+    width: 80%;
+  }
+  #lessons{
+    margin: 40px 25px 20px 25px;
+  }
+  .mission-info{
+    width: 100%;
+  }
   #lessons h2{
     margin-left: 5%;
+    font-size: 2rem;
   }
   #mission-container{
     width: 90%;
     margin-left: 5%;
+  }
+  #alon-planet {
+    max-width: 300px;
+  }
+  .mission::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #E1E1E1;
+    border: 4px solid #E1E1E1;
+    top: 10px;
+    border-radius: 50%;
+    z-index: 1;
+    left: 3px;
+  }
+  .mission{
+    padding: 10px 0px 70px 0px;
+    position: relative;
+    background-color: inherit;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 25px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #lessons{
+    margin: 40px 15px 20px 15px;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    width: 80%;
+  }
+  #alon-planet {
+    max-width: 250px;
   }
 }
