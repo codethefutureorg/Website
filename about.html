@@ -1,82 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.8, minimum-scale=0.8">
-  <head>
-    <meta charset="utf-8">
-    <title>Code the Future - About</title>
-    <link rel='icon' href='Images/Favicon.png' type='image/x-icon'/ >
-    <link rel="stylesheet" href="style.css">
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>About | CS Hands-On</title>
+	<link rel="stylesheet" href="about.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/general/favicon-colored.png"/>
   </head>
-  <body id="about">
-    <nav>
-      <ul>
-        <a href="/"><li><img src= "Images/Logo.png" id="logo" alt="Logo" width='70px'/></li></a>
-        <li id="placeholder">   .............  </li>
-        <li><a href="/">HOME</a></li>
-        <li><a href="about" id="on">ABOUT</a></li>
-        <li><a href="contact">CONTACT</a></li>
-        <li><a href="faq">FAQS</a></li>
-      </ul>
+
+<body>
+  <div class="header">
+    <nav id = "mobile-nav">
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="/newSite/index">HOME</a>
+        <a href="/newSite/curriculum">CURRICULUM</a>
+        <a href="/newSite/about">ABOUT</a>
+        <a href="/newSite/contact">CONTACT</a>
+      </div>
+      <div style = "background-color: orange">
+        <img style="float:left" id = "favicon" src="img/general/favicon.png" alt="lightbulb">
+        <button style="float:right" id="openbtn" onclick="openNav()">☰</button>
+      </div>
     </nav>
-    <br><br><br><br><br>
-    <div id="about-header">
-      <h1>ABOUT</h1>
-      <p id="mission-statement"><strong>We are a team of dedicated high school students with a mission to empower students into STEM.</strong></p>
+    <nav id = "desktop-nav">
+      <ul>
+      <li><img id = "favicon" src="img/general/favicon.png" alt="lightbulb"></li>
+      <div id = "flex"  style="float:right;">
+        <li><a href="/newSite/index.html">HOME</a></li>
+        <li style="float:right"><div id = "center"><img src="img/home/circle.png" alt=""</div></li>
+        <li style="float:right"><a href="/newSite/curriculum.html">CURRICULUM</a></li>
+        <li><img src="img/home/circle.png" alt=""></li>
+        <li style="float:right"><a class="active" href="/newSite/about.html">ABOUT</a></li>
+        <li><img src="img/home/circle.png" alt=""></li>
+        <li style="float:right"><a href="/newSite/contact.html">CONTACT</a></li>
+      </div>
+    </ul>
+    </nav>
+    <h1>About Us</h1>
+    <h2>Meet the team!</h2>
+    <img id = "group-hug" src="img/about/mascot-group-hug.png"/>
+  </div>
+
+  <div class="our-mission">
+      <h3>Our Story</h3>
+      <p>We started with a mission to make computer science education an inclusive subject for all students, not just those with access to technology. After months of brainstorming and inventing, we built our CS Fundamentals curriculum to teach computer science in an engaging, yet technology-free way. At Code the Future, we're all about inclusivity!</p>
+  </div>
+  <div id = "line"></div>
+
+  <h3 id="our-team">Our Team</h3>
+  <div class="team">
+    <div class="team-item">
+      <div class = "headshot">
+        <img src="img/about/chloe.jpg"/>
+      </div>
+      <div class="team-text">
+        <h4>Chloe Yan</h4>
+        <h5>Co-Founder</h5>
+        <p>Chloe is a high school junior from the SF Bay Area passionate about computer science and making the world a better place. In her free time, she loves developing mobile apps and running cross country.</p>
+      </div>
     </div>
-    <br><br><br><br><br><br><br><br>
-    <!-- CHLOE'S PROFILE -->
-    <div id="profiles">
-      <div>
-        <img src="Images/Chloe.png" alt="Chloe Yan">
+    <div class="team-item">
+      <div class = "headshot">
+        <img src="img/about/fara.jpeg"/>
       </div>
-      <div class="profile-text">
-        <h2 id="name">Chloe Yan</h2>
-        <br>
-        <h5 class="positions">Co-Founder | Scratch Instructor</h5>
-        <h5 class="bio">High school junior from the SF Bay Area passionate about computer science and making the world a better place. Loves developing websites/mobile apps, drinking matcha lattes, and running cross country.</h5>
+      <div class="team-text">
+        <h4>Fara Yan</h4>
+        <h5>Co-Founder</h5>
+        <p>Fara is a high school junior from the SF Bay Area enthusiastic to make a positive impact in computer science education. She enjoys distance running, web development, and baking!</p>
       </div>
-  </div>
-  <br>
-  <!-- FARA'S PROFILE -->
-  <div id="profiles">
-    <div>
-      <img src="Images/Fara 2.png" alt="Fara Yan">
     </div>
-    <div class="profile-text">
-      <h2 id="name">Fara Yan</h2>
-      <br>
-      <h5 class="positions">Co-Founder | Scratch Instructor</h5>
-      <h5 class="bio">High school junior at Burlingame High School, with a passion for web and iOS app development, as well as machine learning and AI. Enjoys running cross country and hopes to pursue a path in computer science in the future.</h5>
+    <div class="team-item">
+      <div class = "headshot">
+        <img src="img/about/Maya.jpeg"/>
+      </div>
+      <div class="team-text">
+        <h4>Maya Dummett</h4>
+        <h5>Curriculum Director</h5>
+        <p>Maya is a high school junior from northern New Jersey passionate about using computer science for social justice. She loves web development, iced coffee, and musical theatre.</p>
+      </div>
+    </div>
+    <div class="team-item">
+      <div class = "headshot">
+        <img src="img/about/Dhruv.jpg"/>
+      </div>
+      <div class="team-text">
+        <h4>Dhruv Venkat</h4>
+        <h5>Curriculum Director</h5>
+        <p>Dhruv is a high school freshman from Calgary, Canada, and has been coding for 3 years. He loves programming, particularly in HTML/CSS and Python, playing video games, and swimming!</p>
+      </div>
     </div>
   </div>
-  <!-- DHRUV'S PROFILE -->
-    <div id="profiles">
-      <div>
-        <img src="Images/DhruvVenkat.png" alt="Dhruv Venkat">
-      </div>
-      <div class="profile-text">
-        <h2 id="name">Dhruv Venkat</h2>
-        <br>
-        <h5 class="positions">HTML/CSS Instructor</h5>
-        <h5 class="bio">Dhruv is a high school freshman from Calgary, Canada, and has been coding for 3 years. He loves programming, particularly in HTML/CSS and Python, playing video games, and swimming!</h5>
-      </div>
-  </div>
-  <!-- MAYA'S PROFILE -->
-    <div id="profiles">
-      <div>
-        <img src="Images/Maya.png" alt="Maya Dummett">
-      </div>
-      <div class="profile-text">
-        <h2 id="name">Maya Dummett</h2>
-        <br>
-        <h5 class="positions">HTML/CSS Instructor</h5>
-        <h5 class="bio">High school junior from northern New Jersey passionate about using computer science for social justice. Loves web development, iced coffee, and musical theatre.</h5>
-      </div>
-  </div>
-  <br><br><br>
-  </body>
-  <footer>
-    <p id="footer-about">© June 2020<br>Made with ♡ by Code the Future</p>
-    <br>
-  </footer>
+</body>
+  <script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
 </html>
