@@ -141,7 +141,7 @@ nav #links a {
 
 /* LANDING */
 
-#landing {
+.landing {
   background-image: url("img/home/home-background-desktop.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -456,7 +456,7 @@ h5 {
 
 @media only screen and (max-width: 768px) {
 
-  #landing {
+  .landing {
     background-image: url("img/home/home-background-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -465,7 +465,7 @@ h5 {
     top: 0px;
   }
 
-  #landing img {
+  .landing img {
     width: 400px;
   }
 
@@ -503,9 +503,13 @@ h5 {
     visibility: hidden;
   }
 
-  #landing img {
+  .landing img {
     margin-top: -30px;
     width: 70%;
+  }
+
+  #title-image {
+    width: 90%;
   }
 
   .gray-separator {
@@ -590,7 +594,7 @@ h5 {
     visibility: hidden;
   }
 
-  #landing img {
+  .landing img {
     margin-top: -30px;
     width: 70%;
   }
@@ -630,7 +634,7 @@ h5 {
 
   .explore-coding img {
     margin-top: 40px;
-    width: 280px;
+    width: 90%;
   }
 
   .for-students {
@@ -641,7 +645,7 @@ h5 {
 
   .for-students img {
     margin-top: 20px;
-    width: 280px;
+    width: 90%;
     padding: 0px;
   }
 
@@ -653,7 +657,7 @@ h5 {
 
   .for-educators img {
     margin-top: 20px;
-    width: 280px;
+    width: 90%;
     padding: 0px;
   }
 
@@ -676,6 +680,10 @@ h5 {
 
   .begin img {
     width: 80%;
+  }
+
+  #title-image {
+    width: 90%;
   }
 
 }
@@ -927,5 +935,11 @@ footer #link-grid div{
     width: auto;
     background-color: #1B3373;
     padding: 60px 25px 15px 25px;
+  }
+}
+
+@media (hover: hover) {
+  img {
+    transform: none;
   }
 }
