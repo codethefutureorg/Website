@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Soleil Regular";
   src: url("font/Soleil Regular.otf");
@@ -242,16 +243,6 @@ h4 {
 .worksheet:hover {
   transform: rotate(-3deg) translateY(-5px);
   transition: 0.3s;
-}
-
-
-@media only screen and (max-width: 660px) {
-  #mobile-nav{
-    visibility: visible;
-  }
-  #desktop-nav{
-    visibility: hidden;
-  }
 }
 
 /**/
