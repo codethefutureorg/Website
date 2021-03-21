@@ -1,13 +1,16 @@
+//Curriculum Dropdown Bar
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
   document.getElementById("down").classList.toggle("rotate");
 }
 
+//Mobile Curriculum Dropdown Bar
 function myMobileFunction() {
   document.getElementById("myDropdown-mobile").classList.toggle("show");
   document.getElementById("down").classList.toggle("rotate");
 }
 
+//Sandwich Mobile Dropdown Bar
 function sandwichFunction() {
   $("#nav-icon3").toggleClass('open');
   var x = document.getElementById("myLinks");
@@ -18,6 +21,7 @@ function sandwichFunction() {
   }
 }
 
+//Curriculum Dropdown Bar - Closes dropdown if clicked outside of dropdown
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("myDropdown");

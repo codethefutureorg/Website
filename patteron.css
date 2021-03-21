@@ -25,128 +25,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-
 }
-
-/* NAV BAR */
-nav ul {
-  font-family: "Soleil Regular";
-  display: block;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-}
-
-#desktop-nav{
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-#favicon{
-  margin: 18px 15px 15px 23px;
-  width: 40px;
-}
-
-nav li a {
-  color: #15B8FF;
-  font-weight: bold;
-  display: block;
-  vertical-align: middle;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 1.05rem;
-  padding: 14px 15px;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-nav li a:hover {
-  color: #15B8FF;
-}
-
-#flex {
-  margin-top: 15px;
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav li {
-  float: left;
-}
-
-#flex li img{
-  opacity: 0.8;
-  max-width: 6px;
-  float: right;
-  padding: 0px 6px;
-  display: block;
-  margin-top: 10.5px;
-  margin: auto;
-}
-
-nav .active{
-  color: #15B8FF;
-}
-
-.dropbtn:hover ~ #arrow-up, .dropdown-content:hover ~ #arrow-up{
-  display: block;
-}
-
-.dropbtn:hover + .non-dropdown{
-  margin-top: -8px;
-  color: blue;
-}
-
-.dropdown .dropbtn {
-  border: none;
-  outline: none;
-  color: #15B8FF;
-  background-color: inherit;
-  margin: 0 auto;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgba(255, 255, 255, .2);
-  border-radius: 20px;
-  min-width: 180px;
-  margin: 0 auto;
-  margin-left: -20px;
-  margin-top: 0px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
-  z-index: 1;
-  padding: 2px 0px;
-}
-
-.sublink {
-  font-size: .9rem;
-  text-align: center;
-  text-decoration: none;
-}
-
-.dropdown-content a {
-  color: #E6DDFF;
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px 8px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
-.dropdown-content a:hover {
-  color: #15B8FF;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 /* COVER */
 
 #header{
@@ -367,18 +246,6 @@ h4 {
   transition: 0.3s;
 }
 
-/* MOBILE NAV BAR */
-#mobile-nav{
-  visibility: hidden;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  right: 0;
-  margin: 0;
-  overflow: hidden;
-}
-
-
 @media only screen and (max-width: 660px) {
   #mobile-nav{
     visibility: visible;
@@ -386,53 +253,6 @@ h4 {
   #desktop-nav{
     visibility: hidden;
   }
-}
-
-
-.sidepanel  {
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  height: 100%;
-  top: 0;
-  right: 0;
-  background-color: rgba(78, 34, 201, 0.8);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidepanel a {
-  font-family: "Soleil Book";
-  text-align: left;
-  font-weight: bold;
-  padding: 15px 8px 15px 42px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #15B8FF;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidepanel .closebtn {
-  position: absolute;
-  font-weight: lighter;
-  top: -15px;
-  right: 11px;
-  margin: 10px;
-  font-size: 45px;
-}
-
-#openbtn {
-  font-family: "Soleil Book";
-  font-size: 30px;
-  cursor: pointer;
-  color: #15B8FF;
-  margin: 15px;
-  background-color: none;
-  padding: 0px 15px;
-  border: none;
-  background-color: Transparent;
 }
 
 /**/
