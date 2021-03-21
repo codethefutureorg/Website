@@ -1,3 +1,32 @@
+@font-face {
+  font-family: "Soleil Regular";
+  src: url("font/Soleil Regular.otf")
+}
+
+@font-face {
+  font-family: "Soleil Book";
+  src: url("font/Soleil Book.otf")
+}
+@font-face {
+  font-family: "Soleil Light";
+  src: url("font/Soleil Light.otf")
+}
+@font-face {
+  font-family: "Soleil SemiBold";
+  src: url("font/Soleil SemiBold.otf")
+}
+@font-face {
+  font-family: "Soleil Bold";
+  src: url("font/Soleil Bold.otf")
+}
+@font-face {
+  font-family: "Mikado Medium";
+  src: url("font/Mikado Medium.ttf")
+}
+@font-face {
+  font-family: "Mikado Regular";
+  src: url("font/Mikado Regular.ttf")
+}
 /* DESKTOP NAV */
 #desktop-nav {
   background-color: white;
@@ -134,53 +163,7 @@ nav i{
     visibility: hidden;
   }
 }
-/*
-.sidepanel  {
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  height: 100%;
-  top: 0;
-  right: 0;
-  background-color: rgba(6, 71, 130, 0.8);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
 
-.sidepanel a {
-  font-family: "Soleil Bold";
-  text-align: left;
-  padding: 15px 8px 15px 42px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidepanel .closebtn {
-  position: absolute;
-  font-weight: lighter;
-  top: -15px;
-  right: 11px;
-  margin: 10px;
-  font-size: 45px;
-}
-
-#openbtn {
-  font-family: "Soleil Regular";
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
-  margin: 15px;
-  background-color: none;
-  padding: 0px 15px;
-  border: none;
-  background-color: Transparent;
-}
-
-*/
 /* FOOTER */
 footer{
   background-color: #1B3373;
@@ -275,12 +258,6 @@ footer #copyright{
   font-family: "Soleil Light";
   font-size: 14px;
   text-align: center;
-}
-footer #link-grid{
-  background-color: ble;
-}
-footer #link-grid div{
-  background-color: orane;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -390,9 +367,7 @@ footer #link-grid div{
 }
 
 
-
-
-/**/
+/* MOBILE NAV BAR */
 #mobile-nav{
   top: 0;
   right: 0;
@@ -461,8 +436,6 @@ footer #link-grid div{
   color: #1B5BFF;
 }
 
-/* Icon 3 */
-
 #nav-icon3 span:nth-child(1) {
   color: black;
   top: -18px;
@@ -503,7 +476,7 @@ footer #link-grid div{
 
 }
 
-#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+#nav-icon3{
   width: 24px;
   height: auto;
   position: relative;
@@ -519,7 +492,7 @@ footer #link-grid div{
   cursor: pointer;
 }
 
-#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+#nav-icon3 span{
   display: block;
   position: absolute;
   height: 3.6px;
