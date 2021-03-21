@@ -103,16 +103,6 @@ h4 {
   border: 2px solid #84CAF1;
 }
 
-.download:hover{
-  background-color: #0995E3;
-  color: #fff;
-}
-
-.fade:hover{
-  background-color: #84CAF1;
-  color: #fff;
-}
-
 /* LESSON PLANS */
 
 #lessons {
@@ -240,12 +230,6 @@ h4 {
   padding: 5px 40px 40px 30px;
   transition: 0.3s;
 }
-
-.worksheet:hover {
-  transform: rotate(-3deg) translateY(-5px);
-  transition: 0.3s;
-}
-
 
 /**/
 .mission{
@@ -422,5 +406,22 @@ h4 {
   }
   #alon-planet {
     max-width: 250px;
+  }
+}
+
+
+@media only screen and (min-width: 700px) { 
+  .worksheet:hover {
+    transform: rotate(-3deg) translateY(-5px);
+    transition: 0.3s;
+  }
+  .download:hover{
+    background-color: #0995E3;
+    color: #fff;
+  }
+
+  .fade:hover{
+    background-color: #84CAF1;
+    color: #fff;
   }
 }

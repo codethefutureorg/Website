@@ -131,10 +131,6 @@ nav #links .page-link {
   text-align: left;
 }
 
-.dropdown-content a:hover {
-  text-decoration: underline;
-}
-
 .show {
   display: block;
 }
@@ -244,9 +240,6 @@ footer a{
   display: block;
 }
 
-footer a:hover{
-  text-decoration: underline;
-}
 
 footer #line{
   margin: 25px 0px 15px 0px;
@@ -514,3 +507,11 @@ footer #copyright{
   transition: .25s ease-in-out;
 }
 
+@media only screen and (min-width: 700px) { 
+  .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+}

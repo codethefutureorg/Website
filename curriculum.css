@@ -167,24 +167,6 @@ span{
 	transition: box-shadow 0.2s ease-in-out;
 }
 
-.Abstractopia:hover{
-	box-shadow:inset 0px 0px 0px 5px rgba(220, 207, 255, 0.3);
-}
-.Logicland:hover{
-	box-shadow:inset 0px 0px 0px 5px rgba(255, 215, 154, 0.3);
-}
-.Algorithopoly:hover{
-	box-shadow:inset 0px 0px 0px 5px rgba(255, 215, 202, 0.3);
-}
-.Decomposphere:hover{
-	box-shadow:inset 0px 0px 0px 5px rgba(181, 255, 197, 0.3);
-}
-.Evaluatus:hover{
-	box-shadow:inset 0px 0px 0px 5px rgba(160, 210, 255, 0.3);
-}
-.Patteron:hover{
-	box-shadow:inset 0px 0px 0px 5px rgba(255, 193, 189, 0.3);
-}
 
 @media only screen and (max-width: 950px) {
 	#planet-grid{
@@ -234,4 +216,25 @@ span{
     margin-top: -20px;
   }
 
+}
+
+@media only screen and (min-width: 700px) { 
+	.Abstractopia:hover{
+		box-shadow:inset 0px 0px 0px 5px rgba(220, 207, 255, 0.3);
+	}
+	.Logicland:hover{
+		box-shadow:inset 0px 0px 0px 5px rgba(255, 215, 154, 0.3);
+	}
+	.Algorithopoly:hover{
+		box-shadow:inset 0px 0px 0px 5px rgba(255, 215, 202, 0.3);
+	}
+	.Decomposphere:hover{
+		box-shadow:inset 0px 0px 0px 5px rgba(181, 255, 197, 0.3);
+	}
+	.Evaluatus:hover{
+		box-shadow:inset 0px 0px 0px 5px rgba(160, 210, 255, 0.3);
+	}
+	.Patteron:hover{
+		box-shadow:inset 0px 0px 0px 5px rgba(255, 193, 189, 0.3);
+	}
 }
