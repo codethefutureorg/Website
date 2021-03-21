@@ -90,6 +90,7 @@ nav #links .page-link {
 
 .dropdown {
   float: left;
+  text-align: left;
   overflow: hidden;
 }
 
@@ -389,6 +390,7 @@ footer #copyright{
 }
 
 #mobile-nav p{
+  text-align: left;
   font-family: Mikado Medium;
   font-size: 22px;
   color: #1B5BFF;
@@ -418,6 +420,7 @@ footer #copyright{
 }
 
 .topnav a {
+  text-align: left;
   font-family: "Soleil Semibold";
   color: #1B5BFF;
   font-size: 16px;
