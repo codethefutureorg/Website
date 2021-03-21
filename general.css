@@ -199,6 +199,11 @@ footer #info .flex{
   margin-bottom: 15px;
 }
 
+footer #info .flex h2{
+  font-family: "Mikado Medium";
+  margin-top: 2px;
+}
+
 footer #info{
   width: 70%;
 }
@@ -221,7 +226,7 @@ footer #info p{
   color: rgba(255, 255, 255, .7);
   font-family: "Soleil Regular";
   font-size: 18px;
-  line-height: 143%;
+  line-height: 173%;
 }
 
 footer #info img{
