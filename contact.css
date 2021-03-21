@@ -33,7 +33,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
-	padding: 155px 0px;
+	padding: 220px 0px 155px 0px;
 	position: relative;
 	top: 0px;
 }
@@ -172,5 +172,61 @@ img {
   }
   #desktop-nav{
     visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  h1 {
+    font-size: 60px;
+  }
+  #mascot-call {
+    margin-top: 40px;
+    width: 80%;
+  }
+  #header {
+    padding: 220px 0px 170px 0px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  #mascot-call {
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  #header {
+    padding: 220px 0px 160px 0px;
+    text-align: center;
+  }
+
+  #contact-body{
+    display: flex;
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  #contact-grid {
+  	display: grid;
+    margin: auto;
+    padding: 0px;
+  	grid-template-columns: repeat(1, 1fr);
+  	grid-column-gap: 60px;
+    grid-row-gap: 60px;
+  }
+
+  #contact-grid div{
+    background-color: #F0F0F0;
+    border-radius: 4px;
+    padding: 25px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    align-self: center;
   }
 }
