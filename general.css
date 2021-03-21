@@ -222,6 +222,7 @@ footer #link-grid{
 }
 
 footer h3{
+  text-align: left;
   font-family: "Soleil Light";
   font-size: 14px;
   color: rgba(255, 255, 255, .7);
