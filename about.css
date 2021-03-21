@@ -148,8 +148,8 @@ h4, h5 {
   }
 
   #our-team {
-    margin-left: 120px;
-    margin-bottom: -80px;
+    text-align: center;
+    margin-bottom: -60px;
     margin-top: 30px;
   }
 
@@ -185,7 +185,8 @@ h4, h5 {
   }
 
   .team-item img{
-    margin-top: 10px;
+    margin-top: -5px;
+    margin-bottom: 10px;
     max-height: 135px;
     max-width: 135px;
     object-fit: cover;
@@ -206,6 +207,9 @@ h4, h5 {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 40px;
+    margin-top: 5px;
+    width: 70%;
+    margin-left: 20px;
   }
 
   .team-item {
@@ -217,8 +221,8 @@ h4, h5 {
   }
 
   #our-team {
-    margin-left: 120px;
-    margin-bottom: -80px;
+    text-align: center;
+    margin-bottom: -70px;
     margin-top: 30px;
   }
 
