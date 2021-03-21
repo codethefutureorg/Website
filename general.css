@@ -21,10 +21,15 @@
 #desktop-nav p{
   font-family: Mikado Medium;
   font-size: 20px;
-  color: #003BD1;
+  color: #1B5BFF;
+}
+
+#desktop-nav #flex p{
+  margin-top: 2.2px;
 }
 
 nav #flex{
+  margin-top: -0.5px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -37,7 +42,7 @@ nav #links{
 
 nav #links .page-link {
   font-family: "Soleil Semibold";
-  color: #003BD1;
+  color: #1B5BFF;
   float: left;
   font-size: 16px;
   text-align: center;
@@ -67,7 +72,7 @@ nav #links .page-link {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: #003BD1;
+  color: #1B5BFF;
   padding: 14px 16px;
   margin-top: -1px;
   background-color: white;
@@ -81,7 +86,7 @@ nav #links .page-link {
   background-color: white;
   box-shadow: 0px 15px 12px rgba(112, 112, 112, 0.1);
   z-index: 1;
-  padding: 0px 5px 10px 5px;
+  padding: 0px 5px 15px 5px;
   border-radius: 0px 0px 5px 5px;
   width: content;
 }
@@ -89,8 +94,8 @@ nav #links .page-link {
 .dropdown-content a {
   float: none;
   font-family: "Soleil Book";
-  color: #003BD1;
-  padding: 12px 16px;
+  color: #1B5BFF;
+  padding: 12px 25px 5px 18px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -405,8 +410,8 @@ footer #link-grid div{
 
 #mobile-nav p{
   font-family: Mikado Medium;
-  font-size: 19px;
-  color: #003BD1;
+  font-size: 22px;
+  color: #1B5BFF;
   margin-left: -8px;
 }
 
@@ -434,7 +439,7 @@ footer #link-grid div{
 
 .topnav a {
   font-family: "Soleil Semibold";
-  color: #003BD1;
+  color: #1B5BFF;
   font-size: 16px;
   padding: 14px 16px;
   text-decoration: none;
@@ -448,7 +453,7 @@ footer #link-grid div{
   position: absolute;
   right: 4px;
   top: 4px;
-  color: #003BD1;
+  color: #1B5BFF;
 }
 
 /* Icon 3 */
@@ -514,7 +519,7 @@ footer #link-grid div{
   position: absolute;
   height: 3.6px;
   width: 100%;
-  background: #003BD1;
+  background: #1B5BFF;
   border-radius: 9px;
   opacity: 1;
   left: 0;
