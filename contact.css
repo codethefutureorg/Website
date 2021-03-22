@@ -2,15 +2,17 @@
   font-family: "Soleil Regular";
   src: url("font/Soleil Regular.otf")
 }
-
-@font-face {
-  font-family: "Soleil Medium";
-  src: url("font/Soleil Medium.otf")
-}
-
 @font-face {
   font-family: "Soleil Book";
   src: url("font/Soleil Book.otf")
+}
+@font-face {
+  font-family: "Soleil SemiBold";
+  src: url("font/Soleil SemiBold.otf")
+}
+@font-face {
+  font-family: "Soleil Bold";
+  src: url("font/Soleil Bold.otf")
 }
 @font-face {
   font-family: "Mikado Medium";

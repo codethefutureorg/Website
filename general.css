@@ -2,7 +2,6 @@
   font-family: "Soleil Regular";
   src: url("font/Soleil Regular.otf")
 }
-
 @font-face {
   font-family: "Soleil Book";
   src: url("font/Soleil Book.otf")
@@ -27,6 +26,7 @@
   font-family: "Mikado Regular";
   src: url("font/Mikado Regular.ttf")
 }
+
 /* DESKTOP NAV */
 #desktop-nav {
   background-color: white;
@@ -99,7 +99,7 @@ nav #links .page-link {
   font-family: "Soleil Semibold";
   position: relative;
   cursor: pointer;
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: #1B5BFF;
@@ -508,7 +508,7 @@ footer #copyright{
   transition: .25s ease-in-out;
 }
 
-@media only screen and (min-width: 700px) { 
+@media only screen and (min-width: 700px) {
   .dropdown-content a:hover {
     text-decoration: underline;
   }
