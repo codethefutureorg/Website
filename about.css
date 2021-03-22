@@ -80,6 +80,13 @@ h3 {
   font-size: 18px;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: 2000px;
+    visibility: hidden;
+}
+
 .our-mission p {
   text-align: center;
   width: 60%;
