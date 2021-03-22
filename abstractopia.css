@@ -1,21 +1,26 @@
 @font-face {
   font-family: "Soleil Regular";
-  src: url("font/Soleil Regular.otf");
+  src: url("font/Soleil Regular.otf")
 }
-
-@font-face {
-  font-family: "Soleil Bold";
-  src: url("font/Soleil Bold.otf");
-}
-
 @font-face {
   font-family: "Soleil Book";
-  src: url("font/Soleil Book.otf");
+  src: url("font/Soleil Book.otf")
 }
-
 @font-face {
-  font-family: "Soleil Semibold";
-  src: url("font/Soleil SemiBold.otf");
+  font-family: "Soleil SemiBold";
+  src: url("font/Soleil SemiBold.otf")
+}
+@font-face {
+  font-family: "Soleil Bold";
+  src: url("font/Soleil Bold.otf")
+}
+@font-face {
+  font-family: "Mikado Medium";
+  src: url("font/Mikado Medium.ttf")
+}
+@font-face {
+  font-family: "Mikado Regular";
+  src: url("font/Mikado Regular.ttf")
 }
 
 html {
@@ -48,7 +53,7 @@ html {
 }
 
 h1 {
-  font-family: "Mikado";
+  font-family: "Mikado Medium";
   font-size: 65px;
   color: #6D37FF;
   margin-top: -40px;
@@ -403,7 +408,7 @@ h4 {
   }
 }
 
-@media only screen and (min-width: 700px) { 
+@media only screen and (min-width: 700px) {
   .worksheet:hover {
     transform: rotate(-3deg) translateY(-5px);
     transition: 0.3s;
