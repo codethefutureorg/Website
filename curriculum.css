@@ -37,16 +37,6 @@ body {
 	background-color: #FFFFFF;
 }
 
-img {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  transition: 0.25s ease;
-}
-
 #header {
 	background-image: url(img/curriculum/header-background.png);
 	background-size: cover;

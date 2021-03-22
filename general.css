@@ -185,6 +185,7 @@ footer #info .flex h2{
 }
 
 footer #info{
+  text-align: left;
   width: 70%;
 }
 
@@ -216,6 +217,7 @@ footer #info img{
 }
 
 footer #link-grid{
+  text-align: left;
   display: grid;
   grid-column-gap: 80px;
   grid-template-columns: 110px 110px 100px;

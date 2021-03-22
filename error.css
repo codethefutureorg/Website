@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Soleil Regular";
+  src: url("font/Soleil Regular.otf")
+}
+@font-face {
+  font-family: "Mikado Medium";
+  src: url("font/Mikado Medium.ttf")
+}
+@font-face {
+  font-family: "Mikado Regular";
+  src: url("font/Mikado Regular.ttf")
+}
+@font-face {
+  font-family: "Soleil Book";
+  src: url("font/Soleil Book.otf")
+}
+@font-face {
+  font-family: "Soleil Bold";
+  src: url("font/Soleil Bold.otf")
+}
+@font-face {
+  font-family: "Soleil SemiBold";
+  src: url("font/Soleil SemiBold.otf")
+}
+@font-face {
+  font-family: "Soleil Italic";
+  src: url("font/Soleil Italic.otf")
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+#mobile-nav{
+	visibility: hidden;
+}
+
+@media only screen and (max-width: 660px) {
+  #mobile-nav{
+    visibility: visible;
+  }
+  #desktop-nav{
+    visibility: hidden;
+  }
+}
+
+#header {
+	background-image: url("img/general/error-bkg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 200px 0px 0px 0px;
+	position: relative;
+  	text-align: center;
+	top: 0px;
+}
+
+#main p{
+	font-family: "Mikado Regular";
+	font-size: 20px;
+	line-height: 29px;
+	width: 400px;
+	margin: 0 auto;
+	color: #F3F3F3;
+	padding: 30px 0px 45px 0px;
+}
+
+#error-lex{
+	max-width: 500px;
+}
+
+#return-home {
+	font-family: "Soleil Book";
+	font-size: 17px;
+	text-decoration: none;
+	color: #F3F3F3;
+	border: 3px solid #F3F3F3;
+	background-color: none;
+	padding: 13px 20px 10px 20px;
+	border-radius: 7px;
+	display: inline-block;
+	transition: background-color 0.15s ease-in;
+}
+
+@media only screen and (min-width: 700px) {
+  #return-home:hover{
+    background-color: #F3F3F3;
+    color: #0061BB;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+	#error-lex{
+		max-width: 400px;
+	}
+	#main p{
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	#error-lex{
+		max-width: 330px;
+	}
+	#main p{
+		width: 280px;
+	}
+
+}
+
+@media only screen and (max-width: 380px) {
+	#error-lex{
+		max-width: 290px;
+	}
+	#main p{
+		width: 250px;
+	}
+
+}

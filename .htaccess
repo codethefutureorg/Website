@@ -6,3 +6,5 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 RewriteCond %{THE_REQUEST} /home.html HTTP [NC]
 RewriteRule (.*)home.html$ /$1 [R=301,L]
+
+ErrorDocument 404 /error.html
