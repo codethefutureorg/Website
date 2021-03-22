@@ -255,14 +255,6 @@ h4, h5 {
     margin-top: 5px;
   }
 
-  .team-item img{
-    max-height: 140px;
-    max-width: 140px;
-    object-fit: cover;
-    border-radius: 1000px;
-    box-shadow: 0 0 2px 2px #FB9595;
-  }
-
   .our-mission img {
     margin-top: 50px;
     width: 250px;
@@ -273,15 +265,27 @@ h4, h5 {
     text-align: center;
   }
 
+  .team-item {
+    margin-bottom: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+
   .team-item img {
     width: 190px;
+    max-height: 140px;
+    max-width: 140px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border-radius: 1000px;
+    box-shadow: 0 0 2px 2px #FB9595;
   }
 
   .team-item p {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: 5px;
+    margin-top: 10px;
     width: 90%;
   }
 
@@ -294,6 +298,7 @@ h4, h5 {
   h4 {
     color: #F62627;
     font-size: 1.4em;
+    margin-bottom: 5px;
   }
 
   h5 {
