@@ -549,7 +549,7 @@ h5 {
   .explore-coding img:hover {
     transform: rotate(10deg) scale(1.1);
     transition: 0.3s ease;
-  } 
+  }
   #explore-curriculum:hover{
     background-color: #0995E3;
     color: #fff;
