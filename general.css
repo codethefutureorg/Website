@@ -182,6 +182,7 @@ footer #info .flex{
 footer #info .flex h2{
   font-family: "Mikado Medium";
   margin-top: 2px;
+  width: auto;
 }
 
 footer #info{
