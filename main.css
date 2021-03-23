@@ -45,7 +45,7 @@ html {
 /* LANDING */
 
 .landing {
-  background-image: url("img/home/home-background-desktop.png");
+  background-image: url("img/home/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -56,7 +56,7 @@ html {
 }
 
 #title-image {
-  width: 500px;
+  width: 520px;
   align-items: center;
   display: block;
   margin-left: auto;
@@ -72,12 +72,12 @@ html {
 }
 
 h2 {
-  font-family: "Soleil Regular";
+  font-family: "Mikado Regular";
   font-weight: 500;
-  font-size: 1.3rem;
-  width: 350px;
+  font-size: 20px;
+  width: 380px;
   margin: auto;
-  color: #D2EFFF;
+  color: #F3F3F3;
   text-align: center;
 }
 
@@ -336,7 +336,7 @@ h5 {
 @media only screen and (max-width: 768px) {
 
   .landing {
-    background-image: url("img/home/home-background-mobile.png");
+    background-image: url("img/home/mobile-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -466,9 +466,9 @@ h5 {
 
   h2 {
     font-size: 16px;
-    line-height: 25px;
-    margin-top: 50px;
-    width: 300px;
+    line-height: 22px;
+    margin-top: 30px;
+    width: 250px;
     margin-bottom: -75px;
   }
 
