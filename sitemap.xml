@@ -10,140 +10,153 @@
 
   <url>
        <loc>https://www.cshandson.org/</loc>
-       <lastmod>2021-03-21T05:05:57+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:40+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/about</loc>
-       <lastmod>2021-03-21T05:05:56+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:38+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/curriculum</loc>
-       <lastmod>2021-03-21T05:05:56+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:38+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/abstractopia</loc>
-       <lastmod>2021-03-21T05:05:56+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:38+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/logicland</loc>
-       <lastmod>2021-03-21T05:05:57+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:40+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/algorithopoly</loc>
-       <lastmod>2021-03-21T05:05:56+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:38+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/decomposphere</loc>
-       <lastmod>2021-03-21T05:05:56+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:38+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.cshandson.org/evaluatus</loc>
+       <lastmod>2021-03-23T23:12:38+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/patteron</loc>
-       <lastmod>2021-03-21T05:05:57+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:40+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/contact</loc>
-       <lastmod>2021-03-21T05:05:56+00:00</lastmod>
+       <lastmod>2021-03-23T23:12:38+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/abstractopia/Put%20on%20a%20Show.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.cshandson.org/img/curriculum/abstractopia/worksheet1.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/abstractopia/Observation%20Station.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/logicland/Binary%20Pixel%20Art.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/logicland/Mixed%20Up%20Dots%20(Logical).pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/logicland/Mixed%20Up%20Dots%20(Relational).pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/algorithopoly/A-Maze-ing%20Mazes.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/algorithopoly/Animal%20Linear%20Search.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/decomposphere/Vivid%20Variables.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/decomposphere/Object%20Oriented%20Fun.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/decomposphere/Object%20Attack.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.cshandson.org/img/curriculum/evaluatus/Conditional%20Schedule.pdf</loc>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.cshandson.org/img/curriculum/evaluatus/Conditional%20Hot%20Potato.pdf</loc>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/patteron/Looping%20Dance%20Party.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/patteron/Wacky%20While%20Loops.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://www.cshandson.org/img/curriculum/patteron/Duck%20Duck%20Loops.pdf</loc>
-       <lastmod>2021-03-21T05:26:11+00:00</lastmod>
+       <lastmod>2021-03-23T23:19:19+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
 </urlset>
+
