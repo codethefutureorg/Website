@@ -249,10 +249,12 @@ h5 {
 }
 
 .begin img {
-  width: 400px;
+  width: 300px;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 #explore-curriculum {

@@ -50,23 +50,26 @@ body {
 
 h1 {
 	font-family: "Mikado Medium";
-	margin-top: 0px;
+	margin-top: 40px;
 	font-size: 65px;
 	color: #FFFFFF;
 	background-color: none;
 }
 
 h2 {
-	font-family: "Soleil Regular";
+	font-family: "Mikado Regular";
 	font-size: 20px;
-	width: 40%;
-	margin: 0 auto;
+	width: 30%;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 	color: #CEE6FD;
 }
 
 #group-mascots{
-	width: 500px;
-	margin-top: -40px;
+	width: 400px;
+	margin-top: 20px;
+  margin-bottom: 30px;
 	padding: 0px;
 }
 
@@ -186,10 +189,7 @@ span{
 }
 
 @media only screen and (max-width: 500px) {
-	#group-mascots{
-		width: 350px;
-		padding-bottom: 20px;
-	}
+
 	h1{
 		font-size: 50px;
 	}
@@ -202,13 +202,13 @@ span{
   }
 
   #group-mascots {
-    max-width: 90%;
-    margin-top: -20px;
+    max-width: 70%;
+    margin-top: 20px;
   }
 
 }
 
-@media only screen and (min-width: 700px) { 
+@media only screen and (min-width: 700px) {
 	.Abstractopia:hover{
 		box-shadow:inset 0px 0px 0px 5px rgba(220, 207, 255, 0.3);
 	}
