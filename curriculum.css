@@ -38,7 +38,7 @@ body {
 }
 
 #header {
-	background-image: url(img/curriculum/header-background.png);
+	background-image: url(img/curriculum/header-background2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
@@ -61,9 +61,9 @@ h2 {
 	font-size: 20px;
 	width: 30%;
 	margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-	color: #CEE6FD;
+	margin-right: auto;
+	margin-top: 10px;
+	color: #EEEAF9;
 }
 
 #group-mascots{
