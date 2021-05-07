@@ -1,0 +1,213 @@
+<!DOCTYPE h<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Week of Code | CS Hands-On</title>
+  <link rel="stylesheet" href="weekofcode.css">
+  <link rel="stylesheet" href="general.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/general/square-favicon.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src = "script.js"></script>
+  </head>
+
+<body>
+  <div class="header">
+      <nav id = "mobile-nav">
+        <div class="topnav">
+          <div id = "flex">
+            <a href="/"><img id = "favicon" src="img/general/blue-favicon.png" alt="logo"></a>
+            <p>CS Hands-On</p>
+          </div>
+          <div id="myLinks">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <div class="dropdown">
+              <button class="dropbtn" onclick="myMobileFunction()">Curriculum
+                <i id = "down" class="fa fa-caret-up rotate"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown-mobile">
+                <a href="/curriculum">Overview</a>
+                <a href="/abstractopia">Abstractopia</a>
+                <a href="/logicland">Logicland</a>
+                <a href="/algorithopoly">Algorithopoly</a>
+                <a href="/decomposphere">Decomposphere</a>
+                <a href="/evaluatus">Evaluatus</a>
+                <a href="/patteron">Patteron</a>
+              </div>
+            </div>
+            <a href="/contact">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="sandwichFunction()">
+            <div id="nav-icon3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+
+        </div>
+      </nav>
+      <nav>
+        <div id = "desktop-nav">
+          <a id = "left" href="/">
+          <div id = "flex">
+            <img id = "favicon" src="img/general/blue-favicon.png" alt="logo">
+            <p>CS Hands-On</p>
+          </div>
+        </a>
+        <div id = "links" style="float:right;">
+          <a class = "page-link" href="/">Home</a>
+          <a style = "text-decoration-line: underline; text-decoration-style: wavy;text-decoration-color: #9DB3FF;" class = "page-link" href="/weekofcode">Week of Code</a>
+          <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Curriculum
+            <i id = "down" class="fa fa-caret-up rotate"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="/curriculum">Overview</a>
+            <a href="/abstractopia">Abstractopia</a>
+            <a href="/logicland">Logicland</a>
+            <a href="/algorithopoly">Algorithopoly</a>
+            <a href="/decomposphere">Decomposphere</a>
+            <a href="/abstractopia">Evaluatus</a>
+            <a href="/patteron">Patteron</a>
+          </div>
+          </div>
+          <a class = "page-link" href="/about">About</a>
+          <a class = "page-link" href="/contact">Contact</a>
+        </div>
+        </div>
+      </nav>
+    <h1>Week of Code</h1>
+    <h2>Expand horizons in computer science through one fun week of interactive lessons and engaging activites.</h2>
+  </div>
+
+  <div class="welcome section1">
+      <h3>Welcome to Week of Code</h3>
+      <p>In our Week of Code challenge, students will spend 30-60 minutes per weekday of <strong>5/17-5/21</strong> to learn the <strong>fundamental skills of computer science</strong>: abstraction, logic, algorithms, evaluation, and patterns. The challenge is structured as a shortened introduction to our complete computer science fundamentals curriculum, as it includes the first lesson of these five topics. <br><br>With our enjoyable storytelling and engaging activities, students will gain a memorable experience and develop a deeper understanding of computer science.</p>
+  </div>
+  <div id = "line"></div>
+
+  <div class="welcome">
+      <h3>Join the challenge</h3>
+      <div id = "join-grid">
+        <div>
+          <img src="img/weekofcode/teach.png" alt="">
+          <p>Teach students useful problem-solving skills</p>
+        </div>
+        <div>
+          <img src="img/weekofcode/show.png" alt="">
+          <p>Show students that they can pursue a career in computer science</p>
+        </div>
+        <div>
+          <img src="img/weekofcode/instill.png" alt="">
+          <p>Instill confidence and build self-esteem</p>
+        </div>
+      </div>
+      <h4>Bring Week of Code to your students!</h4>
+      <p id = "sign-up">Complete our educator sign up form to receive more information and updates regarding the challenge.</p>
+      <div style = "text-align: center">
+        <a id="educator-form" target = "_blank" href="https://forms.gle/L66JMCUfVGntjJYb6">Educator Sign Up</a>
+      </div>
+      
+  </div>
+  <div id = "line"></div>
+
+  <div class="welcome">
+      <h3>Schedule</h3>
+      <div id = "schedule-grid">
+        <div>
+          <img src="img/weekofcode/monday.png" alt="Alon">
+          <h5>Monday 5/17</h5>
+          <a href="/abstractopia#lessons">Put on a Show</a>
+          <p>Learn the importance of <strong>abstraction</strong> by creating functions to perform tasks.</p>
+        </div>
+        <div>
+          <img src="img/weekofcode/tuesday.png" alt="Lex">
+          <h5>Tuesday 5/18</h5>
+          <a href="/logicland#lessons">Binary Pixel Art</a>
+          <p>Learn how computers use <strong>binary</strong> to communicate.</p>
+        </div>
+        <div>
+          <img src="img/weekofcode/wednesday.png" alt="Ansel">
+          <h5>Wednesday 5/19</h5>
+          <a href="/algorithopoly#lessons">A-Maze-ing Mazes</a>
+          <p>Learn how to create <strong>algorithms</strong> for completing different tasks.</p>
+        </div>
+        <div>
+          <img src="img/weekofcode/thursday.png" alt="Ellis">
+          <h5>Thursday 5/20</h5>
+          <a href="/evaluatus#lessons">Conditional Schedule</a>
+          <p>Learn how <strong>if-then statements</strong> are used in everyday situations.</p>
+        </div>
+        <div>
+          <img src="img/weekofcode/friday.png" alt="Pancho">
+          <h5>Friday 5/21</h5>
+          <a href="/patteron#lessons">Looping Dance Party</a>
+          <p>Learn the importance of using <strong>loops</strong> for repeating actions.</p>
+        </div>
+      </div>
+  </div>
+  <div id = "line"></div>
+
+  <div class="welcome">
+      <h3>FAQs</h3>
+      <div id = "faq-grid">
+        <div>
+          <h5>Where can I access lesson plans?</h5>
+          <p>All lesson plans can be found on our curriculum website page, and from the links from the schedule above. All worksheets are available to print via pdf and are accompanied by an educator guide.</p>
+        </div>
+        <div>
+          <h5>Can I make my own schedule?</h5>
+          <p>We recommend following the schedule provided, as the each lesson is an introduction to more complex coding conceps. If your students already have experience with computer science however, we encourage you to choose different lesson plans for the challenge.</p>
+        </div>
+        <div>
+          <h5>Have another question?</h5>
+          <p>Reach us at <a target = "_blank" href="mailto:hello@cshandson.org">hello@cshandson.org</a></p>
+        </div>
+      </div>
+  </div>
+
+    <br><br><br><br><br><br>
+    <footer>
+      <div id = "content">
+        <div class = "grid">
+          <div id = "info">
+            <div class = "flex">
+              <img src="img/general/favicon.png" alt="logo">
+              <h2>CS Hands-On</h2>
+            </div>
+            <p>Our mission is to empower the next generation of coders through technology-free and interactive computer science curriculum.</p>
+          </div>
+          <div id = "link-grid">
+            <div>
+              <h3>About</h3>
+              <a href="/curriculum">Topics</a>
+              <a href="/about#story">Our story</a>
+              <a href="/about#team">Our team</a>
+            </div>
+            <div>
+              <h3>Curriculum</h3>
+              <a href="/abstractopia">Abstractopia</a>
+              <a href="/logicland">Logicland</a>
+              <a href="/algorithopoly">Algorithopoly</a>
+              <a href="/decomposphere">Decomposphere</a>
+              <a href="/evaluatus">Evaluatus</a>
+              <a href="/patteron">Patteron</a>
+            </div>
+            <div>
+              <h3>Help</h3>
+              <a target = "blank" href="https://docs.google.com/forms/d/e/1FAIpQLSffeZYBRf9Wyg4N8dm7H78ieWJ1miCkFg2Ptc1oYj0tx5iZ0g/viewform">Feedback</a>
+              <a href="/contact">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div id = "line"></div>
+        <p id = "copyright">© 2021 CS Hands-On</p>
+      </div>
+    </footer>
+  </body>
+</html>

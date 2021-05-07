@@ -270,6 +270,11 @@ h5 {
 	transition: background-color 0.15s ease-in;
 }
 
+#sign-up{
+  width: 50%;
+  text-align: center;
+}
+
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 1080px) {

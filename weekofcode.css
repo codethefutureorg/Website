@@ -1,0 +1,432 @@
+@font-face {
+  font-family: "Soleil Regular";
+  src: url("font/Soleil Regular.otf")
+}
+@font-face {
+  font-family: "Soleil Book";
+  src: url("font/Soleil Book.otf")
+}
+@font-face {
+  font-family: "Soleil SemiBold";
+  src: url("font/Soleil SemiBold.otf")
+}
+@font-face {
+  font-family: "Soleil Bold";
+  src: url("font/Soleil Bold.otf")
+}
+@font-face {
+  font-family: "Mikado Medium";
+  src: url("font/Mikado Medium.ttf")
+}
+@font-face {
+  font-family: "Mikado Regular";
+  src: url("font/Mikado Regular.ttf")
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+.header {
+	background-image: url("img/weekofcode/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 55%;
+	padding: 250px 0px 0px 0px;
+	position: relative;
+  	text-align: center;
+	top: 0px;
+}
+
+h1 {
+	font-family: "Mikado Medium";
+	font-size: 5.2rem;
+	color: #FFFFFF;
+	background-color: none;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Mikado Regular";
+	font-size: 1.3rem;
+	width: 50%;
+	margin: 0 auto;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Soleil SemiBold";
+  color: #2454FF;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.welcome p{
+  color: #000;
+  line-height: 25px;
+  font-family: 'Soleil Regular';
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.section1 p {
+  text-align: left;
+  width: 700px;
+  margin-bottom: 30px;
+}
+
+.welcome{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#line{
+  width: 100%;
+  background-color: #F3F3F3;
+  height: 5px;
+  margin: 50px 0px;
+}
+/* OUR TEAM */
+
+h4, h5 {
+	font-family: "Soleil Book";
+}
+
+h4 {
+    color: #2454FF;
+    font-size: 25px;
+    text-align: center;
+  }
+
+@media screen and (min-width: 1150px) {
+  .welcome {
+    margin-top: 30px;
+    padding: 70px 120px 20px 120px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .welcome {
+    margin-top: 30px;
+    padding: 70px 120px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .welcome {
+    padding: 80px 50px 30px 50px;
+  }
+}
+
+#join-grid{
+	display: grid;
+	width: 810px;
+	margin: 0 auto;
+	padding: 20px 0px 50px 0px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	justify-content: center;
+}
+
+#join-grid div{
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #F0F7FF;
+	border-radius: 10px;
+	padding: 15px 15px;
+	transition: transform 0.1s ease-in;
+}
+
+#join-grid div p{
+	text-align: center;
+	margin: auto 0;
+	padding: 0;
+}
+
+#join-grid img{
+	width: 150px;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 1080px) {
+	#join-grid{
+		width: 660px;
+	}
+	#join-grid div{
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	#join-grid{
+		width: 530px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#join-grid div{
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	#join-grid{
+		width: 350px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	#join-grid div{
+		width: 350px;
+	}
+	#join-grid div p{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	#join-grid{
+		width: 300px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	#join-grid div{
+		width: 300px;
+	}
+	#join-grid div p{
+		width: 80%;
+	}
+}
+
+#schedule-grid{
+	display: grid;
+	width: 960px;
+	padding: 20px 0px 20px 0px;
+	grid-gap: 30px;
+	justify-content: center;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0 auto;
+}
+
+#sign-up{
+	width: 530px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#schedule-grid img{
+	height: 107px;
+	width: auto;
+	padding: 25px 15px 15px 15px;
+}
+
+#schedule-grid div{
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F0F7FF;
+	border-radius: 10px;
+}
+
+#schedule-grid a{
+	font-family: "Soleil Semibold";
+	color: #2454FF;
+	padding: 0;
+	font-size: 18px;
+	margin: 3px 0px -10px 0px;
+}
+
+#schedule-grid h5{
+	font-family: "Soleil Semibold";
+	font-style: normal;
+	font-size: 22px;
+	color: black;
+}
+
+#schedule-grid p{
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 35px;
+	width: 80%;
+}
+
+@media only screen and (max-width: 1200px) {
+	.section1 p {
+	  text-align: left;
+	  width: 700px;
+	}
+	#schedule-grid div{
+		width: 250px;
+	}
+	#schedule-grid{
+		width: 810px;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	#schedule-grid div{
+		width: 220px;
+	}
+	#schedule-grid{
+		width: 720px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.section1 p {
+	  text-align: left;
+	  width: 600px;
+	}
+	#schedule-grid div{
+		width: 300px;
+	}
+	#schedule-grid{
+		grid-template-columns: repeat(2, 1fr);
+		width: 630px;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.section1 p {
+	  text-align: center;
+	  width: 500px;
+	}
+	#schedule-grid div{
+		width: 250px;
+	}
+	#schedule-grid{
+		grid-template-columns: repeat(2, 1fr);
+		width: 530px;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	#sign-up{
+		width: 90%;
+	}
+	.section1 p {
+	  text-align: center;
+	  width: 95%;
+	}
+	#schedule-grid div{
+		width: 300px;
+	}
+	#schedule-grid{
+		grid-template-columns: repeat(1, 1fr);
+		width: 300px;
+	}
+}
+
+#educator-form{
+	font-family: "Soleil Semibold";
+	font-size: 18px;
+	text-decoration: none;
+	color: #0995E3;
+	border: 3px solid #0995E3;
+	background-color: #fff;
+	padding: 13px 20px 10px 20px;
+	border-radius: 7px;
+	transition: background-color 0.15s ease-in;
+	text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#faq-grid{
+	width: 940px;
+	display: grid;
+	padding: 20px 0px 20px 0px;
+	grid-gap: 40px;
+	justify-content: center;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 auto;
+}
+
+#faq-grid div{
+	width: 450px;
+	margin: 0 auto;
+}
+
+#faq-grid h5{
+	font-family: "Soleil Semibold";
+	font-style: normal;
+	font-size: 22px;
+	color: #FF2424;
+}
+
+@media only screen and (max-width: 1130px) {
+	#faq-grid{
+		width: 800px;
+	}
+	#faq-grid div{
+		width: 380px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#faq-grid{
+		width: 660px;
+	}
+	#faq-grid div{
+		width: 310px;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	#faq-grid {
+		width: 440px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	#faq-grid div{
+		width: 440px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#faq-grid {
+		width: 90%;
+	}
+  #faq-grid div{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #educator-form:hover{
+    background-color: #0995E3;
+    color: #fff;
+  }
+  #join-grid div:hover{
+  	transform: scale(1.04);
+  }
+  #schedule-grid a:hover{
+  	color: #849FFF;
+  }
+  #faq-grid a:hover{
+  	color: #849FFF;
+  }
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  transition: 0.25s ease;
+}
