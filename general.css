@@ -29,6 +29,16 @@
 
 /* DESKTOP NAV */
 
+.yellow-highlight {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 3px;
+ }
+.yellow-highlight {
+    background: #FFE872;
+}
+
 #desktop-nav {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;

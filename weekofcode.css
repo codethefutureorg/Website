@@ -28,16 +28,6 @@
 	padding: 0;
 }
 
-.yellow-highlight {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding-left: 3px;
- }
-.yellow-highlight {
-    background: #FFE872;
-}
-
 /* HEADER */
 .header {
 	background-image: url("img/weekofcode/background1.png");
