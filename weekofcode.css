@@ -30,11 +30,11 @@
 
 /* HEADER */
 .header {
-	background-image: url("img/weekofcode/background.png");
+	background-image: url("img/weekofcode/background1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 55%;
-	padding: 250px 0px 0px 0px;
+	height: 53%;
+	padding: 270px 0px 0px 0px;
 	position: relative;
   	text-align: center;
 	top: 0px;
