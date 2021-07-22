@@ -275,6 +275,39 @@ h5 {
   text-align: center;
 }
 
+/* BANNER */
+.banner a{
+  display: block;
+}
+
+.banner img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:  70px;
+  margin-bottom: 12px;
+
+}
+
+.banner h2{
+  color:  #2454FF;
+  font-size:  30px;
+  font-family: "Soleil Semibold";
+  margin-bottom: 28px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner .logos{
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 1080px) {
@@ -367,6 +400,15 @@ h5 {
   }
 
 
+}
+
+@media only screen and (max-width: 700px) {
+  .banner{
+    flex-direction: column;
+  }
+  .alignedWith{
+    margin-top:  30px;
+  }
 }
 
 @media only screen and (max-width: 660px) {
