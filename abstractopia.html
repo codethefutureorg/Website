@@ -5,12 +5,14 @@
 	<meta charset="utf-8">
 	<title>Abstractopia | CS Hands-On</title>
 	<link rel="stylesheet" href="abstractopia.css">
+	<link rel="stylesheet" href="downloadall.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" href="img/general/square-favicon.png"/>
   <link rel="stylesheet" href="general.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src = "script.js"></script>
+	<script src = "curriculum.js"></script>
 	</head>
 
 <body>
@@ -89,6 +91,7 @@
 	</div>
 	<div id = "lessons">
 		<h2>Lesson Plans</h2>
+		<a class = "download-all" href="img/curriculum/abstractopia/Abstractopia.zip" download target="_blank"><span class="download-icon"></span>Download All</a>
 		<div id = "mission-container">
 			<div class = "mission">
 				<h3>Mission 1: Put On a Show</h3>
@@ -102,7 +105,7 @@
 						<p>Objective: Learn the importance of abstraction by creating functions to perform tasks.</p>
 						<h4 style = "margin-top: 20px">View PDF</h4>
 						<a class = "download" href="img/curriculum/abstractopia/Put on a Show.pdf" target="_blank">Worksheet</a>
-						<a class = "download fade" href="img/curriculum/abstractopia/Educator Guide Put on a Show.pdf" target="_blank">Educator Guide</a>
+						<a class = "download fade" href="img/curriculum/abstractopia/Put on a Show Educator Guide.pdf" target="_blank">Educator Guide</a>
 					</div>
 				</div>
 				<button class="collapsible">View Skills</button>
@@ -128,7 +131,7 @@
 						<p>Objective: Learn how indexes and lists organize information.</p>
 						<h4 style = "margin-top: 20px">View PDF</h4>
 						<a class = "download" href="img/curriculum/abstractopia/All Jumbled Up.pdf" target="_blank">Worksheet</a>
-						<a class = "download fade" href="img/curriculum/abstractopia/Educator Guide All Jumbled Up.pdf" target="_blank">Educator Guide</a>
+						<a class = "download fade" href="img/curriculum/abstractopia/All Jumbled Up Educator Guide.pdf" target="_blank">Educator Guide</a>
 					</div>
 				</div>
 				<button class="collapsible">View Skills</button>
@@ -184,24 +187,4 @@
       </div>
     </footer>
 </body>
-<script>
-  var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("activeC");
-    this.classList.toggle("round");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
-window.addEventListener("beforeunload", function () {
-  document.body.classList.add("animate-out");
-});
-</script>
 </html>

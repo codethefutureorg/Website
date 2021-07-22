@@ -1,0 +1,54 @@
+.download-all{
+  font-family: "Soleil SemiBold";
+  font-size: 18px;
+  text-decoration: none;
+  color: #0995E3;
+  border: 2px solid #0995E3;
+  background-color: white;
+  margin-left: 15%;
+  margin-bottom: 25px;
+  padding: 11px 18px 8px 18px;
+  border-radius: 7px;
+  display: inline-block;
+  transition: background-color 0.15s ease-in;
+}
+
+.download-all .download-icon{
+  background-image: url("img/curriculum/download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+  margin-left: -2px;
+  margin-top: 1.5px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .download-all{
+    font-family: "Soleil Semibold";
+    font-size: 16px;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .download-all{
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .download-all{
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .download-all:hover{
+    background-color: #0995E3;
+    color: #fff;
+  }
+}
