@@ -212,7 +212,6 @@ h3 {
 	transition: box-shadow 0.2s ease-in-out;
 }
 
-
 @media only screen and (max-width: 950px) {
 	#planet-grid{
 		grid-template-columns: repeat(2, 1fr);

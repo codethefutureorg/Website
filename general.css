@@ -215,8 +215,16 @@ footer #info h2{
   padding: 0;
 }
 
-footer #info p{
+footer #info p {
   color: rgba(255, 255, 255, .7);
+  font-family: "Soleil Regular";
+  font-size: 18px;
+  line-height: 173%;
+}
+
+footer #info h4 {
+  margin-top: 20px;
+  color: white;
   font-family: "Soleil Regular";
   font-size: 18px;
   line-height: 173%;
@@ -255,7 +263,6 @@ footer a{
   display: block;
 }
 
-
 footer #line{
   margin: 25px 0px 15px 0px;
   height: 1px;
@@ -267,6 +274,52 @@ footer #copyright{
   font-family: "Soleil Light";
   font-size: 14px;
   text-align: center;
+}
+
+footer form {
+	/*display: flex;
+  gap: 10px;*/
+}
+
+footer input {
+  margin-top: 10px;
+	border: none;
+	border-bottom: solid rgba(255, 255, 255, .7) 2px;
+	height: 30px;
+  width: 250px;
+	font-family: "Soleil Regular";
+  background-color: transparent;
+	font-size: 16px;
+	color:rgba(255, 255, 255, .7);
+}
+
+footer input::placeholder {
+  color: rgba(255, 255, 255, .5);
+}
+
+footer input:focus {
+	outline: none;
+}
+
+footer #submit {
+  font-family: "Soleil Semibold";
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 11px 18px 8px 18px;
+  border-radius: 7px;
+  display: inline-block;
+  transition: background-color 0.15s ease-in;
+}
+
+footer #submit:hover {
+  background-color: #0995E3;
+  border: 2px solid #0995E3;
+  color: #fff;
 }
 
 @media only screen and (max-width: 1250px) {
