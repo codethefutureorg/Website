@@ -179,18 +179,6 @@
               <br>
               <button id="submit" type="submit">Submit</button>
             </form>
-            
-            <script>
-              const scriptURL = '<SCRIPT URL>'
-              const form = document.forms['submit-to-google-sheet']
-            
-              form.addEventListener('submit', e => {
-                e.preventDefault()
-                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                  .then(response => console.log('Success!', response))
-                  .catch(error => console.error('Error!', error.message))
-              })
-            </script>
           </div>
           <div id = "link-grid">
             <div>
@@ -221,3 +209,19 @@
     </footer>
 </body>
 </html>
+
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+            
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxkYPn2VevwT4e5_YPN6puJspYEL_udrNJ9v5Bsa3AFJRhIlQ3v/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
