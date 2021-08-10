@@ -276,11 +276,6 @@ footer #copyright{
   text-align: center;
 }
 
-footer form {
-	/*display: flex;
-  gap: 10px;*/
-}
-
 footer input {
   margin-top: 10px;
 	border: none;
@@ -314,6 +309,7 @@ footer #submit {
   border-radius: 7px;
   display: inline-block;
   transition: background-color 0.15s ease-in;
+  cursor:pointer;
 }
 
 footer #submit:hover {
