@@ -288,12 +288,8 @@ h5 {
 
 }
 
-.banner .alignedWith img{
-  height:  70px;
-}
-
 .banner .presentedAt img{
-  width:  180px;
+  height:  65px;
 }
 
 .banner h2{
@@ -311,8 +307,15 @@ h5 {
 
 .banner .logos{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  grid-gap: 20px;
+}
 
+.video-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* RESPONSIVENESS */
