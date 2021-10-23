@@ -38,11 +38,11 @@ body {
 }
 
 #header {
-	background-image: url(img/curriculum/header-background3.png);
+	background-image: url(img/curriculum/background5.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
-	padding: 170px 0px 80px 0px;
+	padding: 270px 0px 255px 0px;
 	position: relative;
 	top: 0px;
 	text-align: center;
@@ -59,7 +59,7 @@ h1 {
 h2 {
 	font-family: "Mikado Regular";
 	font-size: 20px;
-	width: 30%;
+	width: 527px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
