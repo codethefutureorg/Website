@@ -87,7 +87,7 @@ img {
 	margin-top: 5px;
 	font-family: 'Soleil Book', sans-serif;
   font-size: 20px;
-  text-decoration: none;
+  text-decoration: underline;
   margin-bottom: 5px;
 }
 
@@ -116,7 +116,7 @@ img {
 #contact-grid div{
   background-color: #F0F0F0;
   border-radius: 4px;
-  padding: 25px;
+  padding: 35px;
   width: 250px;
 }
 
@@ -235,6 +235,6 @@ img {
 
 @media only screen and (min-width: 700px) {
   #contact-grid a:hover{
-    text-decoration: underline;
+    color: #849FFF;
   }
 }
