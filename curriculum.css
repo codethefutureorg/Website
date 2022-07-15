@@ -156,9 +156,27 @@ h3 {
   display: inline-block;
 }
 
+.download-all .visit-icon {
+  background-image: url("img/curriculum/link.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+  margin-left: -2px;
+  margin-top: 1.5px;
+  display: inline-block;
+}
+
 .download-all:hover{
   background-color: #0995E3;
   color: #fff;
+}
+
+.download-group{
+	display: flex;
+	gap:  10px;
 }
 
 #planet-grid{
