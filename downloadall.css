@@ -1,3 +1,8 @@
+.view-group{
+  display:  flex;
+  gap: 5px;
+}
+
 .download-all{
   font-family: "Soleil SemiBold";
   font-size: 18px;
