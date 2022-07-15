@@ -27,6 +27,12 @@
   src: url("font/Mikado Regular.ttf")
 }
 
+/* DOWNLOAD */
+.download-group{
+  display: flex;
+  gap:  10px;
+}
+
 /* DESKTOP NAV */
 
 .yellow-highlight {

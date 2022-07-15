@@ -5,7 +5,6 @@
   color: #0995E3;
   border: 2px solid #0995E3;
   background-color: white;
-  margin-left: 15%;
   margin-bottom: 25px;
   padding: 11px 18px 8px 18px;
   border-radius: 7px;
@@ -13,8 +12,35 @@
   transition: background-color 0.15s ease-in;
 }
 
+.disabled{
+  pointer-events: none;
+  cursor: default;
+  color: #9CC8DF;
+  border: none;
+  background-color: transparent;
+}
+
+.download-group{
+  margin-left: 15%;
+  display: flex;
+  gap:  10px;
+}
+
 .download-all .download-icon{
   background-image: url("img/curriculum/download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+  margin-left: -2px;
+  margin-top: 1.5px;
+  display: inline-block;
+}
+
+.download-all .visit-icon {
+  background-image: url("img/curriculum/link.png");
   background-size: contain;
   background-repeat: no-repeat;
   float: left;

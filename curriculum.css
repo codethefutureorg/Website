@@ -174,9 +174,9 @@ h3 {
   color: #fff;
 }
 
-.download-group{
+.download-group {
 	display: flex;
-	gap:  10px;
+	gap: 10px;
 }
 
 #planet-grid{
